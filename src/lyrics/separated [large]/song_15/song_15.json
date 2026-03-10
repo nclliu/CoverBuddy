@@ -1,0 +1,3628 @@
+{
+    "segments": [
+        {
+            "start": 10.375,
+            "end": 26.036,
+            "text": " Honey, I told you something Sorry, I didn't hear Maybe there was something Yeah, yeah, yeah, stuck in your ear Why is it every time you say you do, you don't?",
+            "words": [
+                {
+                    "word": "Honey,",
+                    "start": 10.375,
+                    "end": 10.876,
+                    "score": 0.578
+                },
+                {
+                    "word": "I",
+                    "start": 10.996,
+                    "end": 11.076,
+                    "score": 0.467
+                },
+                {
+                    "word": "told",
+                    "start": 11.096,
+                    "end": 11.477,
+                    "score": 0.395
+                },
+                {
+                    "word": "you",
+                    "start": 11.497,
+                    "end": 11.557,
+                    "score": 0.287
+                },
+                {
+                    "word": "something",
+                    "start": 11.637,
+                    "end": 12.338,
+                    "score": 0.875
+                },
+                {
+                    "word": "Sorry,",
+                    "start": 13.159,
+                    "end": 13.66,
+                    "score": 0.967
+                },
+                {
+                    "word": "I",
+                    "start": 13.78,
+                    "end": 13.82,
+                    "score": 0.798
+                },
+                {
+                    "word": "didn't",
+                    "start": 13.9,
+                    "end": 14.3,
+                    "score": 0.503
+                },
+                {
+                    "word": "hear",
+                    "start": 14.401,
+                    "end": 15.101,
+                    "score": 0.451
+                },
+                {
+                    "word": "Maybe",
+                    "start": 15.983,
+                    "end": 16.463,
+                    "score": 0.937
+                },
+                {
+                    "word": "there",
+                    "start": 16.523,
+                    "end": 16.844,
+                    "score": 0.914
+                },
+                {
+                    "word": "was",
+                    "start": 16.904,
+                    "end": 17.084,
+                    "score": 0.766
+                },
+                {
+                    "word": "something",
+                    "start": 17.184,
+                    "end": 17.785,
+                    "score": 0.912
+                },
+                {
+                    "word": "Yeah,",
+                    "start": 18.106,
+                    "end": 18.406,
+                    "score": 0.222
+                },
+                {
+                    "word": "yeah,",
+                    "start": 18.426,
+                    "end": 18.526,
+                    "score": 0.003
+                },
+                {
+                    "word": "yeah,",
+                    "start": 18.546,
+                    "end": 18.746,
+                    "score": 0.342
+                },
+                {
+                    "word": "stuck",
+                    "start": 18.767,
+                    "end": 19.047,
+                    "score": 0.604
+                },
+                {
+                    "word": "in",
+                    "start": 19.648,
+                    "end": 19.928,
+                    "score": 0.786
+                },
+                {
+                    "word": "your",
+                    "start": 19.948,
+                    "end": 20.689,
+                    "score": 0.458
+                },
+                {
+                    "word": "ear",
+                    "start": 20.709,
+                    "end": 20.769,
+                    "score": 0.333
+                },
+                {
+                    "word": "Why",
+                    "start": 21.57,
+                    "end": 21.951,
+                    "score": 0.97
+                },
+                {
+                    "word": "is",
+                    "start": 21.971,
+                    "end": 22.011,
+                    "score": 0.498
+                },
+                {
+                    "word": "it",
+                    "start": 22.231,
+                    "end": 22.391,
+                    "score": 0.678
+                },
+                {
+                    "word": "every",
+                    "start": 22.972,
+                    "end": 23.333,
+                    "score": 0.842
+                },
+                {
+                    "word": "time",
+                    "start": 23.413,
+                    "end": 24.034,
+                    "score": 0.664
+                },
+                {
+                    "word": "you",
+                    "start": 24.214,
+                    "end": 24.274,
+                    "score": 0.006
+                },
+                {
+                    "word": "say",
+                    "start": 24.294,
+                    "end": 24.775,
+                    "score": 0.854
+                },
+                {
+                    "word": "you",
+                    "start": 25.436,
+                    "end": 25.496,
+                    "score": 0.003
+                },
+                {
+                    "word": "do,",
+                    "start": 25.516,
+                    "end": 25.816,
+                    "score": 0.354
+                },
+                {
+                    "word": "you",
+                    "start": 25.836,
+                    "end": 25.896,
+                    "score": 0.002
+                },
+                {
+                    "word": "don't?",
+                    "start": 25.916,
+                    "end": 26.036,
+                    "score": 0.325
+                }
+            ]
+        },
+        {
+            "start": 27.078,
+            "end": 32.265,
+            "text": "Maybe I just thought that you were talking on the phone",
+            "words": [
+                {
+                    "word": "Maybe",
+                    "start": 27.078,
+                    "end": 27.619,
+                    "score": 0.977
+                },
+                {
+                    "word": "I",
+                    "start": 27.779,
+                    "end": 27.879,
+                    "score": 0.918
+                },
+                {
+                    "word": "just",
+                    "start": 27.939,
+                    "end": 28.199,
+                    "score": 0.971
+                },
+                {
+                    "word": "thought",
+                    "start": 28.32,
+                    "end": 28.76,
+                    "score": 0.589
+                },
+                {
+                    "word": "that",
+                    "start": 28.82,
+                    "end": 28.92,
+                    "score": 0.396
+                },
+                {
+                    "word": "you",
+                    "start": 29.141,
+                    "end": 29.441,
+                    "score": 0.397
+                },
+                {
+                    "word": "were",
+                    "start": 29.461,
+                    "end": 29.742,
+                    "score": 0.469
+                },
+                {
+                    "word": "talking",
+                    "start": 29.802,
+                    "end": 30.402,
+                    "score": 0.907
+                },
+                {
+                    "word": "on",
+                    "start": 30.663,
+                    "end": 30.863,
+                    "score": 0.858
+                },
+                {
+                    "word": "the",
+                    "start": 30.903,
+                    "end": 30.983,
+                    "score": 0.774
+                },
+                {
+                    "word": "phone",
+                    "start": 31.083,
+                    "end": 32.265,
+                    "score": 0.856
+                }
+            ]
+        },
+        {
+            "start": 33.933,
+            "end": 50.052,
+            "text": " Honey, you're looking lovely tonight Sorry you're wasting time Baby, this ain't your lucky night Well, trying ain't a crime Why is it every time I like to do, you don't?",
+            "words": [
+                {
+                    "word": "Honey,",
+                    "start": 33.933,
+                    "end": 34.434,
+                    "score": 0.66
+                },
+                {
+                    "word": "you're",
+                    "start": 34.474,
+                    "end": 34.695,
+                    "score": 0.367
+                },
+                {
+                    "word": "looking",
+                    "start": 34.715,
+                    "end": 35.136,
+                    "score": 0.706
+                },
+                {
+                    "word": "lovely",
+                    "start": 35.236,
+                    "end": 35.798,
+                    "score": 0.864
+                },
+                {
+                    "word": "tonight",
+                    "start": 35.878,
+                    "end": 36.68,
+                    "score": 0.573
+                },
+                {
+                    "word": "Sorry",
+                    "start": 36.76,
+                    "end": 37.201,
+                    "score": 0.906
+                },
+                {
+                    "word": "you're",
+                    "start": 37.261,
+                    "end": 37.441,
+                    "score": 0.45
+                },
+                {
+                    "word": "wasting",
+                    "start": 37.482,
+                    "end": 38.023,
+                    "score": 0.568
+                },
+                {
+                    "word": "time",
+                    "start": 38.845,
+                    "end": 39.146,
+                    "score": 0.72
+                },
+                {
+                    "word": "Baby,",
+                    "start": 39.547,
+                    "end": 40.188,
+                    "score": 0.64
+                },
+                {
+                    "word": "this",
+                    "start": 40.208,
+                    "end": 40.409,
+                    "score": 0.511
+                },
+                {
+                    "word": "ain't",
+                    "start": 40.569,
+                    "end": 40.729,
+                    "score": 0.511
+                },
+                {
+                    "word": "your",
+                    "start": 40.77,
+                    "end": 41.07,
+                    "score": 0.901
+                },
+                {
+                    "word": "lucky",
+                    "start": 41.15,
+                    "end": 41.672,
+                    "score": 0.639
+                },
+                {
+                    "word": "night",
+                    "start": 42.073,
+                    "end": 42.173,
+                    "score": 0.0
+                },
+                {
+                    "word": "Well,",
+                    "start": 42.193,
+                    "end": 42.333,
+                    "score": 0.308
+                },
+                {
+                    "word": "trying",
+                    "start": 42.353,
+                    "end": 42.975,
+                    "score": 0.747
+                },
+                {
+                    "word": "ain't",
+                    "start": 43.175,
+                    "end": 43.416,
+                    "score": 0.534
+                },
+                {
+                    "word": "a",
+                    "start": 43.456,
+                    "end": 43.476,
+                    "score": 0.678
+                },
+                {
+                    "word": "crime",
+                    "start": 43.556,
+                    "end": 44.438,
+                    "score": 0.841
+                },
+                {
+                    "word": "Why",
+                    "start": 45.1,
+                    "end": 45.581,
+                    "score": 0.915
+                },
+                {
+                    "word": "is",
+                    "start": 45.601,
+                    "end": 45.641,
+                    "score": 0.497
+                },
+                {
+                    "word": "it",
+                    "start": 45.681,
+                    "end": 46.283,
+                    "score": 0.728
+                },
+                {
+                    "word": "every",
+                    "start": 46.544,
+                    "end": 46.884,
+                    "score": 0.836
+                },
+                {
+                    "word": "time",
+                    "start": 46.985,
+                    "end": 47.486,
+                    "score": 0.797
+                },
+                {
+                    "word": "I",
+                    "start": 47.506,
+                    "end": 47.526,
+                    "score": 0.996
+                },
+                {
+                    "word": "like",
+                    "start": 47.907,
+                    "end": 48.208,
+                    "score": 0.958
+                },
+                {
+                    "word": "to",
+                    "start": 48.248,
+                    "end": 48.348,
+                    "score": 0.978
+                },
+                {
+                    "word": "do,",
+                    "start": 48.428,
+                    "end": 48.789,
+                    "score": 0.993
+                },
+                {
+                    "word": "you",
+                    "start": 48.809,
+                    "end": 48.869,
+                    "score": 0.323
+                },
+                {
+                    "word": "don't?",
+                    "start": 49.13,
+                    "end": 50.052,
+                    "score": 0.795
+                }
+            ]
+        },
+        {
+            "start": 50.572,
+            "end": 65.172,
+            "text": " Maybe you could try a little romance at home Let's go back in time Way back when we were la la la la la la la la",
+            "words": [
+                {
+                    "word": "Maybe",
+                    "start": 50.572,
+                    "end": 51.174,
+                    "score": 0.384
+                },
+                {
+                    "word": "you",
+                    "start": 51.214,
+                    "end": 51.835,
+                    "score": 0.838
+                },
+                {
+                    "word": "could",
+                    "start": 51.856,
+                    "end": 52.999,
+                    "score": 0.767
+                },
+                {
+                    "word": "try",
+                    "start": 53.079,
+                    "end": 53.199,
+                    "score": 0.197
+                },
+                {
+                    "word": "a",
+                    "start": 53.219,
+                    "end": 53.239,
+                    "score": 0.0
+                },
+                {
+                    "word": "little",
+                    "start": 53.259,
+                    "end": 53.38,
+                    "score": 0.263
+                },
+                {
+                    "word": "romance",
+                    "start": 53.46,
+                    "end": 54.463,
+                    "score": 0.672
+                },
+                {
+                    "word": "at",
+                    "start": 54.483,
+                    "end": 54.523,
+                    "score": 0.49
+                },
+                {
+                    "word": "home",
+                    "start": 54.884,
+                    "end": 55.185,
+                    "score": 0.73
+                },
+                {
+                    "word": "Let's",
+                    "start": 55.365,
+                    "end": 55.666,
+                    "score": 0.89
+                },
+                {
+                    "word": "go",
+                    "start": 55.726,
+                    "end": 56.047,
+                    "score": 0.981
+                },
+                {
+                    "word": "back",
+                    "start": 56.268,
+                    "end": 56.889,
+                    "score": 0.914
+                },
+                {
+                    "word": "in",
+                    "start": 57.13,
+                    "end": 57.411,
+                    "score": 0.782
+                },
+                {
+                    "word": "time",
+                    "start": 57.431,
+                    "end": 58.293,
+                    "score": 0.854
+                },
+                {
+                    "word": "Way",
+                    "start": 58.995,
+                    "end": 59.617,
+                    "score": 0.936
+                },
+                {
+                    "word": "back",
+                    "start": 59.717,
+                    "end": 60.078,
+                    "score": 0.656
+                },
+                {
+                    "word": "when",
+                    "start": 60.239,
+                    "end": 60.72,
+                    "score": 0.816
+                },
+                {
+                    "word": "we",
+                    "start": 60.94,
+                    "end": 61.201,
+                    "score": 0.836
+                },
+                {
+                    "word": "were",
+                    "start": 61.261,
+                    "end": 61.642,
+                    "score": 0.892
+                },
+                {
+                    "word": "la",
+                    "start": 61.783,
+                    "end": 62.023,
+                    "score": 0.82
+                },
+                {
+                    "word": "la",
+                    "start": 62.104,
+                    "end": 62.264,
+                    "score": 0.863
+                },
+                {
+                    "word": "la",
+                    "start": 62.324,
+                    "end": 62.545,
+                    "score": 0.899
+                },
+                {
+                    "word": "la",
+                    "start": 62.645,
+                    "end": 62.926,
+                    "score": 0.939
+                },
+                {
+                    "word": "la",
+                    "start": 63.026,
+                    "end": 63.648,
+                    "score": 0.896
+                },
+                {
+                    "word": "la",
+                    "start": 63.989,
+                    "end": 64.41,
+                    "score": 0.786
+                },
+                {
+                    "word": "la",
+                    "start": 64.43,
+                    "end": 65.012,
+                    "score": 0.835
+                },
+                {
+                    "word": "la",
+                    "start": 65.132,
+                    "end": 65.172,
+                    "score": 0.5
+                }
+            ]
+        },
+        {
+            "start": 66.383,
+            "end": 94.77,
+            "text": " Now it's married life and the daily strife to be la la la la la la la la la la la la la la la la la la Honey, you're getting older Yeah, and you're still 29 And baby, things are colder",
+            "words": [
+                {
+                    "word": "Now",
+                    "start": 66.383,
+                    "end": 66.944,
+                    "score": 0.976
+                },
+                {
+                    "word": "it's",
+                    "start": 67.084,
+                    "end": 67.244,
+                    "score": 0.904
+                },
+                {
+                    "word": "married",
+                    "start": 67.324,
+                    "end": 68.445,
+                    "score": 0.482
+                },
+                {
+                    "word": "life",
+                    "start": 68.505,
+                    "end": 69.146,
+                    "score": 0.715
+                },
+                {
+                    "word": "and",
+                    "start": 69.426,
+                    "end": 69.706,
+                    "score": 0.737
+                },
+                {
+                    "word": "the",
+                    "start": 69.786,
+                    "end": 70.006,
+                    "score": 0.766
+                },
+                {
+                    "word": "daily",
+                    "start": 70.067,
+                    "end": 71.208,
+                    "score": 0.806
+                },
+                {
+                    "word": "strife",
+                    "start": 71.268,
+                    "end": 71.888,
+                    "score": 0.652
+                },
+                {
+                    "word": "to",
+                    "start": 71.988,
+                    "end": 72.249,
+                    "score": 0.93
+                },
+                {
+                    "word": "be",
+                    "start": 72.349,
+                    "end": 72.749,
+                    "score": 0.908
+                },
+                {
+                    "word": "la",
+                    "start": 72.829,
+                    "end": 73.089,
+                    "score": 0.956
+                },
+                {
+                    "word": "la",
+                    "start": 73.189,
+                    "end": 73.33,
+                    "score": 0.958
+                },
+                {
+                    "word": "la",
+                    "start": 73.39,
+                    "end": 73.59,
+                    "score": 0.826
+                },
+                {
+                    "word": "la",
+                    "start": 73.71,
+                    "end": 73.95,
+                    "score": 0.869
+                },
+                {
+                    "word": "la",
+                    "start": 74.05,
+                    "end": 74.751,
+                    "score": 0.936
+                },
+                {
+                    "word": "la",
+                    "start": 74.771,
+                    "end": 74.811,
+                    "score": 0.5
+                },
+                {
+                    "word": "la",
+                    "start": 75.612,
+                    "end": 75.892,
+                    "score": 0.937
+                },
+                {
+                    "word": "la",
+                    "start": 75.972,
+                    "end": 76.112,
+                    "score": 0.887
+                },
+                {
+                    "word": "la",
+                    "start": 76.172,
+                    "end": 76.393,
+                    "score": 0.83
+                },
+                {
+                    "word": "la",
+                    "start": 76.493,
+                    "end": 76.753,
+                    "score": 0.925
+                },
+                {
+                    "word": "la",
+                    "start": 76.833,
+                    "end": 77.434,
+                    "score": 0.945
+                },
+                {
+                    "word": "la",
+                    "start": 77.514,
+                    "end": 78.314,
+                    "score": 0.894
+                },
+                {
+                    "word": "la",
+                    "start": 78.394,
+                    "end": 78.615,
+                    "score": 0.958
+                },
+                {
+                    "word": "la",
+                    "start": 78.735,
+                    "end": 78.875,
+                    "score": 0.959
+                },
+                {
+                    "word": "la",
+                    "start": 78.915,
+                    "end": 79.135,
+                    "score": 0.73
+                },
+                {
+                    "word": "la",
+                    "start": 79.275,
+                    "end": 79.536,
+                    "score": 0.872
+                },
+                {
+                    "word": "la",
+                    "start": 79.616,
+                    "end": 79.976,
+                    "score": 0.889
+                },
+                {
+                    "word": "la",
+                    "start": 80.316,
+                    "end": 80.957,
+                    "score": 0.876
+                },
+                {
+                    "word": "Honey,",
+                    "start": 81.818,
+                    "end": 87.863,
+                    "score": 0.888
+                },
+                {
+                    "word": "you're",
+                    "start": 88.084,
+                    "end": 88.904,
+                    "score": 0.365
+                },
+                {
+                    "word": "getting",
+                    "start": 89.105,
+                    "end": 89.325,
+                    "score": 0.11
+                },
+                {
+                    "word": "older",
+                    "start": 89.345,
+                    "end": 89.445,
+                    "score": 0.193
+                },
+                {
+                    "word": "Yeah,",
+                    "start": 89.605,
+                    "end": 89.845,
+                    "score": 0.299
+                },
+                {
+                    "word": "and",
+                    "start": 89.865,
+                    "end": 89.925,
+                    "score": 0.002
+                },
+                {
+                    "word": "you're",
+                    "start": 89.945,
+                    "end": 90.686,
+                    "score": 0.374
+                },
+                {
+                    "word": "still",
+                    "start": 91.087,
+                    "end": 91.347,
+                    "score": 0.454
+                },
+                {
+                    "word": "29",
+                    "start": 91.367,
+                    "end": 91.407,
+                    "score": 0.996
+                },
+                {
+                    "word": "And",
+                    "start": 92.128,
+                    "end": 92.228,
+                    "score": 0.934
+                },
+                {
+                    "word": "baby,",
+                    "start": 92.288,
+                    "end": 92.768,
+                    "score": 0.586
+                },
+                {
+                    "word": "things",
+                    "start": 92.828,
+                    "end": 93.128,
+                    "score": 0.807
+                },
+                {
+                    "word": "are",
+                    "start": 93.269,
+                    "end": 93.409,
+                    "score": 0.52
+                },
+                {
+                    "word": "colder",
+                    "start": 93.469,
+                    "end": 94.77,
+                    "score": 0.717
+                }
+            ]
+        },
+        {
+            "start": 94.835,
+            "end": 107.958,
+            "text": " But honey, you still, you're mine Guess it's easy to forget When all the men are white Could it be the love, love magic Keepin' love alive?",
+            "words": [
+                {
+                    "word": "But",
+                    "start": 94.835,
+                    "end": 95.035,
+                    "score": 0.805
+                },
+                {
+                    "word": "honey,",
+                    "start": 95.136,
+                    "end": 95.396,
+                    "score": 0.724
+                },
+                {
+                    "word": "you",
+                    "start": 95.456,
+                    "end": 95.636,
+                    "score": 0.822
+                },
+                {
+                    "word": "still,",
+                    "start": 95.656,
+                    "end": 96.037,
+                    "score": 0.715
+                },
+                {
+                    "word": "you're",
+                    "start": 96.077,
+                    "end": 96.257,
+                    "score": 0.555
+                },
+                {
+                    "word": "mine",
+                    "start": 96.298,
+                    "end": 96.879,
+                    "score": 0.867
+                },
+                {
+                    "word": "Guess",
+                    "start": 96.899,
+                    "end": 98.061,
+                    "score": 0.543
+                },
+                {
+                    "word": "it's",
+                    "start": 98.161,
+                    "end": 98.541,
+                    "score": 0.769
+                },
+                {
+                    "word": "easy",
+                    "start": 98.561,
+                    "end": 99.002,
+                    "score": 0.485
+                },
+                {
+                    "word": "to",
+                    "start": 99.042,
+                    "end": 99.343,
+                    "score": 0.73
+                },
+                {
+                    "word": "forget",
+                    "start": 99.383,
+                    "end": 99.964,
+                    "score": 0.75
+                },
+                {
+                    "word": "When",
+                    "start": 100.445,
+                    "end": 100.745,
+                    "score": 0.279
+                },
+                {
+                    "word": "all",
+                    "start": 100.765,
+                    "end": 100.925,
+                    "score": 0.378
+                },
+                {
+                    "word": "the",
+                    "start": 100.986,
+                    "end": 101.066,
+                    "score": 0.383
+                },
+                {
+                    "word": "men",
+                    "start": 101.126,
+                    "end": 101.687,
+                    "score": 0.924
+                },
+                {
+                    "word": "are",
+                    "start": 101.727,
+                    "end": 102.388,
+                    "score": 0.572
+                },
+                {
+                    "word": "white",
+                    "start": 102.408,
+                    "end": 102.508,
+                    "score": 0.202
+                },
+                {
+                    "word": "Could",
+                    "start": 103.35,
+                    "end": 103.61,
+                    "score": 0.467
+                },
+                {
+                    "word": "it",
+                    "start": 103.71,
+                    "end": 103.81,
+                    "score": 0.795
+                },
+                {
+                    "word": "be",
+                    "start": 103.891,
+                    "end": 104.171,
+                    "score": 0.959
+                },
+                {
+                    "word": "the",
+                    "start": 104.251,
+                    "end": 104.492,
+                    "score": 0.575
+                },
+                {
+                    "word": "love,",
+                    "start": 104.552,
+                    "end": 104.892,
+                    "score": 0.511
+                },
+                {
+                    "word": "love",
+                    "start": 104.912,
+                    "end": 105.193,
+                    "score": 0.532
+                },
+                {
+                    "word": "magic",
+                    "start": 105.433,
+                    "end": 106.094,
+                    "score": 0.745
+                },
+                {
+                    "word": "Keepin'",
+                    "start": 106.134,
+                    "end": 106.635,
+                    "score": 0.373
+                },
+                {
+                    "word": "love",
+                    "start": 106.675,
+                    "end": 107.156,
+                    "score": 0.582
+                },
+                {
+                    "word": "alive?",
+                    "start": 107.296,
+                    "end": 107.958,
+                    "score": 0.697
+                }
+            ]
+        },
+        {
+            "start": 108.098,
+            "end": 118.075,
+            "text": "Let's go back in time Way back when we were La la la la la la la la",
+            "words": [
+                {
+                    "word": "Let's",
+                    "start": 108.098,
+                    "end": 108.378,
+                    "score": 0.909
+                },
+                {
+                    "word": "go",
+                    "start": 108.438,
+                    "end": 108.739,
+                    "score": 0.975
+                },
+                {
+                    "word": "back",
+                    "start": 108.919,
+                    "end": 109.56,
+                    "score": 0.902
+                },
+                {
+                    "word": "in",
+                    "start": 109.781,
+                    "end": 110.041,
+                    "score": 0.801
+                },
+                {
+                    "word": "time",
+                    "start": 110.121,
+                    "end": 110.823,
+                    "score": 0.765
+                },
+                {
+                    "word": "Way",
+                    "start": 111.684,
+                    "end": 112.245,
+                    "score": 0.931
+                },
+                {
+                    "word": "back",
+                    "start": 112.385,
+                    "end": 112.786,
+                    "score": 0.602
+                },
+                {
+                    "word": "when",
+                    "start": 112.946,
+                    "end": 113.407,
+                    "score": 0.66
+                },
+                {
+                    "word": "we",
+                    "start": 113.427,
+                    "end": 113.467,
+                    "score": 0.319
+                },
+                {
+                    "word": "were",
+                    "start": 113.627,
+                    "end": 114.268,
+                    "score": 0.735
+                },
+                {
+                    "word": "La",
+                    "start": 114.469,
+                    "end": 114.769,
+                    "score": 0.914
+                },
+                {
+                    "word": "la",
+                    "start": 114.829,
+                    "end": 114.97,
+                    "score": 0.898
+                },
+                {
+                    "word": "la",
+                    "start": 115.01,
+                    "end": 115.27,
+                    "score": 0.839
+                },
+                {
+                    "word": "la",
+                    "start": 115.33,
+                    "end": 115.631,
+                    "score": 0.848
+                },
+                {
+                    "word": "la",
+                    "start": 115.711,
+                    "end": 116.332,
+                    "score": 0.852
+                },
+                {
+                    "word": "la",
+                    "start": 116.412,
+                    "end": 117.033,
+                    "score": 0.868
+                },
+                {
+                    "word": "la",
+                    "start": 117.113,
+                    "end": 117.835,
+                    "score": 0.952
+                },
+                {
+                    "word": "la",
+                    "start": 118.035,
+                    "end": 118.075,
+                    "score": 0.5
+                }
+            ]
+        },
+        {
+            "start": 119.455,
+            "end": 134.595,
+            "text": " When you and I still had time to be La la la la la La la la la la La la la la la La la la",
+            "words": [
+                {
+                    "word": "When",
+                    "start": 119.455,
+                    "end": 119.976,
+                    "score": 0.528
+                },
+                {
+                    "word": "you",
+                    "start": 120.057,
+                    "end": 120.578,
+                    "score": 0.814
+                },
+                {
+                    "word": "and",
+                    "start": 120.959,
+                    "end": 121.119,
+                    "score": 0.567
+                },
+                {
+                    "word": "I",
+                    "start": 121.821,
+                    "end": 122.022,
+                    "score": 0.888
+                },
+                {
+                    "word": "still",
+                    "start": 122.663,
+                    "end": 123.385,
+                    "score": 0.688
+                },
+                {
+                    "word": "had",
+                    "start": 123.686,
+                    "end": 123.867,
+                    "score": 0.685
+                },
+                {
+                    "word": "time",
+                    "start": 123.967,
+                    "end": 124.629,
+                    "score": 0.746
+                },
+                {
+                    "word": "to",
+                    "start": 124.689,
+                    "end": 124.97,
+                    "score": 0.74
+                },
+                {
+                    "word": "be",
+                    "start": 125.01,
+                    "end": 125.411,
+                    "score": 0.728
+                },
+                {
+                    "word": "La",
+                    "start": 125.571,
+                    "end": 125.872,
+                    "score": 0.826
+                },
+                {
+                    "word": "la",
+                    "start": 125.892,
+                    "end": 126.093,
+                    "score": 0.816
+                },
+                {
+                    "word": "la",
+                    "start": 126.113,
+                    "end": 126.413,
+                    "score": 0.837
+                },
+                {
+                    "word": "la",
+                    "start": 126.433,
+                    "end": 126.714,
+                    "score": 0.888
+                },
+                {
+                    "word": "la",
+                    "start": 126.774,
+                    "end": 127.436,
+                    "score": 0.87
+                },
+                {
+                    "word": "La",
+                    "start": 127.456,
+                    "end": 127.496,
+                    "score": 0.487
+                },
+                {
+                    "word": "la",
+                    "start": 128.298,
+                    "end": 128.659,
+                    "score": 0.851
+                },
+                {
+                    "word": "la",
+                    "start": 128.679,
+                    "end": 128.88,
+                    "score": 0.795
+                },
+                {
+                    "word": "la",
+                    "start": 128.9,
+                    "end": 129.201,
+                    "score": 0.843
+                },
+                {
+                    "word": "la",
+                    "start": 129.221,
+                    "end": 129.522,
+                    "score": 0.785
+                },
+                {
+                    "word": "La",
+                    "start": 129.542,
+                    "end": 130.223,
+                    "score": 0.912
+                },
+                {
+                    "word": "la",
+                    "start": 130.244,
+                    "end": 130.785,
+                    "score": 0.857
+                },
+                {
+                    "word": "la",
+                    "start": 130.805,
+                    "end": 131.106,
+                    "score": 0.795
+                },
+                {
+                    "word": "la",
+                    "start": 131.126,
+                    "end": 131.647,
+                    "score": 0.832
+                },
+                {
+                    "word": "la",
+                    "start": 131.667,
+                    "end": 132.329,
+                    "score": 0.848
+                },
+                {
+                    "word": "La",
+                    "start": 132.349,
+                    "end": 134.354,
+                    "score": 0.884
+                },
+                {
+                    "word": "la",
+                    "start": 134.374,
+                    "end": 134.415,
+                    "score": 0.49
+                },
+                {
+                    "word": "la",
+                    "start": 134.555,
+                    "end": 134.595,
+                    "score": 0.5
+                }
+            ]
+        },
+        {
+            "start": 157.897,
+            "end": 187.161,
+            "text": " Let's go back in time Way back when we were La la la la la, la la la Back when you and I Still had time to be La la la la la Let's go back in time Way back when we were La la la la la, la la la",
+            "words": [
+                {
+                    "word": "Let's",
+                    "start": 157.897,
+                    "end": 158.318,
+                    "score": 0.848
+                },
+                {
+                    "word": "go",
+                    "start": 158.398,
+                    "end": 158.638,
+                    "score": 0.848
+                },
+                {
+                    "word": "back",
+                    "start": 158.678,
+                    "end": 159.479,
+                    "score": 0.786
+                },
+                {
+                    "word": "in",
+                    "start": 159.74,
+                    "end": 159.98,
+                    "score": 0.83
+                },
+                {
+                    "word": "time",
+                    "start": 160.06,
+                    "end": 161.022,
+                    "score": 0.446
+                },
+                {
+                    "word": "Way",
+                    "start": 161.603,
+                    "end": 162.224,
+                    "score": 0.9
+                },
+                {
+                    "word": "back",
+                    "start": 162.284,
+                    "end": 162.804,
+                    "score": 0.679
+                },
+                {
+                    "word": "when",
+                    "start": 162.885,
+                    "end": 163.365,
+                    "score": 0.871
+                },
+                {
+                    "word": "we",
+                    "start": 163.545,
+                    "end": 163.826,
+                    "score": 0.962
+                },
+                {
+                    "word": "were",
+                    "start": 163.886,
+                    "end": 164.247,
+                    "score": 0.611
+                },
+                {
+                    "word": "La",
+                    "start": 164.387,
+                    "end": 164.707,
+                    "score": 0.792
+                },
+                {
+                    "word": "la",
+                    "start": 164.727,
+                    "end": 164.908,
+                    "score": 0.78
+                },
+                {
+                    "word": "la",
+                    "start": 164.928,
+                    "end": 165.228,
+                    "score": 0.845
+                },
+                {
+                    "word": "la",
+                    "start": 165.248,
+                    "end": 165.569,
+                    "score": 0.881
+                },
+                {
+                    "word": "la,",
+                    "start": 165.589,
+                    "end": 166.29,
+                    "score": 0.569
+                },
+                {
+                    "word": "la",
+                    "start": 166.31,
+                    "end": 166.991,
+                    "score": 0.877
+                },
+                {
+                    "word": "la",
+                    "start": 167.011,
+                    "end": 167.912,
+                    "score": 0.931
+                },
+                {
+                    "word": "la",
+                    "start": 167.932,
+                    "end": 167.972,
+                    "score": 0.498
+                },
+                {
+                    "word": "Back",
+                    "start": 169.074,
+                    "end": 169.575,
+                    "score": 0.735
+                },
+                {
+                    "word": "when",
+                    "start": 169.635,
+                    "end": 169.915,
+                    "score": 0.679
+                },
+                {
+                    "word": "you",
+                    "start": 169.975,
+                    "end": 170.556,
+                    "score": 0.841
+                },
+                {
+                    "word": "and",
+                    "start": 170.917,
+                    "end": 171.097,
+                    "score": 0.485
+                },
+                {
+                    "word": "I",
+                    "start": 171.778,
+                    "end": 171.998,
+                    "score": 0.741
+                },
+                {
+                    "word": "Still",
+                    "start": 172.619,
+                    "end": 173.32,
+                    "score": 0.763
+                },
+                {
+                    "word": "had",
+                    "start": 173.42,
+                    "end": 173.921,
+                    "score": 0.548
+                },
+                {
+                    "word": "time",
+                    "start": 173.941,
+                    "end": 174.582,
+                    "score": 0.585
+                },
+                {
+                    "word": "to",
+                    "start": 174.622,
+                    "end": 174.903,
+                    "score": 0.907
+                },
+                {
+                    "word": "be",
+                    "start": 174.983,
+                    "end": 175.383,
+                    "score": 0.912
+                },
+                {
+                    "word": "La",
+                    "start": 175.503,
+                    "end": 175.824,
+                    "score": 0.847
+                },
+                {
+                    "word": "la",
+                    "start": 175.844,
+                    "end": 176.024,
+                    "score": 0.752
+                },
+                {
+                    "word": "la",
+                    "start": 176.044,
+                    "end": 176.345,
+                    "score": 0.857
+                },
+                {
+                    "word": "la",
+                    "start": 176.365,
+                    "end": 176.705,
+                    "score": 0.86
+                },
+                {
+                    "word": "la",
+                    "start": 176.725,
+                    "end": 177.406,
+                    "score": 0.851
+                },
+                {
+                    "word": "Let's",
+                    "start": 177.426,
+                    "end": 177.887,
+                    "score": 0.743
+                },
+                {
+                    "word": "go",
+                    "start": 177.967,
+                    "end": 178.188,
+                    "score": 0.96
+                },
+                {
+                    "word": "back",
+                    "start": 178.308,
+                    "end": 178.969,
+                    "score": 0.931
+                },
+                {
+                    "word": "in",
+                    "start": 179.169,
+                    "end": 179.409,
+                    "score": 0.834
+                },
+                {
+                    "word": "time",
+                    "start": 179.469,
+                    "end": 180.251,
+                    "score": 0.849
+                },
+                {
+                    "word": "Way",
+                    "start": 181.072,
+                    "end": 181.653,
+                    "score": 0.889
+                },
+                {
+                    "word": "back",
+                    "start": 181.753,
+                    "end": 182.254,
+                    "score": 0.561
+                },
+                {
+                    "word": "when",
+                    "start": 182.294,
+                    "end": 182.855,
+                    "score": 0.774
+                },
+                {
+                    "word": "we",
+                    "start": 183.015,
+                    "end": 183.275,
+                    "score": 0.94
+                },
+                {
+                    "word": "were",
+                    "start": 183.335,
+                    "end": 183.676,
+                    "score": 0.38
+                },
+                {
+                    "word": "La",
+                    "start": 183.796,
+                    "end": 184.157,
+                    "score": 0.794
+                },
+                {
+                    "word": "la",
+                    "start": 184.177,
+                    "end": 184.337,
+                    "score": 0.674
+                },
+                {
+                    "word": "la",
+                    "start": 184.357,
+                    "end": 184.677,
+                    "score": 0.805
+                },
+                {
+                    "word": "la",
+                    "start": 184.697,
+                    "end": 185.018,
+                    "score": 0.812
+                },
+                {
+                    "word": "la,",
+                    "start": 185.038,
+                    "end": 185.739,
+                    "score": 0.786
+                },
+                {
+                    "word": "la",
+                    "start": 185.759,
+                    "end": 186.46,
+                    "score": 0.882
+                },
+                {
+                    "word": "la",
+                    "start": 186.48,
+                    "end": 187.101,
+                    "score": 0.876
+                },
+                {
+                    "word": "la",
+                    "start": 187.121,
+                    "end": 187.161,
+                    "score": 0.5
+                }
+            ]
+        },
+        {
+            "start": 188.423,
+            "end": 203.935,
+            "text": " Now it's merry life Still we have to try to be La la la la la La la la la la La la la la la La la la la la",
+            "words": [
+                {
+                    "word": "Now",
+                    "start": 188.423,
+                    "end": 188.964,
+                    "score": 0.934
+                },
+                {
+                    "word": "it's",
+                    "start": 189.104,
+                    "end": 189.265,
+                    "score": 0.875
+                },
+                {
+                    "word": "merry",
+                    "start": 189.826,
+                    "end": 190.467,
+                    "score": 0.694
+                },
+                {
+                    "word": "life",
+                    "start": 190.567,
+                    "end": 191.149,
+                    "score": 0.631
+                },
+                {
+                    "word": "Still",
+                    "start": 191.67,
+                    "end": 191.77,
+                    "score": 0.178
+                },
+                {
+                    "word": "we",
+                    "start": 191.83,
+                    "end": 192.071,
+                    "score": 0.968
+                },
+                {
+                    "word": "have",
+                    "start": 192.171,
+                    "end": 192.732,
+                    "score": 0.626
+                },
+                {
+                    "word": "to",
+                    "start": 192.792,
+                    "end": 193.053,
+                    "score": 0.86
+                },
+                {
+                    "word": "try",
+                    "start": 193.333,
+                    "end": 193.995,
+                    "score": 0.891
+                },
+                {
+                    "word": "to",
+                    "start": 194.055,
+                    "end": 194.315,
+                    "score": 0.921
+                },
+                {
+                    "word": "be",
+                    "start": 194.375,
+                    "end": 194.756,
+                    "score": 0.845
+                },
+                {
+                    "word": "La",
+                    "start": 194.896,
+                    "end": 195.237,
+                    "score": 0.85
+                },
+                {
+                    "word": "la",
+                    "start": 195.317,
+                    "end": 195.417,
+                    "score": 0.668
+                },
+                {
+                    "word": "la",
+                    "start": 195.558,
+                    "end": 195.758,
+                    "score": 0.71
+                },
+                {
+                    "word": "la",
+                    "start": 195.778,
+                    "end": 196.079,
+                    "score": 0.856
+                },
+                {
+                    "word": "la",
+                    "start": 196.119,
+                    "end": 196.84,
+                    "score": 0.956
+                },
+                {
+                    "word": "La",
+                    "start": 197.682,
+                    "end": 197.983,
+                    "score": 0.832
+                },
+                {
+                    "word": "la",
+                    "start": 198.003,
+                    "end": 198.323,
+                    "score": 0.778
+                },
+                {
+                    "word": "la",
+                    "start": 198.343,
+                    "end": 198.504,
+                    "score": 0.707
+                },
+                {
+                    "word": "la",
+                    "start": 198.564,
+                    "end": 198.865,
+                    "score": 0.852
+                },
+                {
+                    "word": "la",
+                    "start": 198.885,
+                    "end": 199.546,
+                    "score": 0.836
+                },
+                {
+                    "word": "La",
+                    "start": 200.308,
+                    "end": 200.588,
+                    "score": 0.629
+                },
+                {
+                    "word": "la",
+                    "start": 200.608,
+                    "end": 200.849,
+                    "score": 0.646
+                },
+                {
+                    "word": "la",
+                    "start": 200.869,
+                    "end": 201.31,
+                    "score": 0.653
+                },
+                {
+                    "word": "la",
+                    "start": 201.33,
+                    "end": 202.612,
+                    "score": 0.898
+                },
+                {
+                    "word": "la",
+                    "start": 202.632,
+                    "end": 202.672,
+                    "score": 0.0
+                },
+                {
+                    "word": "La",
+                    "start": 202.692,
+                    "end": 202.733,
+                    "score": 0.027
+                },
+                {
+                    "word": "la",
+                    "start": 202.753,
+                    "end": 202.793,
+                    "score": 0.008
+                },
+                {
+                    "word": "la",
+                    "start": 202.813,
+                    "end": 203.093,
+                    "score": 0.543
+                },
+                {
+                    "word": "la",
+                    "start": 203.113,
+                    "end": 203.735,
+                    "score": 0.922
+                },
+                {
+                    "word": "la",
+                    "start": 203.895,
+                    "end": 203.935,
+                    "score": 0.5
+                }
+            ]
+        }
+    ],
+    "word_segments": [
+        {
+            "word": "Honey,",
+            "start": 10.375,
+            "end": 10.876,
+            "score": 0.578
+        },
+        {
+            "word": "I",
+            "start": 10.996,
+            "end": 11.076,
+            "score": 0.467
+        },
+        {
+            "word": "told",
+            "start": 11.096,
+            "end": 11.477,
+            "score": 0.395
+        },
+        {
+            "word": "you",
+            "start": 11.497,
+            "end": 11.557,
+            "score": 0.287
+        },
+        {
+            "word": "something",
+            "start": 11.637,
+            "end": 12.338,
+            "score": 0.875
+        },
+        {
+            "word": "Sorry,",
+            "start": 13.159,
+            "end": 13.66,
+            "score": 0.967
+        },
+        {
+            "word": "I",
+            "start": 13.78,
+            "end": 13.82,
+            "score": 0.798
+        },
+        {
+            "word": "didn't",
+            "start": 13.9,
+            "end": 14.3,
+            "score": 0.503
+        },
+        {
+            "word": "hear",
+            "start": 14.401,
+            "end": 15.101,
+            "score": 0.451
+        },
+        {
+            "word": "Maybe",
+            "start": 15.983,
+            "end": 16.463,
+            "score": 0.937
+        },
+        {
+            "word": "there",
+            "start": 16.523,
+            "end": 16.844,
+            "score": 0.914
+        },
+        {
+            "word": "was",
+            "start": 16.904,
+            "end": 17.084,
+            "score": 0.766
+        },
+        {
+            "word": "something",
+            "start": 17.184,
+            "end": 17.785,
+            "score": 0.912
+        },
+        {
+            "word": "Yeah,",
+            "start": 18.106,
+            "end": 18.406,
+            "score": 0.222
+        },
+        {
+            "word": "yeah,",
+            "start": 18.426,
+            "end": 18.526,
+            "score": 0.003
+        },
+        {
+            "word": "yeah,",
+            "start": 18.546,
+            "end": 18.746,
+            "score": 0.342
+        },
+        {
+            "word": "stuck",
+            "start": 18.767,
+            "end": 19.047,
+            "score": 0.604
+        },
+        {
+            "word": "in",
+            "start": 19.648,
+            "end": 19.928,
+            "score": 0.786
+        },
+        {
+            "word": "your",
+            "start": 19.948,
+            "end": 20.689,
+            "score": 0.458
+        },
+        {
+            "word": "ear",
+            "start": 20.709,
+            "end": 20.769,
+            "score": 0.333
+        },
+        {
+            "word": "Why",
+            "start": 21.57,
+            "end": 21.951,
+            "score": 0.97
+        },
+        {
+            "word": "is",
+            "start": 21.971,
+            "end": 22.011,
+            "score": 0.498
+        },
+        {
+            "word": "it",
+            "start": 22.231,
+            "end": 22.391,
+            "score": 0.678
+        },
+        {
+            "word": "every",
+            "start": 22.972,
+            "end": 23.333,
+            "score": 0.842
+        },
+        {
+            "word": "time",
+            "start": 23.413,
+            "end": 24.034,
+            "score": 0.664
+        },
+        {
+            "word": "you",
+            "start": 24.214,
+            "end": 24.274,
+            "score": 0.006
+        },
+        {
+            "word": "say",
+            "start": 24.294,
+            "end": 24.775,
+            "score": 0.854
+        },
+        {
+            "word": "you",
+            "start": 25.436,
+            "end": 25.496,
+            "score": 0.003
+        },
+        {
+            "word": "do,",
+            "start": 25.516,
+            "end": 25.816,
+            "score": 0.354
+        },
+        {
+            "word": "you",
+            "start": 25.836,
+            "end": 25.896,
+            "score": 0.002
+        },
+        {
+            "word": "don't?",
+            "start": 25.916,
+            "end": 26.036,
+            "score": 0.325
+        },
+        {
+            "word": "Maybe",
+            "start": 27.078,
+            "end": 27.619,
+            "score": 0.977
+        },
+        {
+            "word": "I",
+            "start": 27.779,
+            "end": 27.879,
+            "score": 0.918
+        },
+        {
+            "word": "just",
+            "start": 27.939,
+            "end": 28.199,
+            "score": 0.971
+        },
+        {
+            "word": "thought",
+            "start": 28.32,
+            "end": 28.76,
+            "score": 0.589
+        },
+        {
+            "word": "that",
+            "start": 28.82,
+            "end": 28.92,
+            "score": 0.396
+        },
+        {
+            "word": "you",
+            "start": 29.141,
+            "end": 29.441,
+            "score": 0.397
+        },
+        {
+            "word": "were",
+            "start": 29.461,
+            "end": 29.742,
+            "score": 0.469
+        },
+        {
+            "word": "talking",
+            "start": 29.802,
+            "end": 30.402,
+            "score": 0.907
+        },
+        {
+            "word": "on",
+            "start": 30.663,
+            "end": 30.863,
+            "score": 0.858
+        },
+        {
+            "word": "the",
+            "start": 30.903,
+            "end": 30.983,
+            "score": 0.774
+        },
+        {
+            "word": "phone",
+            "start": 31.083,
+            "end": 32.265,
+            "score": 0.856
+        },
+        {
+            "word": "Honey,",
+            "start": 33.933,
+            "end": 34.434,
+            "score": 0.66
+        },
+        {
+            "word": "you're",
+            "start": 34.474,
+            "end": 34.695,
+            "score": 0.367
+        },
+        {
+            "word": "looking",
+            "start": 34.715,
+            "end": 35.136,
+            "score": 0.706
+        },
+        {
+            "word": "lovely",
+            "start": 35.236,
+            "end": 35.798,
+            "score": 0.864
+        },
+        {
+            "word": "tonight",
+            "start": 35.878,
+            "end": 36.68,
+            "score": 0.573
+        },
+        {
+            "word": "Sorry",
+            "start": 36.76,
+            "end": 37.201,
+            "score": 0.906
+        },
+        {
+            "word": "you're",
+            "start": 37.261,
+            "end": 37.441,
+            "score": 0.45
+        },
+        {
+            "word": "wasting",
+            "start": 37.482,
+            "end": 38.023,
+            "score": 0.568
+        },
+        {
+            "word": "time",
+            "start": 38.845,
+            "end": 39.146,
+            "score": 0.72
+        },
+        {
+            "word": "Baby,",
+            "start": 39.547,
+            "end": 40.188,
+            "score": 0.64
+        },
+        {
+            "word": "this",
+            "start": 40.208,
+            "end": 40.409,
+            "score": 0.511
+        },
+        {
+            "word": "ain't",
+            "start": 40.569,
+            "end": 40.729,
+            "score": 0.511
+        },
+        {
+            "word": "your",
+            "start": 40.77,
+            "end": 41.07,
+            "score": 0.901
+        },
+        {
+            "word": "lucky",
+            "start": 41.15,
+            "end": 41.672,
+            "score": 0.639
+        },
+        {
+            "word": "night",
+            "start": 42.073,
+            "end": 42.173,
+            "score": 0.0
+        },
+        {
+            "word": "Well,",
+            "start": 42.193,
+            "end": 42.333,
+            "score": 0.308
+        },
+        {
+            "word": "trying",
+            "start": 42.353,
+            "end": 42.975,
+            "score": 0.747
+        },
+        {
+            "word": "ain't",
+            "start": 43.175,
+            "end": 43.416,
+            "score": 0.534
+        },
+        {
+            "word": "a",
+            "start": 43.456,
+            "end": 43.476,
+            "score": 0.678
+        },
+        {
+            "word": "crime",
+            "start": 43.556,
+            "end": 44.438,
+            "score": 0.841
+        },
+        {
+            "word": "Why",
+            "start": 45.1,
+            "end": 45.581,
+            "score": 0.915
+        },
+        {
+            "word": "is",
+            "start": 45.601,
+            "end": 45.641,
+            "score": 0.497
+        },
+        {
+            "word": "it",
+            "start": 45.681,
+            "end": 46.283,
+            "score": 0.728
+        },
+        {
+            "word": "every",
+            "start": 46.544,
+            "end": 46.884,
+            "score": 0.836
+        },
+        {
+            "word": "time",
+            "start": 46.985,
+            "end": 47.486,
+            "score": 0.797
+        },
+        {
+            "word": "I",
+            "start": 47.506,
+            "end": 47.526,
+            "score": 0.996
+        },
+        {
+            "word": "like",
+            "start": 47.907,
+            "end": 48.208,
+            "score": 0.958
+        },
+        {
+            "word": "to",
+            "start": 48.248,
+            "end": 48.348,
+            "score": 0.978
+        },
+        {
+            "word": "do,",
+            "start": 48.428,
+            "end": 48.789,
+            "score": 0.993
+        },
+        {
+            "word": "you",
+            "start": 48.809,
+            "end": 48.869,
+            "score": 0.323
+        },
+        {
+            "word": "don't?",
+            "start": 49.13,
+            "end": 50.052,
+            "score": 0.795
+        },
+        {
+            "word": "Maybe",
+            "start": 50.572,
+            "end": 51.174,
+            "score": 0.384
+        },
+        {
+            "word": "you",
+            "start": 51.214,
+            "end": 51.835,
+            "score": 0.838
+        },
+        {
+            "word": "could",
+            "start": 51.856,
+            "end": 52.999,
+            "score": 0.767
+        },
+        {
+            "word": "try",
+            "start": 53.079,
+            "end": 53.199,
+            "score": 0.197
+        },
+        {
+            "word": "a",
+            "start": 53.219,
+            "end": 53.239,
+            "score": 0.0
+        },
+        {
+            "word": "little",
+            "start": 53.259,
+            "end": 53.38,
+            "score": 0.263
+        },
+        {
+            "word": "romance",
+            "start": 53.46,
+            "end": 54.463,
+            "score": 0.672
+        },
+        {
+            "word": "at",
+            "start": 54.483,
+            "end": 54.523,
+            "score": 0.49
+        },
+        {
+            "word": "home",
+            "start": 54.884,
+            "end": 55.185,
+            "score": 0.73
+        },
+        {
+            "word": "Let's",
+            "start": 55.365,
+            "end": 55.666,
+            "score": 0.89
+        },
+        {
+            "word": "go",
+            "start": 55.726,
+            "end": 56.047,
+            "score": 0.981
+        },
+        {
+            "word": "back",
+            "start": 56.268,
+            "end": 56.889,
+            "score": 0.914
+        },
+        {
+            "word": "in",
+            "start": 57.13,
+            "end": 57.411,
+            "score": 0.782
+        },
+        {
+            "word": "time",
+            "start": 57.431,
+            "end": 58.293,
+            "score": 0.854
+        },
+        {
+            "word": "Way",
+            "start": 58.995,
+            "end": 59.617,
+            "score": 0.936
+        },
+        {
+            "word": "back",
+            "start": 59.717,
+            "end": 60.078,
+            "score": 0.656
+        },
+        {
+            "word": "when",
+            "start": 60.239,
+            "end": 60.72,
+            "score": 0.816
+        },
+        {
+            "word": "we",
+            "start": 60.94,
+            "end": 61.201,
+            "score": 0.836
+        },
+        {
+            "word": "were",
+            "start": 61.261,
+            "end": 61.642,
+            "score": 0.892
+        },
+        {
+            "word": "la",
+            "start": 61.783,
+            "end": 62.023,
+            "score": 0.82
+        },
+        {
+            "word": "la",
+            "start": 62.104,
+            "end": 62.264,
+            "score": 0.863
+        },
+        {
+            "word": "la",
+            "start": 62.324,
+            "end": 62.545,
+            "score": 0.899
+        },
+        {
+            "word": "la",
+            "start": 62.645,
+            "end": 62.926,
+            "score": 0.939
+        },
+        {
+            "word": "la",
+            "start": 63.026,
+            "end": 63.648,
+            "score": 0.896
+        },
+        {
+            "word": "la",
+            "start": 63.989,
+            "end": 64.41,
+            "score": 0.786
+        },
+        {
+            "word": "la",
+            "start": 64.43,
+            "end": 65.012,
+            "score": 0.835
+        },
+        {
+            "word": "la",
+            "start": 65.132,
+            "end": 65.172,
+            "score": 0.5
+        },
+        {
+            "word": "Now",
+            "start": 66.383,
+            "end": 66.944,
+            "score": 0.976
+        },
+        {
+            "word": "it's",
+            "start": 67.084,
+            "end": 67.244,
+            "score": 0.904
+        },
+        {
+            "word": "married",
+            "start": 67.324,
+            "end": 68.445,
+            "score": 0.482
+        },
+        {
+            "word": "life",
+            "start": 68.505,
+            "end": 69.146,
+            "score": 0.715
+        },
+        {
+            "word": "and",
+            "start": 69.426,
+            "end": 69.706,
+            "score": 0.737
+        },
+        {
+            "word": "the",
+            "start": 69.786,
+            "end": 70.006,
+            "score": 0.766
+        },
+        {
+            "word": "daily",
+            "start": 70.067,
+            "end": 71.208,
+            "score": 0.806
+        },
+        {
+            "word": "strife",
+            "start": 71.268,
+            "end": 71.888,
+            "score": 0.652
+        },
+        {
+            "word": "to",
+            "start": 71.988,
+            "end": 72.249,
+            "score": 0.93
+        },
+        {
+            "word": "be",
+            "start": 72.349,
+            "end": 72.749,
+            "score": 0.908
+        },
+        {
+            "word": "la",
+            "start": 72.829,
+            "end": 73.089,
+            "score": 0.956
+        },
+        {
+            "word": "la",
+            "start": 73.189,
+            "end": 73.33,
+            "score": 0.958
+        },
+        {
+            "word": "la",
+            "start": 73.39,
+            "end": 73.59,
+            "score": 0.826
+        },
+        {
+            "word": "la",
+            "start": 73.71,
+            "end": 73.95,
+            "score": 0.869
+        },
+        {
+            "word": "la",
+            "start": 74.05,
+            "end": 74.751,
+            "score": 0.936
+        },
+        {
+            "word": "la",
+            "start": 74.771,
+            "end": 74.811,
+            "score": 0.5
+        },
+        {
+            "word": "la",
+            "start": 75.612,
+            "end": 75.892,
+            "score": 0.937
+        },
+        {
+            "word": "la",
+            "start": 75.972,
+            "end": 76.112,
+            "score": 0.887
+        },
+        {
+            "word": "la",
+            "start": 76.172,
+            "end": 76.393,
+            "score": 0.83
+        },
+        {
+            "word": "la",
+            "start": 76.493,
+            "end": 76.753,
+            "score": 0.925
+        },
+        {
+            "word": "la",
+            "start": 76.833,
+            "end": 77.434,
+            "score": 0.945
+        },
+        {
+            "word": "la",
+            "start": 77.514,
+            "end": 78.314,
+            "score": 0.894
+        },
+        {
+            "word": "la",
+            "start": 78.394,
+            "end": 78.615,
+            "score": 0.958
+        },
+        {
+            "word": "la",
+            "start": 78.735,
+            "end": 78.875,
+            "score": 0.959
+        },
+        {
+            "word": "la",
+            "start": 78.915,
+            "end": 79.135,
+            "score": 0.73
+        },
+        {
+            "word": "la",
+            "start": 79.275,
+            "end": 79.536,
+            "score": 0.872
+        },
+        {
+            "word": "la",
+            "start": 79.616,
+            "end": 79.976,
+            "score": 0.889
+        },
+        {
+            "word": "la",
+            "start": 80.316,
+            "end": 80.957,
+            "score": 0.876
+        },
+        {
+            "word": "Honey,",
+            "start": 81.818,
+            "end": 87.863,
+            "score": 0.888
+        },
+        {
+            "word": "you're",
+            "start": 88.084,
+            "end": 88.904,
+            "score": 0.365
+        },
+        {
+            "word": "getting",
+            "start": 89.105,
+            "end": 89.325,
+            "score": 0.11
+        },
+        {
+            "word": "older",
+            "start": 89.345,
+            "end": 89.445,
+            "score": 0.193
+        },
+        {
+            "word": "Yeah,",
+            "start": 89.605,
+            "end": 89.845,
+            "score": 0.299
+        },
+        {
+            "word": "and",
+            "start": 89.865,
+            "end": 89.925,
+            "score": 0.002
+        },
+        {
+            "word": "you're",
+            "start": 89.945,
+            "end": 90.686,
+            "score": 0.374
+        },
+        {
+            "word": "still",
+            "start": 91.087,
+            "end": 91.347,
+            "score": 0.454
+        },
+        {
+            "word": "29",
+            "start": 91.367,
+            "end": 91.407,
+            "score": 0.996
+        },
+        {
+            "word": "And",
+            "start": 92.128,
+            "end": 92.228,
+            "score": 0.934
+        },
+        {
+            "word": "baby,",
+            "start": 92.288,
+            "end": 92.768,
+            "score": 0.586
+        },
+        {
+            "word": "things",
+            "start": 92.828,
+            "end": 93.128,
+            "score": 0.807
+        },
+        {
+            "word": "are",
+            "start": 93.269,
+            "end": 93.409,
+            "score": 0.52
+        },
+        {
+            "word": "colder",
+            "start": 93.469,
+            "end": 94.77,
+            "score": 0.717
+        },
+        {
+            "word": "But",
+            "start": 94.835,
+            "end": 95.035,
+            "score": 0.805
+        },
+        {
+            "word": "honey,",
+            "start": 95.136,
+            "end": 95.396,
+            "score": 0.724
+        },
+        {
+            "word": "you",
+            "start": 95.456,
+            "end": 95.636,
+            "score": 0.822
+        },
+        {
+            "word": "still,",
+            "start": 95.656,
+            "end": 96.037,
+            "score": 0.715
+        },
+        {
+            "word": "you're",
+            "start": 96.077,
+            "end": 96.257,
+            "score": 0.555
+        },
+        {
+            "word": "mine",
+            "start": 96.298,
+            "end": 96.879,
+            "score": 0.867
+        },
+        {
+            "word": "Guess",
+            "start": 96.899,
+            "end": 98.061,
+            "score": 0.543
+        },
+        {
+            "word": "it's",
+            "start": 98.161,
+            "end": 98.541,
+            "score": 0.769
+        },
+        {
+            "word": "easy",
+            "start": 98.561,
+            "end": 99.002,
+            "score": 0.485
+        },
+        {
+            "word": "to",
+            "start": 99.042,
+            "end": 99.343,
+            "score": 0.73
+        },
+        {
+            "word": "forget",
+            "start": 99.383,
+            "end": 99.964,
+            "score": 0.75
+        },
+        {
+            "word": "When",
+            "start": 100.445,
+            "end": 100.745,
+            "score": 0.279
+        },
+        {
+            "word": "all",
+            "start": 100.765,
+            "end": 100.925,
+            "score": 0.378
+        },
+        {
+            "word": "the",
+            "start": 100.986,
+            "end": 101.066,
+            "score": 0.383
+        },
+        {
+            "word": "men",
+            "start": 101.126,
+            "end": 101.687,
+            "score": 0.924
+        },
+        {
+            "word": "are",
+            "start": 101.727,
+            "end": 102.388,
+            "score": 0.572
+        },
+        {
+            "word": "white",
+            "start": 102.408,
+            "end": 102.508,
+            "score": 0.202
+        },
+        {
+            "word": "Could",
+            "start": 103.35,
+            "end": 103.61,
+            "score": 0.467
+        },
+        {
+            "word": "it",
+            "start": 103.71,
+            "end": 103.81,
+            "score": 0.795
+        },
+        {
+            "word": "be",
+            "start": 103.891,
+            "end": 104.171,
+            "score": 0.959
+        },
+        {
+            "word": "the",
+            "start": 104.251,
+            "end": 104.492,
+            "score": 0.575
+        },
+        {
+            "word": "love,",
+            "start": 104.552,
+            "end": 104.892,
+            "score": 0.511
+        },
+        {
+            "word": "love",
+            "start": 104.912,
+            "end": 105.193,
+            "score": 0.532
+        },
+        {
+            "word": "magic",
+            "start": 105.433,
+            "end": 106.094,
+            "score": 0.745
+        },
+        {
+            "word": "Keepin'",
+            "start": 106.134,
+            "end": 106.635,
+            "score": 0.373
+        },
+        {
+            "word": "love",
+            "start": 106.675,
+            "end": 107.156,
+            "score": 0.582
+        },
+        {
+            "word": "alive?",
+            "start": 107.296,
+            "end": 107.958,
+            "score": 0.697
+        },
+        {
+            "word": "Let's",
+            "start": 108.098,
+            "end": 108.378,
+            "score": 0.909
+        },
+        {
+            "word": "go",
+            "start": 108.438,
+            "end": 108.739,
+            "score": 0.975
+        },
+        {
+            "word": "back",
+            "start": 108.919,
+            "end": 109.56,
+            "score": 0.902
+        },
+        {
+            "word": "in",
+            "start": 109.781,
+            "end": 110.041,
+            "score": 0.801
+        },
+        {
+            "word": "time",
+            "start": 110.121,
+            "end": 110.823,
+            "score": 0.765
+        },
+        {
+            "word": "Way",
+            "start": 111.684,
+            "end": 112.245,
+            "score": 0.931
+        },
+        {
+            "word": "back",
+            "start": 112.385,
+            "end": 112.786,
+            "score": 0.602
+        },
+        {
+            "word": "when",
+            "start": 112.946,
+            "end": 113.407,
+            "score": 0.66
+        },
+        {
+            "word": "we",
+            "start": 113.427,
+            "end": 113.467,
+            "score": 0.319
+        },
+        {
+            "word": "were",
+            "start": 113.627,
+            "end": 114.268,
+            "score": 0.735
+        },
+        {
+            "word": "La",
+            "start": 114.469,
+            "end": 114.769,
+            "score": 0.914
+        },
+        {
+            "word": "la",
+            "start": 114.829,
+            "end": 114.97,
+            "score": 0.898
+        },
+        {
+            "word": "la",
+            "start": 115.01,
+            "end": 115.27,
+            "score": 0.839
+        },
+        {
+            "word": "la",
+            "start": 115.33,
+            "end": 115.631,
+            "score": 0.848
+        },
+        {
+            "word": "la",
+            "start": 115.711,
+            "end": 116.332,
+            "score": 0.852
+        },
+        {
+            "word": "la",
+            "start": 116.412,
+            "end": 117.033,
+            "score": 0.868
+        },
+        {
+            "word": "la",
+            "start": 117.113,
+            "end": 117.835,
+            "score": 0.952
+        },
+        {
+            "word": "la",
+            "start": 118.035,
+            "end": 118.075,
+            "score": 0.5
+        },
+        {
+            "word": "When",
+            "start": 119.455,
+            "end": 119.976,
+            "score": 0.528
+        },
+        {
+            "word": "you",
+            "start": 120.057,
+            "end": 120.578,
+            "score": 0.814
+        },
+        {
+            "word": "and",
+            "start": 120.959,
+            "end": 121.119,
+            "score": 0.567
+        },
+        {
+            "word": "I",
+            "start": 121.821,
+            "end": 122.022,
+            "score": 0.888
+        },
+        {
+            "word": "still",
+            "start": 122.663,
+            "end": 123.385,
+            "score": 0.688
+        },
+        {
+            "word": "had",
+            "start": 123.686,
+            "end": 123.867,
+            "score": 0.685
+        },
+        {
+            "word": "time",
+            "start": 123.967,
+            "end": 124.629,
+            "score": 0.746
+        },
+        {
+            "word": "to",
+            "start": 124.689,
+            "end": 124.97,
+            "score": 0.74
+        },
+        {
+            "word": "be",
+            "start": 125.01,
+            "end": 125.411,
+            "score": 0.728
+        },
+        {
+            "word": "La",
+            "start": 125.571,
+            "end": 125.872,
+            "score": 0.826
+        },
+        {
+            "word": "la",
+            "start": 125.892,
+            "end": 126.093,
+            "score": 0.816
+        },
+        {
+            "word": "la",
+            "start": 126.113,
+            "end": 126.413,
+            "score": 0.837
+        },
+        {
+            "word": "la",
+            "start": 126.433,
+            "end": 126.714,
+            "score": 0.888
+        },
+        {
+            "word": "la",
+            "start": 126.774,
+            "end": 127.436,
+            "score": 0.87
+        },
+        {
+            "word": "La",
+            "start": 127.456,
+            "end": 127.496,
+            "score": 0.487
+        },
+        {
+            "word": "la",
+            "start": 128.298,
+            "end": 128.659,
+            "score": 0.851
+        },
+        {
+            "word": "la",
+            "start": 128.679,
+            "end": 128.88,
+            "score": 0.795
+        },
+        {
+            "word": "la",
+            "start": 128.9,
+            "end": 129.201,
+            "score": 0.843
+        },
+        {
+            "word": "la",
+            "start": 129.221,
+            "end": 129.522,
+            "score": 0.785
+        },
+        {
+            "word": "La",
+            "start": 129.542,
+            "end": 130.223,
+            "score": 0.912
+        },
+        {
+            "word": "la",
+            "start": 130.244,
+            "end": 130.785,
+            "score": 0.857
+        },
+        {
+            "word": "la",
+            "start": 130.805,
+            "end": 131.106,
+            "score": 0.795
+        },
+        {
+            "word": "la",
+            "start": 131.126,
+            "end": 131.647,
+            "score": 0.832
+        },
+        {
+            "word": "la",
+            "start": 131.667,
+            "end": 132.329,
+            "score": 0.848
+        },
+        {
+            "word": "La",
+            "start": 132.349,
+            "end": 134.354,
+            "score": 0.884
+        },
+        {
+            "word": "la",
+            "start": 134.374,
+            "end": 134.415,
+            "score": 0.49
+        },
+        {
+            "word": "la",
+            "start": 134.555,
+            "end": 134.595,
+            "score": 0.5
+        },
+        {
+            "word": "Let's",
+            "start": 157.897,
+            "end": 158.318,
+            "score": 0.848
+        },
+        {
+            "word": "go",
+            "start": 158.398,
+            "end": 158.638,
+            "score": 0.848
+        },
+        {
+            "word": "back",
+            "start": 158.678,
+            "end": 159.479,
+            "score": 0.786
+        },
+        {
+            "word": "in",
+            "start": 159.74,
+            "end": 159.98,
+            "score": 0.83
+        },
+        {
+            "word": "time",
+            "start": 160.06,
+            "end": 161.022,
+            "score": 0.446
+        },
+        {
+            "word": "Way",
+            "start": 161.603,
+            "end": 162.224,
+            "score": 0.9
+        },
+        {
+            "word": "back",
+            "start": 162.284,
+            "end": 162.804,
+            "score": 0.679
+        },
+        {
+            "word": "when",
+            "start": 162.885,
+            "end": 163.365,
+            "score": 0.871
+        },
+        {
+            "word": "we",
+            "start": 163.545,
+            "end": 163.826,
+            "score": 0.962
+        },
+        {
+            "word": "were",
+            "start": 163.886,
+            "end": 164.247,
+            "score": 0.611
+        },
+        {
+            "word": "La",
+            "start": 164.387,
+            "end": 164.707,
+            "score": 0.792
+        },
+        {
+            "word": "la",
+            "start": 164.727,
+            "end": 164.908,
+            "score": 0.78
+        },
+        {
+            "word": "la",
+            "start": 164.928,
+            "end": 165.228,
+            "score": 0.845
+        },
+        {
+            "word": "la",
+            "start": 165.248,
+            "end": 165.569,
+            "score": 0.881
+        },
+        {
+            "word": "la,",
+            "start": 165.589,
+            "end": 166.29,
+            "score": 0.569
+        },
+        {
+            "word": "la",
+            "start": 166.31,
+            "end": 166.991,
+            "score": 0.877
+        },
+        {
+            "word": "la",
+            "start": 167.011,
+            "end": 167.912,
+            "score": 0.931
+        },
+        {
+            "word": "la",
+            "start": 167.932,
+            "end": 167.972,
+            "score": 0.498
+        },
+        {
+            "word": "Back",
+            "start": 169.074,
+            "end": 169.575,
+            "score": 0.735
+        },
+        {
+            "word": "when",
+            "start": 169.635,
+            "end": 169.915,
+            "score": 0.679
+        },
+        {
+            "word": "you",
+            "start": 169.975,
+            "end": 170.556,
+            "score": 0.841
+        },
+        {
+            "word": "and",
+            "start": 170.917,
+            "end": 171.097,
+            "score": 0.485
+        },
+        {
+            "word": "I",
+            "start": 171.778,
+            "end": 171.998,
+            "score": 0.741
+        },
+        {
+            "word": "Still",
+            "start": 172.619,
+            "end": 173.32,
+            "score": 0.763
+        },
+        {
+            "word": "had",
+            "start": 173.42,
+            "end": 173.921,
+            "score": 0.548
+        },
+        {
+            "word": "time",
+            "start": 173.941,
+            "end": 174.582,
+            "score": 0.585
+        },
+        {
+            "word": "to",
+            "start": 174.622,
+            "end": 174.903,
+            "score": 0.907
+        },
+        {
+            "word": "be",
+            "start": 174.983,
+            "end": 175.383,
+            "score": 0.912
+        },
+        {
+            "word": "La",
+            "start": 175.503,
+            "end": 175.824,
+            "score": 0.847
+        },
+        {
+            "word": "la",
+            "start": 175.844,
+            "end": 176.024,
+            "score": 0.752
+        },
+        {
+            "word": "la",
+            "start": 176.044,
+            "end": 176.345,
+            "score": 0.857
+        },
+        {
+            "word": "la",
+            "start": 176.365,
+            "end": 176.705,
+            "score": 0.86
+        },
+        {
+            "word": "la",
+            "start": 176.725,
+            "end": 177.406,
+            "score": 0.851
+        },
+        {
+            "word": "Let's",
+            "start": 177.426,
+            "end": 177.887,
+            "score": 0.743
+        },
+        {
+            "word": "go",
+            "start": 177.967,
+            "end": 178.188,
+            "score": 0.96
+        },
+        {
+            "word": "back",
+            "start": 178.308,
+            "end": 178.969,
+            "score": 0.931
+        },
+        {
+            "word": "in",
+            "start": 179.169,
+            "end": 179.409,
+            "score": 0.834
+        },
+        {
+            "word": "time",
+            "start": 179.469,
+            "end": 180.251,
+            "score": 0.849
+        },
+        {
+            "word": "Way",
+            "start": 181.072,
+            "end": 181.653,
+            "score": 0.889
+        },
+        {
+            "word": "back",
+            "start": 181.753,
+            "end": 182.254,
+            "score": 0.561
+        },
+        {
+            "word": "when",
+            "start": 182.294,
+            "end": 182.855,
+            "score": 0.774
+        },
+        {
+            "word": "we",
+            "start": 183.015,
+            "end": 183.275,
+            "score": 0.94
+        },
+        {
+            "word": "were",
+            "start": 183.335,
+            "end": 183.676,
+            "score": 0.38
+        },
+        {
+            "word": "La",
+            "start": 183.796,
+            "end": 184.157,
+            "score": 0.794
+        },
+        {
+            "word": "la",
+            "start": 184.177,
+            "end": 184.337,
+            "score": 0.674
+        },
+        {
+            "word": "la",
+            "start": 184.357,
+            "end": 184.677,
+            "score": 0.805
+        },
+        {
+            "word": "la",
+            "start": 184.697,
+            "end": 185.018,
+            "score": 0.812
+        },
+        {
+            "word": "la,",
+            "start": 185.038,
+            "end": 185.739,
+            "score": 0.786
+        },
+        {
+            "word": "la",
+            "start": 185.759,
+            "end": 186.46,
+            "score": 0.882
+        },
+        {
+            "word": "la",
+            "start": 186.48,
+            "end": 187.101,
+            "score": 0.876
+        },
+        {
+            "word": "la",
+            "start": 187.121,
+            "end": 187.161,
+            "score": 0.5
+        },
+        {
+            "word": "Now",
+            "start": 188.423,
+            "end": 188.964,
+            "score": 0.934
+        },
+        {
+            "word": "it's",
+            "start": 189.104,
+            "end": 189.265,
+            "score": 0.875
+        },
+        {
+            "word": "merry",
+            "start": 189.826,
+            "end": 190.467,
+            "score": 0.694
+        },
+        {
+            "word": "life",
+            "start": 190.567,
+            "end": 191.149,
+            "score": 0.631
+        },
+        {
+            "word": "Still",
+            "start": 191.67,
+            "end": 191.77,
+            "score": 0.178
+        },
+        {
+            "word": "we",
+            "start": 191.83,
+            "end": 192.071,
+            "score": 0.968
+        },
+        {
+            "word": "have",
+            "start": 192.171,
+            "end": 192.732,
+            "score": 0.626
+        },
+        {
+            "word": "to",
+            "start": 192.792,
+            "end": 193.053,
+            "score": 0.86
+        },
+        {
+            "word": "try",
+            "start": 193.333,
+            "end": 193.995,
+            "score": 0.891
+        },
+        {
+            "word": "to",
+            "start": 194.055,
+            "end": 194.315,
+            "score": 0.921
+        },
+        {
+            "word": "be",
+            "start": 194.375,
+            "end": 194.756,
+            "score": 0.845
+        },
+        {
+            "word": "La",
+            "start": 194.896,
+            "end": 195.237,
+            "score": 0.85
+        },
+        {
+            "word": "la",
+            "start": 195.317,
+            "end": 195.417,
+            "score": 0.668
+        },
+        {
+            "word": "la",
+            "start": 195.558,
+            "end": 195.758,
+            "score": 0.71
+        },
+        {
+            "word": "la",
+            "start": 195.778,
+            "end": 196.079,
+            "score": 0.856
+        },
+        {
+            "word": "la",
+            "start": 196.119,
+            "end": 196.84,
+            "score": 0.956
+        },
+        {
+            "word": "La",
+            "start": 197.682,
+            "end": 197.983,
+            "score": 0.832
+        },
+        {
+            "word": "la",
+            "start": 198.003,
+            "end": 198.323,
+            "score": 0.778
+        },
+        {
+            "word": "la",
+            "start": 198.343,
+            "end": 198.504,
+            "score": 0.707
+        },
+        {
+            "word": "la",
+            "start": 198.564,
+            "end": 198.865,
+            "score": 0.852
+        },
+        {
+            "word": "la",
+            "start": 198.885,
+            "end": 199.546,
+            "score": 0.836
+        },
+        {
+            "word": "La",
+            "start": 200.308,
+            "end": 200.588,
+            "score": 0.629
+        },
+        {
+            "word": "la",
+            "start": 200.608,
+            "end": 200.849,
+            "score": 0.646
+        },
+        {
+            "word": "la",
+            "start": 200.869,
+            "end": 201.31,
+            "score": 0.653
+        },
+        {
+            "word": "la",
+            "start": 201.33,
+            "end": 202.612,
+            "score": 0.898
+        },
+        {
+            "word": "la",
+            "start": 202.632,
+            "end": 202.672,
+            "score": 0.0
+        },
+        {
+            "word": "La",
+            "start": 202.692,
+            "end": 202.733,
+            "score": 0.027
+        },
+        {
+            "word": "la",
+            "start": 202.753,
+            "end": 202.793,
+            "score": 0.008
+        },
+        {
+            "word": "la",
+            "start": 202.813,
+            "end": 203.093,
+            "score": 0.543
+        },
+        {
+            "word": "la",
+            "start": 203.113,
+            "end": 203.735,
+            "score": 0.922
+        },
+        {
+            "word": "la",
+            "start": 203.895,
+            "end": 203.935,
+            "score": 0.5
+        }
+    ]
+}
