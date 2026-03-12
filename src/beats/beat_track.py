@@ -1,6 +1,7 @@
 import json
 import os
 from dataclasses import asdict, dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Optional, Sequence
 
@@ -25,16 +26,9 @@ class BeatGrid:
     tempo_bpm: float
     beat_times: np.ndarray
     downbeat_times: np.ndarray
-    beat_to_bar: list[tuple[int, int]]
-    meter_numerator: int
-    meter_denominator: int
     beat_confidence: BeatStageConfidence
     sr: int
     duration: float
-
-    @property
-    def meter(self) -> int:
-        return self.meter_numerator
 
     def to_dict(self) -> dict:
         payload = asdict(self)
@@ -72,16 +66,16 @@ def load_audio(path: str | Path, sr: int = 22050) -> tuple[np.ndarray, int]:
     return y, sr
 
 
-def _estimate_meter_from_downbeats(
+def _estimate_downbeat_confidence(
     beat_times: np.ndarray,
     downbeat_times: np.ndarray,
     supported_meters: Sequence[tuple[int, int]],
-) -> tuple[int, int, float]:
+) -> float:
     """
     Estimate meter from beat/downbeat spacing by counting beats per bar.
     """
     if len(beat_times) < 2 or len(downbeat_times) < 2:
-        return supported_meters[0][0], supported_meters[0][1], 0.0
+        return 0.0
 
     beats_per_bar: list[int] = []
     for start, end in zip(downbeat_times[:-1], downbeat_times[1:]):
@@ -90,19 +84,18 @@ def _estimate_meter_from_downbeats(
             beats_per_bar.append(count)
 
     if not beats_per_bar:
-        return supported_meters[0][0], supported_meters[0][1], 0.0
+        return 0.0
 
     counts = np.asarray(beats_per_bar, dtype=float)
-    best_meter = supported_meters[0]
     best_error = np.inf
     for meter in supported_meters:
         error = float(np.mean(np.abs(counts - meter[0])))
         if error < best_error:
             best_error = error
-            best_meter = meter
 
-    confidence = max(0.0, 1.0 - best_error / max(best_meter[0], 1))
-    return best_meter[0], best_meter[1], confidence
+    reference = max(min(meter[0] for meter in supported_meters), 1)
+    confidence = max(0.0, 1.0 - best_error / reference)
+    return confidence
 
 
 def detect_beats_beat_this(
@@ -121,49 +114,42 @@ def detect_beats_beat_this(
             "beat_this is not installed. Install it before using backend='beat_this'."
         ) from exc
 
-    cache_dir = os.environ.get("TORCH_HOME")
-    if cache_dir:
-        Path(cache_dir).mkdir(parents=True, exist_ok=True)
+    cache_dir = os.environ.setdefault("TORCH_HOME", "/tmp/torch_cache")
+    Path(cache_dir).mkdir(parents=True, exist_ok=True)
 
     y, sr = load_audio(path, sr=22050)
     duration = librosa.get_duration(y=y, sr=sr)
-    predictor = File2Beats(checkpoint_path=checkpoint, device=device, float16=False, dbn=False)
+    predictor = _get_beat_this_predictor(checkpoint=checkpoint, device=device)
     beat_times, downbeat_times = predictor(path)
     beat_times = np.asarray(beat_times, dtype=float)
     downbeat_times = np.asarray(downbeat_times, dtype=float)
 
     tempo_bpm = estimate_tempo_from_beats(beat_times)
-    meter_numerator, meter_denominator, meter_confidence = _estimate_meter_from_downbeats(
+    downbeat_confidence = _estimate_downbeat_confidence(
         beat_times=beat_times,
         downbeat_times=downbeat_times,
         supported_meters=supported_meters,
-    )
-
-    first_downbeat_index = 0
-    if len(downbeat_times) > 0 and len(beat_times) > 0:
-        first_downbeat_index = int(np.argmin(np.abs(beat_times - downbeat_times[0])))
-
-    beat_to_bar = build_bar_grid(
-        beat_times=beat_times,
-        meter_numerator=meter_numerator,
-        first_downbeat_index=first_downbeat_index,
     )
 
     return BeatGrid(
         tempo_bpm=tempo_bpm,
         beat_times=beat_times,
         downbeat_times=downbeat_times,
-        beat_to_bar=beat_to_bar,
-        meter_numerator=meter_numerator,
-        meter_denominator=meter_denominator,
         beat_confidence=BeatStageConfidence(
             beat_strength_mean=0.0,
-            meter_confidence=meter_confidence,
+            meter_confidence=downbeat_confidence,
             downbeat_strength_mean=0.0,
         ),
         sr=sr,
         duration=duration,
     )
+
+
+@lru_cache(maxsize=4)
+def _get_beat_this_predictor(checkpoint: str, device: str):
+    from beat_this.inference import File2Beats
+
+    return File2Beats(checkpoint_path=checkpoint, device=device, float16=False, dbn=False)
 
 
 def detect_beats_librosa(
@@ -293,12 +279,12 @@ def infer_meter_and_downbeats(
     onset_envelope: np.ndarray,
     hop_length: int,
     supported_meters: Sequence[tuple[int, int]] = SUPPORTED_METERS,
-) -> tuple[int, int, int, np.ndarray, list[tuple[int, int]], float, float]:
+) -> tuple[np.ndarray, float, float]:
     """
     Pick the most plausible meter among a small supported set and infer downbeats.
     """
     if len(beat_times) == 0:
-        return 4, 4, 0, np.array([], dtype=float), [], 0.0, 0.0
+        return np.array([], dtype=float), 0.0, 0.0
 
     scored_candidates: list[tuple[float, int, float, int, int]] = []
     for numerator, denominator in supported_meters:
@@ -312,7 +298,7 @@ def infer_meter_and_downbeats(
         scored_candidates.append((score, offset, strength, numerator, denominator))
 
     scored_candidates.sort(key=lambda item: item[0], reverse=True)
-    best_score, best_offset, best_strength, numerator, denominator = scored_candidates[0]
+    best_score, best_offset, best_strength, numerator, _denominator = scored_candidates[0]
     second_score = scored_candidates[1][0] if len(scored_candidates) > 1 else 0.0
     confidence = max(0.0, float(best_score - second_score))
 
@@ -321,21 +307,7 @@ def infer_meter_and_downbeats(
         meter_numerator=numerator,
         first_downbeat_index=best_offset,
     )
-    beat_to_bar = build_bar_grid(
-        beat_times=beat_times,
-        meter_numerator=numerator,
-        first_downbeat_index=best_offset,
-    )
-
-    return (
-        numerator,
-        denominator,
-        best_offset,
-        downbeat_times,
-        beat_to_bar,
-        confidence,
-        best_strength,
-    )
+    return downbeat_times, confidence, best_strength
 
 
 def make_beat_grid(
@@ -368,15 +340,7 @@ def make_beat_grid(
         y, sr
     )
     tempo_bpm = fix_half_double_tempo(tempo_bpm)
-    (
-        meter_numerator,
-        meter_denominator,
-        _first_downbeat_index,
-        downbeat_times,
-        beat_to_bar,
-        meter_confidence,
-        downbeat_strength_mean,
-    ) = infer_meter_and_downbeats(
+    downbeat_times, meter_confidence, downbeat_strength_mean = infer_meter_and_downbeats(
         beat_times=beat_times,
         sr=sr,
         onset_envelope=onset_envelope,
@@ -388,9 +352,6 @@ def make_beat_grid(
         tempo_bpm=tempo_bpm,
         beat_times=beat_times,
         downbeat_times=downbeat_times,
-        beat_to_bar=beat_to_bar,
-        meter_numerator=meter_numerator,
-        meter_denominator=meter_denominator,
         beat_confidence=BeatStageConfidence(
             beat_strength_mean=beat_strength_mean,
             meter_confidence=meter_confidence,
@@ -575,7 +536,6 @@ def find_annotation_file(audio_path: str | Path) -> Optional[Path]:
 
 def print_grid_summary(grid: BeatGrid, max_rows: int = 20) -> None:
     print(f"Tempo: {grid.tempo_bpm:.2f} BPM")
-    print(f"Meter: {grid.meter_numerator}/{grid.meter_denominator}")
     print(f"Duration: {grid.duration:.2f} sec")
     print(f"Beats detected: {len(grid.beat_times)}")
     print(f"Downbeats detected: {len(grid.downbeat_times)}")
@@ -586,12 +546,10 @@ def print_grid_summary(grid: BeatGrid, max_rows: int = 20) -> None:
         f" downbeat={grid.beat_confidence.downbeat_strength_mean:.3f}"
     )
     print("\nFirst beats:")
-    for i, (t, (bar, beat_in_bar)) in enumerate(zip(grid.beat_times, grid.beat_to_bar)):
+    for i, t in enumerate(grid.beat_times):
         if i >= max_rows:
             break
-        print(
-            f"beat_idx={i:3d}  time={t:7.3f}s  bar={bar:3d}  beat_in_bar={beat_in_bar}"
-        )
+        print(f"beat_idx={i:3d}  time={t:7.3f}s")
 
 
 def plot_beats(
@@ -629,7 +587,6 @@ def plot_beats(
     plt.title(
         f"Beat grid: {Path(path).name}"
         f" | tempo ≈ {grid.tempo_bpm:.1f} BPM"
-        f" | meter {grid.meter_numerator}/{grid.meter_denominator}"
     )
     plt.xlabel("Time (s)")
     plt.ylabel("Amplitude")
