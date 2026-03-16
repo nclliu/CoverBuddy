@@ -67,7 +67,7 @@ Overall, the CoverBuddy pipeline successfully translates complex audio waveforms
 ## Visualizing Our Performance
 
 ![WER for Large v2 model](src/lyrics/test_results/whisperx_large_v2_evaluation_graph.png)
-> **Figure 1:** This bar chart illustrates the Word Error Rate (WER) of our WhisperX lyric transcription module across the Jamendo testing dataset. A lower percentage indicates higher accuracy when compared to the human-transcribed ground truth lyrics. The dashed red line represents our pipeline's average WER across all evaluated songs. The score of $118.4%$ over song_10's score may seem counterintuitive, but it just means that WhisperX generated more words than there were in the ground truth lyrics document for that song.
+> **Figure 1:** This bar chart illustrates the Word Error Rate (WER) of our WhisperX lyric transcription module across the Jamendo testing dataset. A lower percentage indicates higher accuracy when compared to the human-transcribed ground truth lyrics. The dashed red line represents our pipeline's average WER across all evaluated songs. The score of $118.4\%$ over song_10's score may seem counterintuitive, but it just means that WhisperX generated more words than there were in the ground truth lyrics document for that song.
 
 ---
 
@@ -80,12 +80,14 @@ Here is a look at CoverBuddy in action. Below is the original audio of a test tr
 
 <audio controls>
   <source src="src/lyrics/jamendo_audio/song_2.wav" type="audio/wav">
-  Your browser does not support the audio element.
+  <p>Your browser does not support the audio element.
+    <a href="src/lyrics/jamendo_audio/song_2.wav">Download the audio</a>.
+  </p>
 </audio>
 
 **Generated MusicXML Output (Converted to PDF Using MuseScore):**
 <iframe src="output/song_2.pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
-  <p>Your browser does not support PDFs.
+  <p>Your browser does not support the PDF element.
     <a href="output/song_2.pdf">Download the PDF</a>.
   </p>
 </iframe>
