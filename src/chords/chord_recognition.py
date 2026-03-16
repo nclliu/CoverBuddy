@@ -5,6 +5,7 @@ import autochord
 
 # Chord Recognitions
 
+
 def recognize_chords(audio_path, output_lab_path=None):
     """
     Run autochord's chord recognition on an audio file.
@@ -18,15 +19,16 @@ def recognize_chords(audio_path, output_lab_path=None):
         list of tuples: [(start_time, end_time, chord_label), ...]
     """
     # skip reprocessing if we already have results
-    cache_dir = os.path.dirname(audio_path) or "."
     song_name = os.path.splitext(os.path.basename(audio_path))[0]
-    cache_path = os.path.join(cache_dir, f"{song_name}_chords.json")
+    export_dir = "output"
+    os.makedirs(export_dir, exist_ok=True)
+    cache_path = os.path.join(export_dir, f"{song_name}_chords.json")
 
     if os.path.exists(cache_path):
         print(f"   Chord predictions already cached at {cache_path}. Skipping.")
-        with open(cache_path, 'r') as f:
+        with open(cache_path, "r") as f:
             cached = json.load(f)
-        return [(c['start'], c['end'], c['chord']) for c in cached]
+        return [(c["start"], c["end"], c["chord"]) for c in cached]
 
     # Run autochord
     print(f"   Running chord recognition on: {audio_path}")
@@ -40,8 +42,8 @@ def recognize_chords(audio_path, output_lab_path=None):
     print(f"   Found {len(chords)} chord segments.")
 
     # Save cache for next time
-    cache_data = [{'start': s, 'end': e, 'chord': c} for s, e, c in chords]
-    with open(cache_path, 'w') as f:
+    cache_data = [{"start": s, "end": e, "chord": c} for s, e, c in chords]
+    with open(cache_path, "w") as f:
         json.dump(cache_data, f, indent=4)
     print(f"   Cached chord predictions to {cache_path}")
 
@@ -50,7 +52,7 @@ def recognize_chords(audio_path, output_lab_path=None):
 
 def load_lab_file(filepath):
     """
-    Parse a .lab file 
+    Parse a .lab file
 
     Each line is: start_time  end_time  chord_label
     Used by both Isophonics and McGill Billboard datasets.
@@ -62,7 +64,7 @@ def load_lab_file(filepath):
         list of tuples: [(start_time, end_time, chord_label), ...]
     """
     entries = []
-    with open(filepath, 'r') as f:
+    with open(filepath, "r") as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -78,13 +80,13 @@ def load_lab_file(filepath):
 
 # Normalize these notes cause they sound the same but have different names
 ENHARMONIC_MAP = {
-    'Db': 'C#',
-    'Eb': 'D#',
-    'Fb': 'E',
-    'Gb': 'F#',
-    'Ab': 'G#',
-    'Bb': 'A#',
-    'Cb': 'B',
+    "Db": "C#",
+    "Eb": "D#",
+    "Fb": "E",
+    "Gb": "F#",
+    "Ab": "G#",
+    "Bb": "A#",
+    "Cb": "B",
 }
 
 
@@ -98,23 +100,23 @@ def simplify_chord(chord_label):
     Returns:
         str: Normalized chord (e.g., "C#", "Am", "N")
     """
-    if chord_label in ('N', 'X', 'silence', ''):
-        return 'N'
+    if chord_label in ("N", "X", "silence", ""):
+        return "N"
 
-    if ':' in chord_label:
-        root, quality = chord_label.split(':', 1)
+    if ":" in chord_label:
+        root, quality = chord_label.split(":", 1)
         root = ENHARMONIC_MAP.get(root, root)
-        if quality.startswith('min'):
-            return root + 'm'
+        if quality.startswith("min"):
+            return root + "m"
         else:
             return root
 
     # --- Handle autochord notation (already simple) ---
     # Examples: "Am", "C", "F#m", "Bbm"
-    if chord_label.endswith('m') and len(chord_label) > 1:
+    if chord_label.endswith("m") and len(chord_label) > 1:
         root = chord_label[:-1]
         root = ENHARMONIC_MAP.get(root, root)
-        return root + 'm'
+        return root + "m"
     else:
         root = ENHARMONIC_MAP.get(chord_label, chord_label)
         return root
@@ -151,14 +153,14 @@ def evaluate_frame_accuracy(predicted, ground_truth, frame_size=0.1):
     t = 0.0
     while t < total_duration:
         # Look up predicted chord at time t
-        pred_chord = 'N'
+        pred_chord = "N"
         for start, end, label in predicted:
             if start <= t < end:
                 pred_chord = simplify_chord(label)
                 break
 
         # Look up ground truth chord at time t
-        gt_chord = 'N'
+        gt_chord = "N"
         for start, end, label in ground_truth:
             if start <= t < end:
                 gt_chord = simplify_chord(label)

@@ -1,0 +1,2887 @@
+{
+  "tempo_bpm": 103.359375,
+  "beats_per_bar": 6,
+  "bars": [
+    {
+      "bar": 1,
+      "chord": "D",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 0.2089795918367347,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 0.7430385487528345,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 1.2770975056689342,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 1.811156462585034,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 2.345215419501134,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 2.8792743764172335,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 2,
+      "chord": "D",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 3.4133333333333336,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 4.017052154195011,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 4.597551020408163,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 5.201269841269841,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 5.804988662131519,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 6.3854875283446715,
+          "chord": "N",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 3,
+      "chord": "D",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 6.942766439909297,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 7.523265306122449,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 8.103764172335602,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 8.661043083900227,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 9.241541950113378,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 9.822040816326531,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 4,
+      "chord": "F#m",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 10.402539682539683,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 11.00625850340136,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 11.609977324263038,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 12.213696145124716,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 12.794195011337868,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 13.374693877551021,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 5,
+      "chord": "D",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 13.955192743764172,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 14.535691609977324,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 15.09297052154195,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 15.650249433106575,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 16.23074829931973,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 16.81124716553288,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 6,
+      "chord": "F#m",
+      "lyrics": "Yeah,",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 17.41496598639456,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 18.018684807256236,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 18.622403628117915,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 19.156462585034014,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 19.667301587301587,
+          "chord": "N",
+          "words": "Yeah,"
+        },
+        {
+          "beat": 6,
+          "time": 20.24780045351474,
+          "chord": "N",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 7,
+      "chord": "N",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 20.805079365079365,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 21.408798185941045,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 22.01251700680272,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 22.6162358276644,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 23.219954648526077,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 23.823673469387757,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 8,
+      "chord": "A",
+      "lyrics": "the don't stand",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 24.427392290249433,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 25.007891156462584,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 25.56517006802721,
+          "chord": "A",
+          "words": "the"
+        },
+        {
+          "beat": 4,
+          "time": 26.145668934240362,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 26.726167800453513,
+          "chord": "Bm",
+          "words": "don't"
+        },
+        {
+          "beat": 6,
+          "time": 27.30666666666667,
+          "chord": "Bm",
+          "words": "stand"
+        }
+      ]
+    },
+    {
+      "bar": 9,
+      "chord": "Bm",
+      "lyrics": "over care So",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 27.840725623582767,
+          "chord": "Bm",
+          "words": "over"
+        },
+        {
+          "beat": 2,
+          "time": 28.444444444444443,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 29.024943310657598,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 29.791201814058958,
+          "chord": "N",
+          "words": "care"
+        },
+        {
+          "beat": 5,
+          "time": 30.441360544217687,
+          "chord": "F#m",
+          "words": "So"
+        },
+        {
+          "beat": 6,
+          "time": 31.091519274376417,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 10,
+      "chord": "Bm",
+      "lyrics": "you were scared",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 31.672018140589568,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 32.229297052154195,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 32.833015873015874,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 33.483174603174604,
+          "chord": "Bm",
+          "words": "you were"
+        },
+        {
+          "beat": 5,
+          "time": 34.08689342403628,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 34.62095238095238,
+          "chord": "Bm",
+          "words": "scared"
+        }
+      ]
+    },
+    {
+      "bar": 11,
+      "chord": "Bm",
+      "lyrics": "I could died, but isn't fair",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 35.131791383219955,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 35.66585034013605,
+          "chord": "N",
+          "words": "I could"
+        },
+        {
+          "beat": 3,
+          "time": 36.22312925170068,
+          "chord": "N",
+          "words": "died,"
+        },
+        {
+          "beat": 4,
+          "time": 36.85006802721088,
+          "chord": "N",
+          "words": "but"
+        },
+        {
+          "beat": 5,
+          "time": 37.384126984126986,
+          "chord": "N",
+          "words": "isn't"
+        },
+        {
+          "beat": 6,
+          "time": 37.94140589569161,
+          "chord": "N",
+          "words": "fair"
+        }
+      ]
+    },
+    {
+      "bar": 12,
+      "chord": "D",
+      "lyrics": "what I",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 38.49868480725623,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 39.03274376417234,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 39.59002267573696,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 40.147301587301584,
+          "chord": "D",
+          "words": "what"
+        },
+        {
+          "beat": 5,
+          "time": 40.63492063492063,
+          "chord": "D",
+          "words": "I"
+        },
+        {
+          "beat": 6,
+          "time": 41.12253968253968,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 13,
+      "chord": "F#m",
+      "lyrics": "think? You there for",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 41.633378684807255,
+          "chord": "F#m",
+          "words": "think?"
+        },
+        {
+          "beat": 2,
+          "time": 42.283537414965984,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 42.86403628117914,
+          "chord": "F#m",
+          "words": "You"
+        },
+        {
+          "beat": 4,
+          "time": 43.42131519274376,
+          "chord": "N",
+          "words": "there"
+        },
+        {
+          "beat": 5,
+          "time": 43.932154195011336,
+          "chord": "N",
+          "words": "for"
+        },
+        {
+          "beat": 6,
+          "time": 44.489433106575966,
+          "chord": "N",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 14,
+      "chord": "N",
+      "lyrics": "not little",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 45.04671201814059,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 45.69687074829932,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 46.32380952380952,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 46.834648526077096,
+          "chord": "Bm",
+          "words": "not"
+        },
+        {
+          "beat": 5,
+          "time": 47.41514739229025,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 47.9956462585034,
+          "chord": "A",
+          "words": "little"
+        }
+      ]
+    },
+    {
+      "bar": 15,
+      "chord": "A",
+      "lyrics": "We've a record",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 48.55292517006803,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 49.13342403628118,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 49.69070294784581,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 50.271201814058955,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 50.828480725623585,
+          "chord": "A",
+          "words": "We've"
+        },
+        {
+          "beat": 6,
+          "time": 51.40897959183673,
+          "chord": "D",
+          "words": "a record"
+        }
+      ]
+    },
+    {
+      "bar": 16,
+      "chord": "D",
+      "lyrics": "and a Guess this makes",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 52.01269841269841,
+          "chord": "D",
+          "words": "and"
+        },
+        {
+          "beat": 2,
+          "time": 52.63963718820862,
+          "chord": "D",
+          "words": "a"
+        },
+        {
+          "beat": 3,
+          "time": 53.19691609977324,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 53.75419501133787,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 54.31147392290249,
+          "chord": "D",
+          "words": "Guess this"
+        },
+        {
+          "beat": 6,
+          "time": 54.89197278911565,
+          "chord": "F#m",
+          "words": "makes"
+        }
+      ]
+    },
+    {
+      "bar": 17,
+      "chord": "F#m",
+      "lyrics": "me I should've known, I should've",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 55.472471655328796,
+          "chord": "F#m",
+          "words": "me"
+        },
+        {
+          "beat": 2,
+          "time": 56.05297052154195,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 56.65668934240363,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 57.2604081632653,
+          "chord": "F#m",
+          "words": "I should've"
+        },
+        {
+          "beat": 5,
+          "time": 57.817687074829934,
+          "chord": "D",
+          "words": "known,"
+        },
+        {
+          "beat": 6,
+          "time": 58.37496598639456,
+          "chord": "D",
+          "words": "I should've"
+        }
+      ]
+    },
+    {
+      "bar": 18,
+      "chord": "D",
+      "lyrics": "cared How I've so",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 58.862585034013605,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 59.37342403628118,
+          "chord": "D",
+          "words": "cared"
+        },
+        {
+          "beat": 3,
+          "time": 59.97714285714286,
+          "chord": "D",
+          "words": "How"
+        },
+        {
+          "beat": 4,
+          "time": 60.58086167800454,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 61.207800453514736,
+          "chord": "F#m",
+          "words": "I've"
+        },
+        {
+          "beat": 6,
+          "time": 61.83473922902494,
+          "chord": "F#m",
+          "words": "so"
+        }
+      ]
+    },
+    {
+      "bar": 19,
+      "chord": "F#m",
+      "lyrics": "Now just good",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 62.415238095238095,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 63.0421768707483,
+          "chord": "F#m",
+          "words": "Now"
+        },
+        {
+          "beat": 3,
+          "time": 63.59945578231292,
+          "chord": "F#m",
+          "words": "just"
+        },
+        {
+          "beat": 4,
+          "time": 64.2031746031746,
+          "chord": "F#m",
+          "words": "good"
+        },
+        {
+          "beat": 5,
+          "time": 64.76045351473923,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 65.29451247165532,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 20,
+      "chord": "D",
+      "lyrics": "Go hide",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 65.82857142857142,
+          "chord": "D",
+          "words": "Go"
+        },
+        {
+          "beat": 2,
+          "time": 66.36263038548753,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 66.89668934240363,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 67.45396825396826,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 68.08090702947845,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 68.66140589569162,
+          "chord": "F#m",
+          "words": "hide"
+        }
+      ]
+    },
+    {
+      "bar": 21,
+      "chord": "F#m",
+      "lyrics": "pain Cause see cry",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 69.21868480725624,
+          "chord": "F#m",
+          "words": "pain"
+        },
+        {
+          "beat": 2,
+          "time": 69.75274376417234,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 70.33324263038548,
+          "chord": "F#m",
+          "words": "Cause"
+        },
+        {
+          "beat": 4,
+          "time": 70.89052154195011,
+          "chord": "Bm",
+          "words": "see"
+        },
+        {
+          "beat": 5,
+          "time": 71.44780045351474,
+          "chord": "B",
+          "words": "cry"
+        },
+        {
+          "beat": 6,
+          "time": 72.00507936507937,
+          "chord": "B",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 22,
+      "chord": "B",
+      "lyrics": "When done",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 72.60879818594104,
+          "chord": "B",
+          "words": "When"
+        },
+        {
+          "beat": 2,
+          "time": 73.21251700680273,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 73.8162358276644,
+          "chord": "A",
+          "words": "done"
+        },
+        {
+          "beat": 4,
+          "time": 74.41995464852607,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 75.00045351473923,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 75.60417233560091,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 23,
+      "chord": "A",
+      "lyrics": "What it that",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 76.20789115646258,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 76.85804988662132,
+          "chord": "A",
+          "words": "What"
+        },
+        {
+          "beat": 3,
+          "time": 77.43854875283446,
+          "chord": "D",
+          "words": "it"
+        },
+        {
+          "beat": 4,
+          "time": 78.04226757369615,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 78.66920634920635,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 6,
+          "time": 79.27292517006802,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 24,
+      "chord": "D",
+      "lyrics": "from What",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 79.87664399092971,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 80.48036281179138,
+          "chord": "F#m",
+          "words": "from"
+        },
+        {
+          "beat": 3,
+          "time": 81.10730158730159,
+          "chord": "F#m",
+          "words": "What"
+        },
+        {
+          "beat": 4,
+          "time": 81.68780045351474,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 82.26829931972789,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 82.84879818594105,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 25,
+      "chord": "D",
+      "lyrics": "that want",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 83.40607709750567,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 2,
+          "time": 83.94013605442177,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 84.47419501133787,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 85.03147392290249,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 85.63519274376418,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 86.2853514739229,
+          "chord": "D",
+          "words": "want"
+        }
+      ]
+    },
+    {
+      "bar": 26,
+      "chord": "F#m",
+      "lyrics": "from I you feel",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 86.86585034013605,
+          "chord": "F#m",
+          "words": "from"
+        },
+        {
+          "beat": 2,
+          "time": 87.49278911564626,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 3,
+          "time": 88.11972789115646,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 4,
+          "time": 88.6770068027211,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 89.25750566893424,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 89.81478458049887,
+          "chord": "F#m",
+          "words": "feel"
+        }
+      ]
+    },
+    {
+      "bar": 27,
+      "chord": "D",
+      "lyrics": "I want you feel",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 90.37206349206349,
+          "chord": "D",
+          "words": "I want"
+        },
+        {
+          "beat": 2,
+          "time": 90.92934240362811,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 91.48662131519275,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 92.04390022675737,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 92.57795918367347,
+          "chord": "D",
+          "words": "you"
+        },
+        {
+          "beat": 6,
+          "time": 93.1352380952381,
+          "chord": "F#m",
+          "words": "feel"
+        }
+      ]
+    },
+    {
+      "bar": 28,
+      "chord": "F#m",
+      "lyrics": "I want to",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 93.64607709750567,
+          "chord": "F#m",
+          "words": "I want"
+        },
+        {
+          "beat": 2,
+          "time": 94.22657596371882,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 94.80707482993198,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 95.41079365079365,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 95.96807256235827,
+          "chord": "F#m",
+          "words": "to"
+        },
+        {
+          "beat": 6,
+          "time": 96.57179138321996,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 29,
+      "chord": "N",
+      "lyrics": "you feel",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 97.17551020408163,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 97.7792290249433,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 98.42938775510204,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 98.94022675736962,
+          "chord": "N",
+          "words": "you"
+        },
+        {
+          "beat": 5,
+          "time": 99.54394557823129,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 100.12444444444445,
+          "chord": "A",
+          "words": "feel"
+        }
+      ]
+    },
+    {
+      "bar": 30,
+      "chord": "A",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 100.75138321995465,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 101.35510204081632,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 101.98204081632653,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 102.60897959183673,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 103.16625850340137,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 103.72353741496599,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 31,
+      "chord": "A",
+      "lyrics": "I'm wind",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 104.28081632653061,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 104.83809523809524,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 105.46503401360545,
+          "chord": "A",
+          "words": "I'm"
+        },
+        {
+          "beat": 4,
+          "time": 106.09197278911564,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 106.67247165532879,
+          "chord": "Bm",
+          "words": "wind"
+        },
+        {
+          "beat": 6,
+          "time": 107.25297052154195,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 32,
+      "chord": "D",
+      "lyrics": "Can't away by",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 107.81024943310658,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 108.41396825396825,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 108.99446712018141,
+          "chord": "D",
+          "words": "Can't"
+        },
+        {
+          "beat": 4,
+          "time": 109.59818594104308,
+          "chord": "F#",
+          "words": "away"
+        },
+        {
+          "beat": 5,
+          "time": 110.22512471655328,
+          "chord": "F#",
+          "words": "by"
+        },
+        {
+          "beat": 6,
+          "time": 110.7591836734694,
+          "chord": "F#",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 33,
+      "chord": "F#m",
+      "lyrics": "you on",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 111.31646258503402,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 2,
+          "time": 111.92018140589569,
+          "chord": "E",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 112.47746031746031,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 113.03473922902495,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 113.63845804988662,
+          "chord": "D",
+          "words": "on"
+        },
+        {
+          "beat": 6,
+          "time": 114.21895691609977,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 34,
+      "chord": "F#m",
+      "lyrics": "thin I'm",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 114.79945578231292,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 115.4031746031746,
+          "chord": "F#m",
+          "words": "thin"
+        },
+        {
+          "beat": 3,
+          "time": 116.00689342403628,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 116.70349206349206,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 117.40009070294785,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 118.00380952380952,
+          "chord": "F#m",
+          "words": "I'm"
+        }
+      ]
+    },
+    {
+      "bar": 35,
+      "chord": "F#m",
+      "lyrics": "lost from my friends To",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 118.6075283446712,
+          "chord": "F#m",
+          "words": "lost"
+        },
+        {
+          "beat": 2,
+          "time": 119.28090702947846,
+          "chord": "D",
+          "words": "from my friends"
+        },
+        {
+          "beat": 3,
+          "time": 119.95428571428572,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 120.60444444444444,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 121.20816326530613,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 121.78866213151927,
+          "chord": "F#m",
+          "words": "To"
+        }
+      ]
+    },
+    {
+      "bar": 36,
+      "chord": "F#m",
+      "lyrics": "by the can",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 122.39238095238095,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 123.01931972789116,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 123.46049886621316,
+          "chord": "F#m",
+          "words": "by"
+        },
+        {
+          "beat": 4,
+          "time": 123.99455782312926,
+          "chord": "F#m",
+          "words": "the"
+        },
+        {
+          "beat": 5,
+          "time": 124.59827664399093,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 125.22521541950114,
+          "chord": "Bm",
+          "words": "can"
+        }
+      ]
+    },
+    {
+      "bar": 37,
+      "chord": "Bm",
+      "lyrics": "care",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 125.71283446712017,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 126.29333333333334,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 126.87383219954648,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 127.45433106575963,
+          "chord": "B",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 127.9651700680272,
+          "chord": "A",
+          "words": "care"
+        },
+        {
+          "beat": 6,
+          "time": 128.52244897959184,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 38,
+      "chord": "A",
+      "lyrics": "I reckless",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 129.05650793650793,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 129.6370068027211,
+          "chord": "A",
+          "words": "I"
+        },
+        {
+          "beat": 3,
+          "time": 130.21750566893425,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 130.82122448979592,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 131.355283446712,
+          "chord": "D",
+          "words": "reckless"
+        },
+        {
+          "beat": 6,
+          "time": 131.91256235827663,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 39,
+      "chord": "D",
+      "lyrics": "past I would just",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 132.46984126984128,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 133.05034013605442,
+          "chord": "D",
+          "words": "past"
+        },
+        {
+          "beat": 3,
+          "time": 133.63083900226758,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 134.2577777777778,
+          "chord": "D",
+          "words": "I would"
+        },
+        {
+          "beat": 5,
+          "time": 134.8150566893424,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 135.37233560090704,
+          "chord": "F#m",
+          "words": "just"
+        }
+      ]
+    },
+    {
+      "bar": 40,
+      "chord": "F#m",
+      "lyrics": "last Did I could to make",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 135.90639455782312,
+          "chord": "F#m",
+          "words": "last"
+        },
+        {
+          "beat": 2,
+          "time": 136.51011337868482,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 137.2067120181406,
+          "chord": "F#m",
+          "words": "Did"
+        },
+        {
+          "beat": 4,
+          "time": 137.76399092970522,
+          "chord": "F#m",
+          "words": "I could"
+        },
+        {
+          "beat": 5,
+          "time": 138.460589569161,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 139.0875283446712,
+          "chord": "D",
+          "words": "to make"
+        }
+      ]
+    },
+    {
+      "bar": 41,
+      "chord": "D",
+      "lyrics": "lies could be ass?",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 139.6215873015873,
+          "chord": "D",
+          "words": "lies"
+        },
+        {
+          "beat": 2,
+          "time": 140.22530612244898,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 140.80580498866212,
+          "chord": "D",
+          "words": "could"
+        },
+        {
+          "beat": 4,
+          "time": 141.43274376417233,
+          "chord": "F#m",
+          "words": "be"
+        },
+        {
+          "beat": 5,
+          "time": 142.0132426303855,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 142.57052154195011,
+          "chord": "F#m",
+          "words": "ass?"
+        }
+      ]
+    },
+    {
+      "bar": 42,
+      "chord": "F#m",
+      "lyrics": "I where good go",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 143.10458049886623,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 2,
+          "time": 143.66185941043085,
+          "chord": "F#m",
+          "words": "where"
+        },
+        {
+          "beat": 3,
+          "time": 144.21913832199547,
+          "chord": "F#m",
+          "words": "good"
+        },
+        {
+          "beat": 4,
+          "time": 144.72997732426305,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 145.26403628117913,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 145.82131519274375,
+          "chord": "D",
+          "words": "go"
+        }
+      ]
+    },
+    {
+      "bar": 43,
+      "chord": "D",
+      "lyrics": "to I had paint, I had paint",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 146.44825396825397,
+          "chord": "D",
+          "words": "to"
+        },
+        {
+          "beat": 2,
+          "time": 146.93587301587303,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 147.42349206349206,
+          "chord": "F#m",
+          "words": "I had"
+        },
+        {
+          "beat": 4,
+          "time": 148.00399092970522,
+          "chord": "F#m",
+          "words": "paint,"
+        },
+        {
+          "beat": 5,
+          "time": 148.6077097505669,
+          "chord": "F#m",
+          "words": "I had"
+        },
+        {
+          "beat": 6,
+          "time": 149.21142857142857,
+          "chord": "F#m",
+          "words": "paint"
+        }
+      ]
+    },
+    {
+      "bar": 44,
+      "chord": "F#m",
+      "lyrics": "I",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 149.79192743764173,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 2,
+          "time": 150.3956462585034,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 150.95292517006803,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 151.5334240362812,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 152.0907029478458,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 152.64798185941044,
+          "chord": "Bm",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 45,
+      "chord": "A",
+      "lyrics": "When",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 153.20526077097506,
+          "chord": "A",
+          "words": "When"
+        },
+        {
+          "beat": 2,
+          "time": 153.80897959183673,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 154.3198185941043,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 154.85387755102042,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 155.41115646258504,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 155.94521541950112,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 46,
+      "chord": "A",
+      "lyrics": "What that",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 156.47927437641724,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 157.01333333333332,
+          "chord": "A",
+          "words": "What"
+        },
+        {
+          "beat": 3,
+          "time": 157.54739229024943,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 158.08145124716555,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 158.59229024943312,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 6,
+          "time": 159.14956916099774,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 47,
+      "chord": "F#m",
+      "lyrics": "want me? is",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 159.70684807256237,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 160.264126984127,
+          "chord": "F#m",
+          "words": "want"
+        },
+        {
+          "beat": 3,
+          "time": 160.8910657596372,
+          "chord": "F#m",
+          "words": "me?"
+        },
+        {
+          "beat": 4,
+          "time": 161.47156462585033,
+          "chord": "F#m",
+          "words": "is"
+        },
+        {
+          "beat": 5,
+          "time": 162.075283446712,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 162.63256235827666,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 48,
+      "chord": "F#m",
+      "lyrics": "it that",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 163.25950113378684,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 163.79356009070295,
+          "chord": "D",
+          "words": "it"
+        },
+        {
+          "beat": 3,
+          "time": 164.42049886621317,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 165.04743764172335,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 5,
+          "time": 165.67437641723356,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 166.30131519274377,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 49,
+      "chord": "F#m",
+      "lyrics": "from I to feel",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 166.8818140589569,
+          "chord": "F#m",
+          "words": "from"
+        },
+        {
+          "beat": 2,
+          "time": 167.4855328798186,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 3,
+          "time": 168.06603174603174,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 168.6465306122449,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 169.180589569161,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 169.7146485260771,
+          "chord": "F#m",
+          "words": "to feel"
+        }
+      ]
+    },
+    {
+      "bar": 50,
+      "chord": "D",
+      "lyrics": "to",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 170.27192743764172,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 170.82920634920634,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 171.4097052154195,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 172.01342403628118,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 172.52426303854875,
+          "chord": "D",
+          "words": "to"
+        },
+        {
+          "beat": 6,
+          "time": 173.03510204081633,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 51,
+      "chord": "F#m",
+      "lyrics": "feel I you feel",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 173.59238095238095,
+          "chord": "F#m",
+          "words": "feel"
+        },
+        {
+          "beat": 2,
+          "time": 174.14965986394557,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 174.73015873015873,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 175.31065759637187,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 5,
+          "time": 175.7750566893424,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 6,
+          "time": 176.35555555555555,
+          "chord": "F#m",
+          "words": "feel"
+        }
+      ]
+    },
+    {
+      "bar": 52,
+      "chord": "N",
+      "lyrics": "I want to",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 176.91283446712018,
+          "chord": "N",
+          "words": "I want"
+        },
+        {
+          "beat": 2,
+          "time": 177.4468934240363,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 177.98095238095237,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 178.60789115646259,
+          "chord": "E",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 179.21160997732426,
+          "chord": "A",
+          "words": "to"
+        },
+        {
+          "beat": 6,
+          "time": 179.81532879818593,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 53,
+      "chord": "A",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 180.41904761904763,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 180.99954648526077,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 181.5568253968254,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 182.0908843537415,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 182.62494331065759,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 183.20544217687075,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 54,
+      "chord": "D",
+      "lyrics": "it that you want from What",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 183.73950113378686,
+          "chord": "D",
+          "words": "it"
+        },
+        {
+          "beat": 2,
+          "time": 184.29678004535148,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 3,
+          "time": 184.90049886621316,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 4,
+          "time": 185.52743764172337,
+          "chord": "F#m",
+          "words": "want"
+        },
+        {
+          "beat": 5,
+          "time": 186.1079365079365,
+          "chord": "F#m",
+          "words": "from"
+        },
+        {
+          "beat": 6,
+          "time": 186.68843537414966,
+          "chord": "F#m",
+          "words": "What"
+        }
+      ]
+    },
+    {
+      "bar": 55,
+      "chord": "F#m",
+      "lyrics": "it that",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 187.26893424036282,
+          "chord": "F#m",
+          "words": "it"
+        },
+        {
+          "beat": 2,
+          "time": 187.8726530612245,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 188.42993197278912,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 189.01043083900225,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 189.54448979591837,
+          "chord": "D",
+          "words": "that"
+        },
+        {
+          "beat": 6,
+          "time": 190.07854875283448,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 56,
+      "chord": "D",
+      "lyrics": "you from me?",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 190.61260770975056,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 191.23954648526077,
+          "chord": "D",
+          "words": "you"
+        },
+        {
+          "beat": 3,
+          "time": 191.866485260771,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 192.47020408163266,
+          "chord": "F#m",
+          "words": "from"
+        },
+        {
+          "beat": 5,
+          "time": 193.00426303854874,
+          "chord": "F#m",
+          "words": "me?"
+        },
+        {
+          "beat": 6,
+          "time": 193.51510204081632,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 57,
+      "chord": "F#m",
+      "lyrics": "",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 194.09560090702948,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 194.69931972789115,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 195.25659863945577,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 195.8138775510204,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 196.4175963718821,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 196.99809523809523,
+          "chord": "D",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 58,
+      "chord": "D",
+      "lyrics": "I you feel, I",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 197.5785941043084,
+          "chord": "D",
+          "words": "I"
+        },
+        {
+          "beat": 2,
+          "time": 198.15909297052156,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 3,
+          "time": 198.6467120181406,
+          "chord": "F#m",
+          "words": "feel,"
+        },
+        {
+          "beat": 4,
+          "time": 199.1807709750567,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 199.69160997732428,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 6,
+          "time": 200.22566893424036,
+          "chord": "F#m",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 59,
+      "chord": "F#m",
+      "lyrics": "you feel. I",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 200.80616780045352,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 201.36344671201815,
+          "chord": "F#m",
+          "words": "you"
+        },
+        {
+          "beat": 3,
+          "time": 201.87428571428572,
+          "chord": "F#m",
+          "words": "feel."
+        },
+        {
+          "beat": 4,
+          "time": 202.3851247165533,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 202.89596371882087,
+          "chord": "N",
+          "words": "I"
+        },
+        {
+          "beat": 6,
+          "time": 203.40680272108844,
+          "chord": "N",
+          "words": ""
+        }
+      ]
+    },
+    {
+      "bar": 60,
+      "chord": "N",
+      "lyrics": "you yeah.",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 203.98730158730157,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 204.56780045351474,
+          "chord": "N",
+          "words": "you"
+        },
+        {
+          "beat": 3,
+          "time": 205.19473922902495,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 205.82167800453516,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 206.42539682539683,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 207.0291156462585,
+          "chord": "A",
+          "words": "yeah."
+        }
+      ]
+    },
+    {
+      "bar": 61,
+      "chord": "A",
+      "lyrics": "Good go to,",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 207.63283446712018,
+          "chord": "A",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 208.23655328798185,
+          "chord": "D",
+          "words": "Good"
+        },
+        {
+          "beat": 3,
+          "time": 208.77061224489796,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 209.30467120181405,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 209.8619501133787,
+          "chord": "D",
+          "words": "go"
+        },
+        {
+          "beat": 6,
+          "time": 210.53532879818593,
+          "chord": "D",
+          "words": "to,"
+        }
+      ]
+    },
+    {
+      "bar": 62,
+      "chord": "N",
+      "lyrics": "the the cause won't see",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 211.16226757369614,
+          "chord": "N",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 211.81242630385486,
+          "chord": "N",
+          "words": "the"
+        },
+        {
+          "beat": 3,
+          "time": 212.39292517006803,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 213.01986394557824,
+          "chord": "F#m",
+          "words": "the"
+        },
+        {
+          "beat": 5,
+          "time": 213.60036281179137,
+          "chord": "F#m",
+          "words": "cause"
+        },
+        {
+          "beat": 6,
+          "time": 214.15764172335602,
+          "chord": "A",
+          "words": "won't see"
+        }
+      ]
+    },
+    {
+      "bar": 63,
+      "chord": "Bm",
+      "lyrics": "cry. When done",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 214.71492063492065,
+          "chord": "Bm",
+          "words": "cry."
+        },
+        {
+          "beat": 2,
+          "time": 215.36507936507937,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 215.99201814058958,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 216.61895691609976,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 217.24589569160997,
+          "chord": "D",
+          "words": "When"
+        },
+        {
+          "beat": 6,
+          "time": 217.82639455782314,
+          "chord": "F#m",
+          "words": "done"
+        }
+      ]
+    },
+    {
+      "bar": 64,
+      "chord": "F#m",
+      "lyrics": "I where good",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 218.3372335600907,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 218.84807256235828,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 219.33569160997732,
+          "chord": "F#m",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 219.8465306122449,
+          "chord": "F#m",
+          "words": "I"
+        },
+        {
+          "beat": 5,
+          "time": 220.45024943310656,
+          "chord": "F#m",
+          "words": "where"
+        },
+        {
+          "beat": 6,
+          "time": 221.03074829931973,
+          "chord": "D",
+          "words": "good"
+        }
+      ]
+    },
+    {
+      "bar": 65,
+      "chord": "D",
+      "lyrics": "go Had",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 221.6112471655329,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 222.12208616780046,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 222.63292517006803,
+          "chord": "D",
+          "words": "go"
+        },
+        {
+          "beat": 4,
+          "time": 223.16698412698412,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 5,
+          "time": 223.70104308390023,
+          "chord": "D",
+          "words": ""
+        },
+        {
+          "beat": 6,
+          "time": 224.2118820861678,
+          "chord": "D",
+          "words": "Had"
+        }
+      ]
+    },
+    {
+      "bar": 66,
+      "chord": "F#m",
+      "lyrics": "pain, had pain that mean die",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 224.81560090702948,
+          "chord": "F#m",
+          "words": "pain,"
+        },
+        {
+          "beat": 2,
+          "time": 225.39609977324264,
+          "chord": "F#m",
+          "words": "had"
+        },
+        {
+          "beat": 3,
+          "time": 226.02303854875282,
+          "chord": "F#m",
+          "words": "pain"
+        },
+        {
+          "beat": 4,
+          "time": 226.62675736961452,
+          "chord": "F#m",
+          "words": "that"
+        },
+        {
+          "beat": 5,
+          "time": 227.11437641723356,
+          "chord": "F#m",
+          "words": "mean"
+        },
+        {
+          "beat": 6,
+          "time": 227.67165532879818,
+          "chord": "Bm",
+          "words": "die"
+        }
+      ]
+    },
+    {
+      "bar": 67,
+      "chord": "Bm",
+      "lyrics": "When don't",
+      "beats": [
+        {
+          "beat": 1,
+          "time": 228.2057142857143,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 2,
+          "time": 228.80943310657597,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 3,
+          "time": 229.41315192743764,
+          "chord": "Bm",
+          "words": ""
+        },
+        {
+          "beat": 4,
+          "time": 230.0168707482993,
+          "chord": "Bm",
+          "words": "When"
+        },
+        {
+          "beat": 5,
+          "time": 230.62058956916098,
+          "chord": "A",
+          "words": "don't"
+        },
+        {
+          "beat": 6,
+          "time": 231.22430839002268,
+          "chord": "A",
+          "words": ""
+        }
+      ]
+    }
+  ]
+}
