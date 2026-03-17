@@ -18,32 +18,36 @@
         <p class="eyebrow">Research Project Website</p>
         <h1>CoverBuddy</h1>
         <p class="hero-copy">
-          A project website template for presenting your idea, methods, data,
-          and results in one clean public-facing page.
+          An automated audio-to-lead-sheet transcription pipeline that turns a
+          raw song file into a synchronized chord chart musicians can actually
+          use.
         </p>
 
         <div class="hero-grid">
           <section class="info-card">
             <h2>Project Members</h2>
             <ul class="plain-list">
-              <li>[Member Name 1]</li>
-              <li>[Member Name 2]</li>
-              <li>[Member Name 3]</li>
+              <li>Nicole Liu</li>
+              <li>Leena Shafi</li>
+              <li>Ian Slater</li>
             </ul>
           </section>
 
           <section class="info-card">
             <h2>Contact</h2>
             <p>
-              <a href="mailto:your_email@example.com">your_email@example.com</a>
+              <a href="mailto:ianfslater4@gmail.com">ianfslater4@gmail.com</a>
+            </p>
+            <p>
+              <a href="mailto:nliu.mky@gmail.com">nliu.mky@gmail.com</a>
             </p>
           </section>
 
           <section class="info-card">
             <h2>Course Information</h2>
-            <p>[Course Name]</p>
-            <p>[University Name]</p>
-            <p>Professor [Professor Name]</p>
+            <p>CS 352</p>
+            <p>Northwestern University</p>
+            <p>Professor Bryan Pardo</p>
           </section>
         </div>
       </header>
@@ -57,51 +61,104 @@
 
           <div class="synopsis">
             <p>
-              CoverBuddy addresses <strong>[describe the problem here]</strong>.
-              This first paragraph should motivate the project in plain language:
-              what you are trying to do, who it helps, and why the problem is
-              interesting enough to deserve attention.
+              CoverBuddy is motivated by a simple gap in music learning. Many
+              songs, especially indie tracks, new releases, and niche material,
+              do not have reliable chord charts or lead sheets available online.
+              That leaves musicians to transcribe entirely by ear, which is
+              time-consuming and often discouraging. CoverBuddy aims to make
+              that process more accessible by automatically generating a usable
+              chart directly from audio.
             </p>
 
             <p>
-              At a high level, the system works by
-              <strong>[describe the approach in broad terms]</strong>. Keep this
-              paragraph conceptual rather than highly technical so a visitor can
-              understand the project before diving into implementation details.
+              At a high level, the pipeline takes a raw audio file, separates
+              the vocal and instrumental content, transcribes lyrics with
+              timestamps, estimates tempo and downbeats, recognizes chords, and
+              then aligns everything onto a shared beat grid. The result is a
+              synchronized lead-sheet style representation that can be exported
+              as structured JSON, MusicXML, and PDF.
             </p>
 
             <p>
-              The project was built and tested using
-              <strong>[describe your dataset, pipeline, and evaluation]</strong>.
-              This is the place to explain how you measured success, what data
-              you relied on, and what experiments or comparisons you ran.
+              The system combines existing music and speech tools, including
+              Demucs for source separation, WhisperX for lyric transcription,
+              beat tracking for tempo and bar alignment, autochord for harmonic
+              analysis, and music21 plus MuseScore for export. We evaluated the
+              lyric transcription module on 20 songs from the Jamendo dataset
+              using Word Error Rate, and we evaluated beat tracking on 93
+              annotated excerpts with event-based precision, recall, F-measure,
+              and tempo accuracy metrics.
             </p>
 
             <p>
-              In summary, the current results show
-              <strong>[describe the outcome in one paragraph]</strong>. Include
-              one or two concrete metrics, observations, or failure cases so the
-              reader leaves with a realistic picture of what works and what
-              still needs improvement.
+              The current pipeline produces strong structural timing and
+              promising lyric alignment. On Jamendo, the WhisperX large-v2
+              configuration achieved an average Word Error Rate of 26.89%, with
+              several songs landing in the low-teens or single digits. For beat
+              tracking, the system reached a mean F-measure of 95.1%, a tempo
+              accuracy of 92.5% within 8%, and a mean absolute timing error of
+              10.6 ms. Together, those outputs are strong enough to generate
+              readable lead sheets that serve as a practical starting point for
+              musicians learning a song.
             </p>
           </div>
         </section>
 
         <section class="content-section visual-section">
           <div class="section-heading">
+            <p class="section-label">Pipeline</p>
+            <h2>How CoverBuddy works</h2>
+          </div>
+
+          <div class="pipeline-grid">
+            <article class="pipeline-card">
+              <h3>1. Raw Audio In</h3>
+              <p>
+                A user provides a song file that becomes the shared input to the
+                full transcription pipeline.
+              </p>
+            </article>
+            <article class="pipeline-card">
+              <h3>2. Split + Analyze</h3>
+              <p>
+                Demucs isolates vocals, WhisperX transcribes lyrics, beat
+                tracking finds tempo and bars, and autochord predicts harmonic
+                changes.
+              </p>
+            </article>
+            <article class="pipeline-card">
+              <h3>3. Sync to Grid</h3>
+              <p>
+                Lyrics, beat locations, and chord changes are snapped onto a
+                common metrical structure to make the output readable.
+              </p>
+            </article>
+            <article class="pipeline-card">
+              <h3>4. Export Sheet</h3>
+              <p>
+                The synchronized chart is written to JSON, MusicXML, and a PDF
+                lead sheet for downstream use by musicians.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section visual-section">
+          <div class="section-heading">
             <p class="section-label">Figure</p>
-            <h2>Illustration or graph</h2>
+            <h2>Lyric transcription performance</h2>
           </div>
 
           <figure class="feature-figure">
             <img
-              src="./assets/coverbuddy-overview.svg"
-              alt="A stylized CoverBuddy project overview graphic with audio, lyrics, and evaluation panels."
+              src="./assets/whisperx-large-v2-wer.png"
+              alt="Bar chart showing Word Error Rate on 20 Jamendo songs for the WhisperX large-v2 lyric transcription model."
             />
             <figcaption>
-              Replace this image with a model diagram, experiment plot, or
-              system overview. The caption should explain exactly what the
-              viewer is looking at and why it matters.
+              Figure 1. Word Error Rate across the 20-song Jamendo evaluation
+              subset for the WhisperX large-v2 lyric transcription module. Lower
+              values are better, and the chart highlights how performance varies
+              by song while averaging 26.89% overall.
             </figcaption>
           </figure>
         </section>
@@ -109,55 +166,69 @@
         <section class="content-section">
           <div class="section-heading">
             <p class="section-label">Audio</p>
-            <h2>Audio examples</h2>
+            <h2>Audio and sample output</h2>
           </div>
 
           <p class="section-intro">
-            If your project supports it, include short before-and-after examples
-            or representative clips here.
+            Below is one of the Jamendo test tracks used as an input example,
+            along with a preview of the synchronized chart structure and the PDF
+            lead sheet CoverBuddy exports.
           </p>
 
           <div class="audio-grid">
             <article class="audio-card">
-              <h3>Example A</h3>
+              <h3>Original Audio Input</h3>
               <p>
-                Replace this description with what the listener should notice.
+                Sample input audio used to demonstrate the full CoverBuddy
+                pipeline.
               </p>
               <audio controls>
-                <source src="" type="audio/mpeg" />
+                <source src="./media/song_2.wav" type="audio/wav" />
                 Your browser does not support the audio element.
               </audio>
             </article>
 
             <article class="audio-card">
-              <h3>Example B</h3>
+              <h3>Generated Chart Snapshot</h3>
               <p>
-                Use this slot for a comparison clip, baseline, or processed
-                output.
+                A short excerpt from the synchronized JSON output showing how
+                lyrics and chords are aligned bar by bar.
               </p>
-              <audio controls>
-                <source src="" type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
+              <pre class="code-block"><code>{
+  "tempo_bpm": 103.36,
+  "beats_per_bar": 6,
+  "bars": [
+    { "bar": 6, "chord": "F#m", "lyrics": "Yeah," },
+    { "bar": 8, "chord": "A", "lyrics": "the don't stand" },
+    { "bar": 9, "chord": "Bm", "lyrics": "over care So" }
+  ]
+}</code></pre>
             </article>
           </div>
         </section>
 
         <section class="content-section">
           <div class="section-heading">
-            <p class="section-label">Notes</p>
-            <h2>What to customize</h2>
+            <p class="section-label">Output</p>
+            <h2>Exported lead sheet</h2>
           </div>
 
-          <div class="checklist">
-            <p>Replace all bracketed placeholder text with your project info.</p>
-            <p>Swap the figure with a real graph, screenshot, or diagram.</p>
-            <p>Add working audio file paths if you want playable examples.</p>
-            <p>
-              If you publish with GitHub Pages, keep the final website files in
-              this `docs/` folder.
-            </p>
+          <p class="section-intro">
+            CoverBuddy converts its synchronized representation into MusicXML
+            and then renders a PDF lead sheet using MuseScore.
+          </p>
+
+          <div class="pdf-frame">
+            <iframe
+              src="./output/song_2.pdf"
+              title="Sample CoverBuddy lead sheet PDF"
+            ></iframe>
           </div>
+
+          <p class="download-note">
+            If the PDF preview does not load in your browser,
+            <a href="./output/song_2.pdf">open the sample PDF directly</a>.
+          </p>
         </section>
       </main>
     </div>

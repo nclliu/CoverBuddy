@@ -115,7 +115,8 @@ h3 {
 }
 
 .info-card,
-.audio-card {
+.audio-card,
+.pipeline-card {
   background: var(--panel-strong);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -183,6 +184,17 @@ main {
   color: var(--muted);
 }
 
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.pipeline-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
+
 .audio-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -195,12 +207,40 @@ audio {
   margin-top: 14px;
 }
 
-.checklist {
-  display: grid;
-  gap: 10px;
+.code-block {
+  margin: 14px 0 0;
+  padding: 16px;
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #202722;
+  color: #f6efe2;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.pdf-frame {
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.pdf-frame iframe {
+  display: block;
+  width: 100%;
+  height: 720px;
+  border: 0;
+}
+
+.download-note {
+  margin-top: 14px;
+  color: var(--muted);
 }
 
 @media (max-width: 900px) {
+  .pipeline-grid,
   .hero-grid,
   .audio-grid {
     grid-template-columns: 1fr;
