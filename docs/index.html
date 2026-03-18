@@ -79,11 +79,20 @@
                 new releases, and lesser-known songs often lack these learning
                 resources entirely. CoverBuddy bridges this gap by providing an
                 accessible tool that automatically generates a readable,
-                synchronized chord chart from raw audio, empowering musicians to
-                learn and cover any song they choose.
+                  synchronized chord chart from raw audio, empowering musicians to
+                  learn and cover any song they choose.
               </p>
             </section>
+          </div>
+        </section>
 
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-label">Method</p>
+            <h2>Approach + Flow Chart</h2>
+          </div>
+
+          <div class="synopsis-group">
             <section class="synopsis-block">
               <h3>Our Approach</h3>
               <p>
@@ -101,6 +110,44 @@
               </p>
             </section>
 
+            <section class="synopsis-block">
+              <h3>Flow Chart</h3>
+              <div class="mermaid-shell">
+                <pre class="mermaid">
+graph TD
+    Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
+    Audio --> BeatThis(Beat Tracking: Beat This!)
+    Audio --> Autochord(Chord Recognition: autochord)
+
+    Demucs -->|Extracts| Vocals[Isolated Vocals]
+    Vocals --> WhisperX(Lyric Transcription: WhisperX)
+    WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
+
+    BeatThis -->|Detects| BeatGrid[Beat &amp; Bar Grid]
+    Autochord -->|Predicts| Chords[Timestamped Chords]
+
+    Lyrics --> Sync{Synchronization Engine}
+    BeatGrid --> Sync
+    Chords --> Sync
+
+    Sync -->|Snaps to Grid| JSON[(JSON Chord Chart)]
+    JSON --> Music21(Sheet Music Export: music21)
+    Music21 --> XML[MusicXML File]
+    XML --> MuseScore(PDF Conversion: MuseScore)
+    MuseScore --> PDF[(Final PDF Lead Sheet)]
+                </pre>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-label">Evaluation</p>
+            <h2>Building, Results + Figure</h2>
+          </div>
+
+          <div class="synopsis-group">
             <section class="synopsis-block">
               <h3>Building and Testing</h3>
               <p>
@@ -151,66 +198,29 @@
                 musician looking to learn a new song.
               </p>
             </section>
+
+            <section class="synopsis-block">
+              <h3>Lyric Transcription Performance</h3>
+              <figure class="feature-figure">
+                <img
+                  src="./assets/whisperx-large-v2-wer.png"
+                  alt="Bar chart showing Word Error Rate on 20 Jamendo songs for the WhisperX large-v2 lyric transcription model."
+                />
+                <figcaption class="quote-caption">
+                  <strong>Figure 1:</strong> This bar chart illustrates the Word
+                  Error Rate (WER) of our WhisperX lyric transcription module
+                  across the Jamendo testing dataset. A lower percentage indicates
+                  higher accuracy when compared to the human-transcribed ground
+                  truth lyrics. The dashed red line represents our pipeline's
+                  average WER across all evaluated songs. The score of
+                  <code>118.4%</code> over song_10's score may seem
+                  counterintuitive, but it just means that WhisperX generated more
+                  words than there were in the ground truth lyrics document for that
+                  song.
+                </figcaption>
+              </figure>
+            </section>
           </div>
-        </section>
-
-        <section class="content-section visual-section">
-          <div class="section-heading">
-            <p class="section-label">Pipeline</p>
-            <h2>Flow Chart</h2>
-          </div>
-
-          <div class="mermaid-shell">
-            <pre class="mermaid">
-graph TD
-    Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
-    Audio --> BeatThis(Beat Tracking: Beat This!)
-    Audio --> Autochord(Chord Recognition: autochord)
-
-    Demucs -->|Extracts| Vocals[Isolated Vocals]
-    Vocals --> WhisperX(Lyric Transcription: WhisperX)
-    WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
-
-    BeatThis -->|Detects| BeatGrid[Beat &amp; Bar Grid]
-    Autochord -->|Predicts| Chords[Timestamped Chords]
-
-    Lyrics --> Sync{Synchronization Engine}
-    BeatGrid --> Sync
-    Chords --> Sync
-
-    Sync -->|Snaps to Grid| JSON[(JSON Chord Chart)]
-    JSON --> Music21(Sheet Music Export: music21)
-    Music21 --> XML[MusicXML File]
-    XML --> MuseScore(PDF Conversion: MuseScore)
-    MuseScore --> PDF[(Final PDF Lead Sheet)]
-            </pre>
-          </div>
-        </section>
-
-        <section class="content-section visual-section">
-          <div class="section-heading">
-            <p class="section-label">Figure</p>
-            <h2>Lyric transcription performance</h2>
-          </div>
-
-          <figure class="feature-figure">
-            <img
-              src="./assets/whisperx-large-v2-wer.png"
-              alt="Bar chart showing Word Error Rate on 20 Jamendo songs for the WhisperX large-v2 lyric transcription model."
-            />
-            <figcaption class="quote-caption">
-              <strong>Figure 1:</strong> This bar chart illustrates the Word
-              Error Rate (WER) of our WhisperX lyric transcription module
-              across the Jamendo testing dataset. A lower percentage indicates
-              higher accuracy when compared to the human-transcribed ground
-              truth lyrics. The dashed red line represents our pipeline's
-              average WER across all evaluated songs. The score of
-              <code>118.4%</code> over song_10's score may seem
-              counterintuitive, but it just means that WhisperX generated more
-              words than there were in the ground truth lyrics document for that
-              song.
-            </figcaption>
-          </figure>
         </section>
 
         <section class="content-section">
@@ -218,6 +228,11 @@ graph TD
             <p class="section-label">Output</p>
             <h2>Generated PDF Outputs</h2>
           </div>
+          <p class="section-intro output-note">
+            These demo outputs use the base <code>whisperx</code> model, so the
+            lyric transcription is not yet very robust across harder vocals,
+            noisier mixes, or more challenging recordings.
+          </p>
 
           <div class="audio-panel">
             <h3>Original Audio Input</h3>
