@@ -6,13 +6,29 @@ import json
 from pathlib import Path
 
 
+def resolve_vocal_path(song_name: str, output_dir: str) -> str:
+    """Return the first plausible Demucs vocals path for a song."""
+    candidates = [
+        os.path.join("src/lyrics", output_dir, song_name, "vocals.wav"),
+        os.path.join(output_dir, song_name, "vocals.wav"),
+        os.path.join(output_dir, "htdemucs", song_name, "vocals.wav"),
+        os.path.join(output_dir, "htdemucs_ft", song_name, "vocals.wav"),
+    ]
+
+    for candidate in candidates:
+        if os.path.exists(candidate):
+            return candidate
+
+    return candidates[0]
+
+
 def extract_vocals(input_audio_path: str, output_dir: str = "separated") -> str:
     """
     Runs Demucs to separate vocals from the instrumental track.
     Returns the file path to the extracted vocals.wav.
     """
     song_name = Path(input_audio_path).stem
-    vocal_path = os.path.join("src/lyrics", output_dir, song_name, "vocals.wav")
+    vocal_path = resolve_vocal_path(song_name, output_dir)
     print(vocal_path)
 
     if os.path.exists(vocal_path):
@@ -35,6 +51,8 @@ def extract_vocals(input_audio_path: str, output_dir: str = "separated") -> str:
     ]
 
     subprocess.run(command, check=True)
+
+    vocal_path = resolve_vocal_path(song_name, output_dir)
 
     if not os.path.exists(vocal_path):
         raise FileNotFoundError(f"Demucs failed to create vocal file at {vocal_path}")

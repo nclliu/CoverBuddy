@@ -19,6 +19,11 @@ from export.export_sheet import convert_json_to_musicxml, convert_xml_to_pdf_mus
 DEFAULT_BEAT_BACKEND = "beat_this"
 
 
+def build_output_stem(audio_path, beat_backend):
+    song_name = os.path.splitext(os.path.basename(audio_path))[0]
+    return f"{song_name}_{beat_backend}"
+
+
 def get_chord_at_time(t, chords):
     """Look up what chord is playing at time t"""
     for start, end, label in chords:
@@ -58,10 +63,10 @@ def generate_chord_chart(audio_path, beat_backend=DEFAULT_BEAT_BACKEND):
 
     print(f"Processing {audio_path}\n")
 
-    print("Separating vocals with Demucs...")
+    print("Separating vocals with Demucs")
     vocal_path = extract_vocals(audio_path)
 
-    print(f"Detecting beats with {beat_backend}...")
+    print(f"Detecting beats with {beat_backend}")
     beat_grid = make_beat_grid(audio_path, sr=22050, backend=beat_backend)
     beat_times = beat_grid.beat_times
     downbeat_times = beat_grid.downbeat_times
@@ -122,17 +127,17 @@ def generate_chord_chart(audio_path, beat_backend=DEFAULT_BEAT_BACKEND):
             }
         )
 
-    song_name = os.path.splitext(os.path.basename(audio_path))[0]
+    output_stem = build_output_stem(audio_path, beat_backend)
     export_dir = "output"
     os.makedirs(export_dir, exist_ok=True)
-    output_path = os.path.join(export_dir, f"{song_name}_chart.json")
+    output_path = os.path.join(export_dir, f"{output_stem}_chart.json")
 
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2)
     print(f"\nChart saved to: {output_path}")
 
     print("\nGenerating MusicXML Lead Sheet...")
-    xml_file = convert_json_to_musicxml(output, audio_path)
+    xml_file = convert_json_to_musicxml(output, audio_path, output_stem=output_stem)
     _ = convert_xml_to_pdf_musescore(xml_file)
 
     return output

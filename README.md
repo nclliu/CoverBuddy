@@ -59,8 +59,7 @@ $$
 For chord recognition, we calculated frame-level accuracy by comparing our system's predicted chords against the human-annotated ground truth `.lab` files in the **McGill Billboard** dataset.
 
 **Results**
-*(Note: Replace the bracketed numbers with your final evaluation output!)*
-Overall, the CoverBuddy pipeline successfully translates complex audio waveforms into structurally accurate chord charts. Our lyric transcription achieved an average Word Error Rate of **[XX.X]%** on the Jamendo test subset, effectively handling various vocal styles and mixing techniques. Furthermore, our harmonic analysis achieved a frame-level accuracy of **[XX.X]%** on the Billboard dataset. By combining these outputs, the system reliably generates synchronized charts that serve as an excellent baseline for any musician looking to learn a new song.
+Overall, the CoverBuddy pipeline successfully translates complex audio waveforms into structurally accurate chord charts. Our lyric transcription achieved an average Word Error Rate of 26.9% on the Jamendo test subset, effectively handling various vocal styles and mixing techniques. For beat tracking on 93 evaluated excerpts, beat_this outperformed librosa across every reported metric: mean F-measure improved from 81.2% to 95.1%, tempo accuracy within 8% improved from 84.9% to 92.5%, and mean absolute timing error dropped from 30.0 ms to 10.6 ms. By combining these outputs, the system reliably generates synchronized charts that serve as an excellent baseline for any musician looking to learn a new song.
 
 ---
 
@@ -73,10 +72,9 @@ Overall, the CoverBuddy pipeline successfully translates complex audio waveforms
 
 ## Audio Examples
 
-Here is a look at CoverBuddy in action. Below is the original audio of a test track, followed by a snippet of the synchronized JSON chord chart our pipeline generated for it.
+Here is a look at CoverBuddy in action. Below is the original audio of a test track, followed by the exported PDF outputs from the baseline pipeline and the Beat This! version.
 
 **Original Audio Input:**
-*(Insert an HTML audio player here linking to a sample `.wav` or `.mp3` file from your project)*
 
 <audio controls>
   <source src="src/lyrics/jamendo_audio/song_2.wav" type="audio/wav">
@@ -85,9 +83,16 @@ Here is a look at CoverBuddy in action. Below is the original audio of a test tr
   </p>
 </audio>
 
-**Generated MusicXML Output (Converted to PDF Using MuseScore):**
+**Original `song_2` PDF Output:**
 <iframe src="output/song_2.pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
   <p>Your browser does not support the PDF element.
     <a href="output/song_2.pdf">Download the PDF</a>.
+  </p>
+</iframe>
+
+**`song_2_beat_this` PDF Output:**
+<iframe src="output/song_2_beat_this.pdf" width="100%" height="600px" style="border: 1px solid #ccc;">
+  <p>Your browser does not support the PDF element.
+    <a href="output/song_2_beat_this.pdf">Download the PDF</a>.
   </p>
 </iframe>
