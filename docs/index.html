@@ -79,8 +79,8 @@
                 new releases, and lesser-known songs often lack these learning
                 resources entirely. CoverBuddy bridges this gap by providing an
                 accessible tool that automatically generates a readable,
-                  synchronized chord chart from raw audio, empowering musicians to
-                  learn and cover any song they choose.
+                synchronized chord chart from raw audio, empowering musicians to
+                learn and cover any song they choose.
               </p>
             </section>
           </div>
@@ -228,6 +228,11 @@ graph TD
             <p class="section-label">Output</p>
             <h2>Generated PDF Outputs</h2>
           </div>
+          <p class="section-intro">
+            Here is a look at CoverBuddy in action. Below is the original audio
+            of a test track, followed by the exported PDF outputs from the
+            baseline pipeline and the Beat This! version.
+          </p>
           <p class="section-intro output-note">
             These demo outputs use the base <code>whisperx</code> model, so the
             lyric transcription is not yet very robust across harder vocals,
@@ -237,8 +242,8 @@ graph TD
           <div class="audio-panel">
             <h3>Original Audio Input</h3>
             <p class="section-intro">
-              Here is the sample track used to generate the outputs shown
-              below.
+              Here is the original audio of the test track used to generate the
+              outputs shown below.
             </p>
             <audio controls>
               <source src="./media/song_2.wav" type="audio/wav" />
