@@ -6,14 +6,15 @@ import json
 from pathlib import Path
 
 
-def extract_vocals(input_audio_path: str, output_dir: str = "separated") -> str:
+def extract_vocals(input_audio_path: str, output_dir: str = "src/lyrics") -> str:
     """
     Runs Demucs to separate vocals from the instrumental track.
     Returns the file path to the extracted vocals.wav.
     """
     song_name = Path(input_audio_path).stem
-    vocal_path = os.path.join("src/lyrics", output_dir, song_name, "vocals.wav")
-    print(vocal_path)
+
+    vocal_path = os.path.join(output_dir, "htdemucs", song_name, "vocals.wav")
+    print(f"   Checking for vocals at: {vocal_path}")
 
     if os.path.exists(vocal_path):
         print(f"   Vocals already exist at {vocal_path}. Skipping Demucs.")
@@ -21,9 +22,6 @@ def extract_vocals(input_audio_path: str, output_dir: str = "separated") -> str:
 
     print(f"Extracting vocals from {input_audio_path} using Demucs...")
 
-    # Run Demucs via command line interface
-    # -n htdemucs: Uses the standard, fast model
-    # --two-stems=vocals: Only extracts vocals (faster than splitting all 4 stems)
     command = [
         "demucs",
         "-n",

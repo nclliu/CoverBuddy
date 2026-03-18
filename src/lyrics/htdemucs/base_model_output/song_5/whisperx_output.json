@@ -1,0 +1,6582 @@
+{
+    "segments": [
+        {
+            "start": 20.062,
+            "end": 21.865,
+            "text": " People gonna hate let them do it.",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 20.062,
+                    "end": 20.403,
+                    "score": 0.895
+                },
+                {
+                    "word": "gonna",
+                    "start": 20.443,
+                    "end": 20.663,
+                    "score": 0.506
+                },
+                {
+                    "word": "hate",
+                    "start": 20.743,
+                    "end": 20.964,
+                    "score": 0.956
+                },
+                {
+                    "word": "let",
+                    "start": 21.004,
+                    "end": 21.164,
+                    "score": 0.799
+                },
+                {
+                    "word": "them",
+                    "start": 21.184,
+                    "end": 21.284,
+                    "score": 0.678
+                },
+                {
+                    "word": "do",
+                    "start": 21.324,
+                    "end": 21.585,
+                    "score": 0.902
+                },
+                {
+                    "word": "it.",
+                    "start": 21.745,
+                    "end": 21.865,
+                    "score": 0.535
+                }
+            ]
+        },
+        {
+            "start": 21.885,
+            "end": 23.729,
+            "text": "Shine like it ain't nothing to us.",
+            "words": [
+                {
+                    "word": "Shine",
+                    "start": 21.885,
+                    "end": 22.206,
+                    "score": 0.742
+                },
+                {
+                    "word": "like",
+                    "start": 22.266,
+                    "end": 22.406,
+                    "score": 0.949
+                },
+                {
+                    "word": "it",
+                    "start": 22.487,
+                    "end": 22.547,
+                    "score": 0.471
+                },
+                {
+                    "word": "ain't",
+                    "start": 22.607,
+                    "end": 22.767,
+                    "score": 0.655
+                },
+                {
+                    "word": "nothing",
+                    "start": 22.827,
+                    "end": 23.108,
+                    "score": 0.823
+                },
+                {
+                    "word": "to",
+                    "start": 23.148,
+                    "end": 23.328,
+                    "score": 0.714
+                },
+                {
+                    "word": "us.",
+                    "start": 23.428,
+                    "end": 23.729,
+                    "score": 0.643
+                }
+            ]
+        },
+        {
+            "start": 23.869,
+            "end": 25.532,
+            "text": "Damn you are major in fluids.",
+            "words": [
+                {
+                    "word": "Damn",
+                    "start": 23.869,
+                    "end": 23.989,
+                    "score": 0.628
+                },
+                {
+                    "word": "you",
+                    "start": 24.029,
+                    "end": 24.15,
+                    "score": 0.952
+                },
+                {
+                    "word": "are",
+                    "start": 24.23,
+                    "end": 24.31,
+                    "score": 0.355
+                },
+                {
+                    "word": "major",
+                    "start": 24.35,
+                    "end": 24.831,
+                    "score": 0.54
+                },
+                {
+                    "word": "in",
+                    "start": 25.151,
+                    "end": 25.232,
+                    "score": 0.596
+                },
+                {
+                    "word": "fluids.",
+                    "start": 25.372,
+                    "end": 25.532,
+                    "score": 0.354
+                }
+            ]
+        },
+        {
+            "start": 25.592,
+            "end": 27.035,
+            "text": "Skate like they ain't nothing doing.",
+            "words": [
+                {
+                    "word": "Skate",
+                    "start": 25.592,
+                    "end": 25.793,
+                    "score": 0.677
+                },
+                {
+                    "word": "like",
+                    "start": 25.833,
+                    "end": 25.973,
+                    "score": 0.928
+                },
+                {
+                    "word": "they",
+                    "start": 25.993,
+                    "end": 26.113,
+                    "score": 0.902
+                },
+                {
+                    "word": "ain't",
+                    "start": 26.153,
+                    "end": 26.334,
+                    "score": 0.517
+                },
+                {
+                    "word": "nothing",
+                    "start": 26.414,
+                    "end": 26.674,
+                    "score": 0.789
+                },
+                {
+                    "word": "doing.",
+                    "start": 26.714,
+                    "end": 27.035,
+                    "score": 0.827
+                }
+            ]
+        },
+        {
+            "start": 27.075,
+            "end": 29.7,
+            "text": "Live life, don't say nothing to them.",
+            "words": [
+                {
+                    "word": "Live",
+                    "start": 27.075,
+                    "end": 27.255,
+                    "score": 0.942
+                },
+                {
+                    "word": "life,",
+                    "start": 27.356,
+                    "end": 27.556,
+                    "score": 0.926
+                },
+                {
+                    "word": "don't",
+                    "start": 27.576,
+                    "end": 27.836,
+                    "score": 0.756
+                },
+                {
+                    "word": "say",
+                    "start": 27.917,
+                    "end": 28.117,
+                    "score": 0.984
+                },
+                {
+                    "word": "nothing",
+                    "start": 28.157,
+                    "end": 28.498,
+                    "score": 0.869
+                },
+                {
+                    "word": "to",
+                    "start": 28.538,
+                    "end": 28.738,
+                    "score": 0.819
+                },
+                {
+                    "word": "them.",
+                    "start": 28.758,
+                    "end": 29.7,
+                    "score": 0.403
+                }
+            ]
+        },
+        {
+            "start": 29.72,
+            "end": 31.483,
+            "text": "People gonna hate let them do it.",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 29.72,
+                    "end": 30.021,
+                    "score": 0.922
+                },
+                {
+                    "word": "gonna",
+                    "start": 30.061,
+                    "end": 30.281,
+                    "score": 0.512
+                },
+                {
+                    "word": "hate",
+                    "start": 30.361,
+                    "end": 30.582,
+                    "score": 0.793
+                },
+                {
+                    "word": "let",
+                    "start": 30.622,
+                    "end": 30.782,
+                    "score": 0.802
+                },
+                {
+                    "word": "them",
+                    "start": 30.802,
+                    "end": 30.902,
+                    "score": 0.682
+                },
+                {
+                    "word": "do",
+                    "start": 30.942,
+                    "end": 31.203,
+                    "score": 0.912
+                },
+                {
+                    "word": "it.",
+                    "start": 31.363,
+                    "end": 31.483,
+                    "score": 0.532
+                }
+            ]
+        },
+        {
+            "start": 31.503,
+            "end": 33.347,
+            "text": "Shine like it ain't nothing to us.",
+            "words": [
+                {
+                    "word": "Shine",
+                    "start": 31.503,
+                    "end": 31.824,
+                    "score": 0.745
+                },
+                {
+                    "word": "like",
+                    "start": 31.884,
+                    "end": 32.024,
+                    "score": 0.947
+                },
+                {
+                    "word": "it",
+                    "start": 32.104,
+                    "end": 32.165,
+                    "score": 0.862
+                },
+                {
+                    "word": "ain't",
+                    "start": 32.225,
+                    "end": 32.365,
+                    "score": 0.742
+                },
+                {
+                    "word": "nothing",
+                    "start": 32.445,
+                    "end": 32.726,
+                    "score": 0.839
+                },
+                {
+                    "word": "to",
+                    "start": 32.766,
+                    "end": 32.946,
+                    "score": 0.738
+                },
+                {
+                    "word": "us.",
+                    "start": 33.046,
+                    "end": 33.347,
+                    "score": 0.639
+                }
+            ]
+        },
+        {
+            "start": 33.487,
+            "end": 35.13,
+            "text": "Damn you are major in fluids.",
+            "words": [
+                {
+                    "word": "Damn",
+                    "start": 33.487,
+                    "end": 33.607,
+                    "score": 0.625
+                },
+                {
+                    "word": "you",
+                    "start": 33.647,
+                    "end": 33.767,
+                    "score": 0.954
+                },
+                {
+                    "word": "are",
+                    "start": 33.848,
+                    "end": 33.928,
+                    "score": 0.364
+                },
+                {
+                    "word": "major",
+                    "start": 33.968,
+                    "end": 34.449,
+                    "score": 0.664
+                },
+                {
+                    "word": "in",
+                    "start": 34.529,
+                    "end": 34.569,
+                    "score": 0.078
+                },
+                {
+                    "word": "fluids.",
+                    "start": 34.589,
+                    "end": 35.13,
+                    "score": 0.358
+                }
+            ]
+        },
+        {
+            "start": 35.21,
+            "end": 36.653,
+            "text": "Skate like they ain't nothing doing.",
+            "words": [
+                {
+                    "word": "Skate",
+                    "start": 35.21,
+                    "end": 35.391,
+                    "score": 0.641
+                },
+                {
+                    "word": "like",
+                    "start": 35.451,
+                    "end": 35.571,
+                    "score": 0.86
+                },
+                {
+                    "word": "they",
+                    "start": 35.611,
+                    "end": 35.731,
+                    "score": 0.917
+                },
+                {
+                    "word": "ain't",
+                    "start": 35.771,
+                    "end": 35.952,
+                    "score": 0.493
+                },
+                {
+                    "word": "nothing",
+                    "start": 36.032,
+                    "end": 36.292,
+                    "score": 0.817
+                },
+                {
+                    "word": "doing.",
+                    "start": 36.332,
+                    "end": 36.653,
+                    "score": 0.834
+                }
+            ]
+        },
+        {
+            "start": 36.693,
+            "end": 38.897,
+            "text": "Live life, don't say nothing to them.",
+            "words": [
+                {
+                    "word": "Live",
+                    "start": 36.693,
+                    "end": 36.893,
+                    "score": 0.9
+                },
+                {
+                    "word": "life,",
+                    "start": 36.973,
+                    "end": 37.174,
+                    "score": 0.927
+                },
+                {
+                    "word": "don't",
+                    "start": 37.194,
+                    "end": 37.454,
+                    "score": 0.742
+                },
+                {
+                    "word": "say",
+                    "start": 37.535,
+                    "end": 37.735,
+                    "score": 0.983
+                },
+                {
+                    "word": "nothing",
+                    "start": 37.775,
+                    "end": 38.116,
+                    "score": 0.869
+                },
+                {
+                    "word": "to",
+                    "start": 38.156,
+                    "end": 38.436,
+                    "score": 0.93
+                },
+                {
+                    "word": "them.",
+                    "start": 38.797,
+                    "end": 38.897,
+                    "score": 0.2
+                }
+            ]
+        },
+        {
+            "start": 39.232,
+            "end": 58.101,
+            "text": " People telling lies on me, feeling like pack or lies on me, what my next mom gonna be, don't motherfuckers never have a gun shine on me, wait for it, wait for it, wait for it, don't worry my haters is gonna pay for it, chase dreams or dumb niggas or chase hordes, overseas on a great tour, or",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 39.232,
+                    "end": 39.552,
+                    "score": 0.865
+                },
+                {
+                    "word": "telling",
+                    "start": 39.593,
+                    "end": 39.893,
+                    "score": 0.822
+                },
+                {
+                    "word": "lies",
+                    "start": 39.933,
+                    "end": 40.214,
+                    "score": 0.883
+                },
+                {
+                    "word": "on",
+                    "start": 40.374,
+                    "end": 40.494,
+                    "score": 0.982
+                },
+                {
+                    "word": "me,",
+                    "start": 40.574,
+                    "end": 40.714,
+                    "score": 0.984
+                },
+                {
+                    "word": "feeling",
+                    "start": 41.115,
+                    "end": 41.415,
+                    "score": 0.705
+                },
+                {
+                    "word": "like",
+                    "start": 41.455,
+                    "end": 41.656,
+                    "score": 0.848
+                },
+                {
+                    "word": "pack",
+                    "start": 41.736,
+                    "end": 42.016,
+                    "score": 0.558
+                },
+                {
+                    "word": "or",
+                    "start": 42.177,
+                    "end": 42.297,
+                    "score": 0.894
+                },
+                {
+                    "word": "lies",
+                    "start": 42.357,
+                    "end": 42.637,
+                    "score": 0.857
+                },
+                {
+                    "word": "on",
+                    "start": 42.797,
+                    "end": 42.918,
+                    "score": 0.96
+                },
+                {
+                    "word": "me,",
+                    "start": 42.978,
+                    "end": 43.138,
+                    "score": 0.969
+                },
+                {
+                    "word": "what",
+                    "start": 43.519,
+                    "end": 43.679,
+                    "score": 0.45
+                },
+                {
+                    "word": "my",
+                    "start": 43.699,
+                    "end": 43.819,
+                    "score": 0.965
+                },
+                {
+                    "word": "next",
+                    "start": 43.859,
+                    "end": 44.059,
+                    "score": 0.808
+                },
+                {
+                    "word": "mom",
+                    "start": 44.12,
+                    "end": 44.4,
+                    "score": 0.763
+                },
+                {
+                    "word": "gonna",
+                    "start": 44.44,
+                    "end": 44.66,
+                    "score": 0.508
+                },
+                {
+                    "word": "be,",
+                    "start": 44.7,
+                    "end": 44.941,
+                    "score": 0.96
+                },
+                {
+                    "word": "don't",
+                    "start": 45.321,
+                    "end": 45.562,
+                    "score": 0.807
+                },
+                {
+                    "word": "motherfuckers",
+                    "start": 45.602,
+                    "end": 46.183,
+                    "score": 0.801
+                },
+                {
+                    "word": "never",
+                    "start": 46.243,
+                    "end": 46.463,
+                    "score": 0.951
+                },
+                {
+                    "word": "have",
+                    "start": 46.583,
+                    "end": 46.764,
+                    "score": 0.52
+                },
+                {
+                    "word": "a",
+                    "start": 46.784,
+                    "end": 46.804,
+                    "score": 0.812
+                },
+                {
+                    "word": "gun",
+                    "start": 46.844,
+                    "end": 47.064,
+                    "score": 0.782
+                },
+                {
+                    "word": "shine",
+                    "start": 47.124,
+                    "end": 47.445,
+                    "score": 0.794
+                },
+                {
+                    "word": "on",
+                    "start": 47.565,
+                    "end": 47.705,
+                    "score": 0.798
+                },
+                {
+                    "word": "me,",
+                    "start": 47.825,
+                    "end": 48.005,
+                    "score": 0.989
+                },
+                {
+                    "word": "wait",
+                    "start": 48.667,
+                    "end": 48.867,
+                    "score": 0.94
+                },
+                {
+                    "word": "for",
+                    "start": 48.907,
+                    "end": 49.107,
+                    "score": 0.828
+                },
+                {
+                    "word": "it,",
+                    "start": 49.167,
+                    "end": 49.227,
+                    "score": 0.983
+                },
+                {
+                    "word": "wait",
+                    "start": 49.428,
+                    "end": 49.608,
+                    "score": 0.837
+                },
+                {
+                    "word": "for",
+                    "start": 49.668,
+                    "end": 49.888,
+                    "score": 0.837
+                },
+                {
+                    "word": "it,",
+                    "start": 49.928,
+                    "end": 50.149,
+                    "score": 0.936
+                },
+                {
+                    "word": "wait",
+                    "start": 50.169,
+                    "end": 50.369,
+                    "score": 0.949
+                },
+                {
+                    "word": "for",
+                    "start": 50.429,
+                    "end": 50.65,
+                    "score": 0.9
+                },
+                {
+                    "word": "it,",
+                    "start": 50.69,
+                    "end": 50.75,
+                    "score": 0.976
+                },
+                {
+                    "word": "don't",
+                    "start": 51.07,
+                    "end": 51.291,
+                    "score": 0.9
+                },
+                {
+                    "word": "worry",
+                    "start": 51.351,
+                    "end": 51.611,
+                    "score": 0.956
+                },
+                {
+                    "word": "my",
+                    "start": 51.651,
+                    "end": 51.771,
+                    "score": 0.844
+                },
+                {
+                    "word": "haters",
+                    "start": 51.831,
+                    "end": 52.092,
+                    "score": 0.81
+                },
+                {
+                    "word": "is",
+                    "start": 52.152,
+                    "end": 52.232,
+                    "score": 0.843
+                },
+                {
+                    "word": "gonna",
+                    "start": 52.252,
+                    "end": 52.492,
+                    "score": 0.522
+                },
+                {
+                    "word": "pay",
+                    "start": 52.512,
+                    "end": 52.753,
+                    "score": 0.811
+                },
+                {
+                    "word": "for",
+                    "start": 52.813,
+                    "end": 53.033,
+                    "score": 0.915
+                },
+                {
+                    "word": "it,",
+                    "start": 53.073,
+                    "end": 53.133,
+                    "score": 0.967
+                },
+                {
+                    "word": "chase",
+                    "start": 53.414,
+                    "end": 53.694,
+                    "score": 0.843
+                },
+                {
+                    "word": "dreams",
+                    "start": 53.714,
+                    "end": 53.975,
+                    "score": 0.508
+                },
+                {
+                    "word": "or",
+                    "start": 54.075,
+                    "end": 54.155,
+                    "score": 0.661
+                },
+                {
+                    "word": "dumb",
+                    "start": 54.195,
+                    "end": 54.435,
+                    "score": 0.764
+                },
+                {
+                    "word": "niggas",
+                    "start": 54.475,
+                    "end": 54.736,
+                    "score": 0.806
+                },
+                {
+                    "word": "or",
+                    "start": 54.816,
+                    "end": 54.876,
+                    "score": 0.588
+                },
+                {
+                    "word": "chase",
+                    "start": 54.916,
+                    "end": 55.197,
+                    "score": 0.914
+                },
+                {
+                    "word": "hordes,",
+                    "start": 55.237,
+                    "end": 55.597,
+                    "score": 0.728
+                },
+                {
+                    "word": "overseas",
+                    "start": 55.918,
+                    "end": 56.459,
+                    "score": 0.87
+                },
+                {
+                    "word": "on",
+                    "start": 56.539,
+                    "end": 56.619,
+                    "score": 0.97
+                },
+                {
+                    "word": "a",
+                    "start": 56.679,
+                    "end": 56.699,
+                    "score": 0.992
+                },
+                {
+                    "word": "great",
+                    "start": 56.759,
+                    "end": 56.999,
+                    "score": 0.853
+                },
+                {
+                    "word": "tour,",
+                    "start": 57.039,
+                    "end": 57.36,
+                    "score": 0.711
+                },
+                {
+                    "word": "or",
+                    "start": 57.801,
+                    "end": 58.101,
+                    "score": 0.764
+                }
+            ]
+        },
+        {
+            "start": 58.081,
+            "end": 86.873,
+            "text": " Maybe I'm just dreaming It beats being with demons, all niggas and scheming At least I'm thinking of an achievement People talk shit for folk seasons for no reason People dog the barn till the branch show up When he steps on the pig, then they guards go up Scars go up, all the applause go up And everybody in the whole damn car goes nuts People gon' hate let them do it Shine like it ain't nothin' too That's right Damn you are mage and fluids, hate like they ain't nothin' doin' live life, don't say nothin' too",
+            "words": [
+                {
+                    "word": "Maybe",
+                    "start": 58.081,
+                    "end": 58.662,
+                    "score": 0.857
+                },
+                {
+                    "word": "I'm",
+                    "start": 58.742,
+                    "end": 58.802,
+                    "score": 0.591
+                },
+                {
+                    "word": "just",
+                    "start": 58.842,
+                    "end": 59.002,
+                    "score": 0.757
+                },
+                {
+                    "word": "dreaming",
+                    "start": 59.122,
+                    "end": 59.543,
+                    "score": 0.759
+                },
+                {
+                    "word": "It",
+                    "start": 60.043,
+                    "end": 60.123,
+                    "score": 0.596
+                },
+                {
+                    "word": "beats",
+                    "start": 60.183,
+                    "end": 60.424,
+                    "score": 0.605
+                },
+                {
+                    "word": "being",
+                    "start": 60.464,
+                    "end": 60.724,
+                    "score": 0.777
+                },
+                {
+                    "word": "with",
+                    "start": 60.764,
+                    "end": 60.884,
+                    "score": 0.786
+                },
+                {
+                    "word": "demons,",
+                    "start": 60.924,
+                    "end": 61.565,
+                    "score": 0.729
+                },
+                {
+                    "word": "all",
+                    "start": 61.605,
+                    "end": 61.665,
+                    "score": 0.036
+                },
+                {
+                    "word": "niggas",
+                    "start": 61.685,
+                    "end": 61.945,
+                    "score": 0.716
+                },
+                {
+                    "word": "and",
+                    "start": 62.025,
+                    "end": 62.085,
+                    "score": 0.287
+                },
+                {
+                    "word": "scheming",
+                    "start": 62.105,
+                    "end": 62.566,
+                    "score": 0.836
+                },
+                {
+                    "word": "At",
+                    "start": 62.646,
+                    "end": 62.726,
+                    "score": 0.658
+                },
+                {
+                    "word": "least",
+                    "start": 62.766,
+                    "end": 62.946,
+                    "score": 0.726
+                },
+                {
+                    "word": "I'm",
+                    "start": 63.027,
+                    "end": 63.107,
+                    "score": 0.335
+                },
+                {
+                    "word": "thinking",
+                    "start": 63.127,
+                    "end": 63.447,
+                    "score": 0.865
+                },
+                {
+                    "word": "of",
+                    "start": 63.507,
+                    "end": 63.627,
+                    "score": 0.517
+                },
+                {
+                    "word": "an",
+                    "start": 63.647,
+                    "end": 63.727,
+                    "score": 0.942
+                },
+                {
+                    "word": "achievement",
+                    "start": 63.807,
+                    "end": 64.308,
+                    "score": 0.846
+                },
+                {
+                    "word": "People",
+                    "start": 64.508,
+                    "end": 64.768,
+                    "score": 0.844
+                },
+                {
+                    "word": "talk",
+                    "start": 64.808,
+                    "end": 65.009,
+                    "score": 0.961
+                },
+                {
+                    "word": "shit",
+                    "start": 65.049,
+                    "end": 65.289,
+                    "score": 0.752
+                },
+                {
+                    "word": "for",
+                    "start": 65.309,
+                    "end": 65.429,
+                    "score": 0.723
+                },
+                {
+                    "word": "folk",
+                    "start": 65.469,
+                    "end": 65.73,
+                    "score": 0.774
+                },
+                {
+                    "word": "seasons",
+                    "start": 65.77,
+                    "end": 66.17,
+                    "score": 0.879
+                },
+                {
+                    "word": "for",
+                    "start": 66.21,
+                    "end": 66.33,
+                    "score": 0.951
+                },
+                {
+                    "word": "no",
+                    "start": 66.39,
+                    "end": 66.57,
+                    "score": 0.99
+                },
+                {
+                    "word": "reason",
+                    "start": 66.651,
+                    "end": 67.091,
+                    "score": 0.971
+                },
+                {
+                    "word": "People",
+                    "start": 67.552,
+                    "end": 67.792,
+                    "score": 0.852
+                },
+                {
+                    "word": "dog",
+                    "start": 67.832,
+                    "end": 68.032,
+                    "score": 0.916
+                },
+                {
+                    "word": "the",
+                    "start": 68.052,
+                    "end": 68.152,
+                    "score": 0.714
+                },
+                {
+                    "word": "barn",
+                    "start": 68.172,
+                    "end": 68.392,
+                    "score": 0.648
+                },
+                {
+                    "word": "till",
+                    "start": 68.433,
+                    "end": 68.593,
+                    "score": 0.829
+                },
+                {
+                    "word": "the",
+                    "start": 68.613,
+                    "end": 68.693,
+                    "score": 0.799
+                },
+                {
+                    "word": "branch",
+                    "start": 68.733,
+                    "end": 68.973,
+                    "score": 0.641
+                },
+                {
+                    "word": "show",
+                    "start": 69.013,
+                    "end": 69.233,
+                    "score": 0.786
+                },
+                {
+                    "word": "up",
+                    "start": 69.354,
+                    "end": 69.454,
+                    "score": 0.926
+                },
+                {
+                    "word": "When",
+                    "start": 69.834,
+                    "end": 69.934,
+                    "score": 0.891
+                },
+                {
+                    "word": "he",
+                    "start": 69.974,
+                    "end": 70.034,
+                    "score": 0.956
+                },
+                {
+                    "word": "steps",
+                    "start": 70.054,
+                    "end": 70.255,
+                    "score": 0.823
+                },
+                {
+                    "word": "on",
+                    "start": 70.315,
+                    "end": 70.375,
+                    "score": 0.987
+                },
+                {
+                    "word": "the",
+                    "start": 70.415,
+                    "end": 70.495,
+                    "score": 0.92
+                },
+                {
+                    "word": "pig,",
+                    "start": 70.535,
+                    "end": 70.775,
+                    "score": 0.661
+                },
+                {
+                    "word": "then",
+                    "start": 70.795,
+                    "end": 70.935,
+                    "score": 0.653
+                },
+                {
+                    "word": "they",
+                    "start": 70.975,
+                    "end": 71.075,
+                    "score": 0.47
+                },
+                {
+                    "word": "guards",
+                    "start": 71.115,
+                    "end": 71.376,
+                    "score": 0.862
+                },
+                {
+                    "word": "go",
+                    "start": 71.416,
+                    "end": 71.556,
+                    "score": 0.99
+                },
+                {
+                    "word": "up",
+                    "start": 71.696,
+                    "end": 71.796,
+                    "score": 0.973
+                },
+                {
+                    "word": "Scars",
+                    "start": 72.016,
+                    "end": 72.337,
+                    "score": 0.807
+                },
+                {
+                    "word": "go",
+                    "start": 72.377,
+                    "end": 72.517,
+                    "score": 0.934
+                },
+                {
+                    "word": "up,",
+                    "start": 72.677,
+                    "end": 72.757,
+                    "score": 0.893
+                },
+                {
+                    "word": "all",
+                    "start": 73.078,
+                    "end": 73.218,
+                    "score": 0.557
+                },
+                {
+                    "word": "the",
+                    "start": 73.238,
+                    "end": 73.318,
+                    "score": 0.481
+                },
+                {
+                    "word": "applause",
+                    "start": 73.418,
+                    "end": 73.778,
+                    "score": 0.694
+                },
+                {
+                    "word": "go",
+                    "start": 73.839,
+                    "end": 73.999,
+                    "score": 0.897
+                },
+                {
+                    "word": "up",
+                    "start": 74.119,
+                    "end": 74.199,
+                    "score": 0.971
+                },
+                {
+                    "word": "And",
+                    "start": 74.359,
+                    "end": 74.459,
+                    "score": 0.749
+                },
+                {
+                    "word": "everybody",
+                    "start": 74.519,
+                    "end": 75.0,
+                    "score": 0.872
+                },
+                {
+                    "word": "in",
+                    "start": 75.08,
+                    "end": 75.16,
+                    "score": 0.978
+                },
+                {
+                    "word": "the",
+                    "start": 75.2,
+                    "end": 75.28,
+                    "score": 0.794
+                },
+                {
+                    "word": "whole",
+                    "start": 75.32,
+                    "end": 75.6,
+                    "score": 0.836
+                },
+                {
+                    "word": "damn",
+                    "start": 75.621,
+                    "end": 75.861,
+                    "score": 0.726
+                },
+                {
+                    "word": "car",
+                    "start": 75.921,
+                    "end": 76.181,
+                    "score": 0.811
+                },
+                {
+                    "word": "goes",
+                    "start": 76.221,
+                    "end": 76.501,
+                    "score": 0.82
+                },
+                {
+                    "word": "nuts",
+                    "start": 76.542,
+                    "end": 77.142,
+                    "score": 0.744
+                },
+                {
+                    "word": "People",
+                    "start": 77.743,
+                    "end": 78.023,
+                    "score": 0.918
+                },
+                {
+                    "word": "gon'",
+                    "start": 78.083,
+                    "end": 78.283,
+                    "score": 0.668
+                },
+                {
+                    "word": "hate",
+                    "start": 78.364,
+                    "end": 78.584,
+                    "score": 0.923
+                },
+                {
+                    "word": "let",
+                    "start": 78.644,
+                    "end": 78.784,
+                    "score": 0.781
+                },
+                {
+                    "word": "them",
+                    "start": 78.804,
+                    "end": 78.904,
+                    "score": 0.631
+                },
+                {
+                    "word": "do",
+                    "start": 78.944,
+                    "end": 79.164,
+                    "score": 0.885
+                },
+                {
+                    "word": "it",
+                    "start": 79.365,
+                    "end": 79.485,
+                    "score": 0.606
+                },
+                {
+                    "word": "Shine",
+                    "start": 79.525,
+                    "end": 79.825,
+                    "score": 0.81
+                },
+                {
+                    "word": "like",
+                    "start": 79.885,
+                    "end": 80.025,
+                    "score": 0.901
+                },
+                {
+                    "word": "it",
+                    "start": 80.105,
+                    "end": 80.166,
+                    "score": 0.785
+                },
+                {
+                    "word": "ain't",
+                    "start": 80.246,
+                    "end": 80.386,
+                    "score": 0.822
+                },
+                {
+                    "word": "nothin'",
+                    "start": 80.466,
+                    "end": 80.726,
+                    "score": 0.893
+                },
+                {
+                    "word": "too",
+                    "start": 80.766,
+                    "end": 80.986,
+                    "score": 0.506
+                },
+                {
+                    "word": "That's",
+                    "start": 81.006,
+                    "end": 81.147,
+                    "score": 0.271
+                },
+                {
+                    "word": "right",
+                    "start": 81.267,
+                    "end": 81.487,
+                    "score": 0.153
+                },
+                {
+                    "word": "Damn",
+                    "start": 81.507,
+                    "end": 81.627,
+                    "score": 0.405
+                },
+                {
+                    "word": "you",
+                    "start": 81.647,
+                    "end": 81.767,
+                    "score": 0.755
+                },
+                {
+                    "word": "are",
+                    "start": 81.847,
+                    "end": 81.928,
+                    "score": 0.385
+                },
+                {
+                    "word": "mage",
+                    "start": 81.968,
+                    "end": 82.448,
+                    "score": 0.851
+                },
+                {
+                    "word": "and",
+                    "start": 82.608,
+                    "end": 82.849,
+                    "score": 0.443
+                },
+                {
+                    "word": "fluids,",
+                    "start": 82.989,
+                    "end": 83.149,
+                    "score": 0.295
+                },
+                {
+                    "word": "hate",
+                    "start": 83.169,
+                    "end": 83.409,
+                    "score": 0.852
+                },
+                {
+                    "word": "like",
+                    "start": 83.449,
+                    "end": 83.589,
+                    "score": 0.932
+                },
+                {
+                    "word": "they",
+                    "start": 83.609,
+                    "end": 83.73,
+                    "score": 0.78
+                },
+                {
+                    "word": "ain't",
+                    "start": 83.81,
+                    "end": 83.97,
+                    "score": 0.776
+                },
+                {
+                    "word": "nothin'",
+                    "start": 84.03,
+                    "end": 84.31,
+                    "score": 0.879
+                },
+                {
+                    "word": "doin'",
+                    "start": 84.33,
+                    "end": 84.631,
+                    "score": 0.8
+                },
+                {
+                    "word": "live",
+                    "start": 84.671,
+                    "end": 84.871,
+                    "score": 0.895
+                },
+                {
+                    "word": "life,",
+                    "start": 84.951,
+                    "end": 85.171,
+                    "score": 0.904
+                },
+                {
+                    "word": "don't",
+                    "start": 85.231,
+                    "end": 85.451,
+                    "score": 0.831
+                },
+                {
+                    "word": "say",
+                    "start": 85.532,
+                    "end": 85.752,
+                    "score": 0.872
+                },
+                {
+                    "word": "nothin'",
+                    "start": 85.832,
+                    "end": 86.112,
+                    "score": 0.869
+                },
+                {
+                    "word": "too",
+                    "start": 86.152,
+                    "end": 86.873,
+                    "score": 0.928
+                }
+            ]
+        },
+        {
+            "start": 87.275,
+            "end": 89.077,
+            "text": " People gon' hate, let them do it.",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 87.275,
+                    "end": 87.595,
+                    "score": 0.852
+                },
+                {
+                    "word": "gon'",
+                    "start": 87.655,
+                    "end": 87.876,
+                    "score": 0.822
+                },
+                {
+                    "word": "hate,",
+                    "start": 87.956,
+                    "end": 88.176,
+                    "score": 0.88
+                },
+                {
+                    "word": "let",
+                    "start": 88.216,
+                    "end": 88.356,
+                    "score": 0.758
+                },
+                {
+                    "word": "them",
+                    "start": 88.376,
+                    "end": 88.476,
+                    "score": 0.666
+                },
+                {
+                    "word": "do",
+                    "start": 88.517,
+                    "end": 88.757,
+                    "score": 0.963
+                },
+                {
+                    "word": "it.",
+                    "start": 88.957,
+                    "end": 89.077,
+                    "score": 0.455
+                }
+            ]
+        },
+        {
+            "start": 89.097,
+            "end": 90.92,
+            "text": "Shine like it ain't nothin' too much.",
+            "words": [
+                {
+                    "word": "Shine",
+                    "start": 89.097,
+                    "end": 89.418,
+                    "score": 0.895
+                },
+                {
+                    "word": "like",
+                    "start": 89.458,
+                    "end": 89.598,
+                    "score": 0.84
+                },
+                {
+                    "word": "it",
+                    "start": 89.698,
+                    "end": 89.758,
+                    "score": 0.892
+                },
+                {
+                    "word": "ain't",
+                    "start": 89.818,
+                    "end": 89.958,
+                    "score": 0.746
+                },
+                {
+                    "word": "nothin'",
+                    "start": 90.038,
+                    "end": 90.299,
+                    "score": 0.818
+                },
+                {
+                    "word": "too",
+                    "start": 90.319,
+                    "end": 90.519,
+                    "score": 0.914
+                },
+                {
+                    "word": "much.",
+                    "start": 90.559,
+                    "end": 90.92,
+                    "score": 0.551
+                }
+            ]
+        },
+        {
+            "start": 90.96,
+            "end": 92.782,
+            "text": "Damn you are major in fluids.",
+            "words": [
+                {
+                    "word": "Damn",
+                    "start": 90.96,
+                    "end": 91.2,
+                    "score": 0.695
+                },
+                {
+                    "word": "you",
+                    "start": 91.24,
+                    "end": 91.34,
+                    "score": 0.942
+                },
+                {
+                    "word": "are",
+                    "start": 91.44,
+                    "end": 91.52,
+                    "score": 0.391
+                },
+                {
+                    "word": "major",
+                    "start": 91.56,
+                    "end": 92.021,
+                    "score": 0.646
+                },
+                {
+                    "word": "in",
+                    "start": 92.341,
+                    "end": 92.421,
+                    "score": 0.589
+                },
+                {
+                    "word": "fluids.",
+                    "start": 92.622,
+                    "end": 92.782,
+                    "score": 0.271
+                }
+            ]
+        },
+        {
+            "start": 92.802,
+            "end": 96.486,
+            "text": "Skate like they ain't nothin' doing, live life, don't say nothin' to them.",
+            "words": [
+                {
+                    "word": "Skate",
+                    "start": 92.802,
+                    "end": 92.982,
+                    "score": 0.588
+                },
+                {
+                    "word": "like",
+                    "start": 93.022,
+                    "end": 93.162,
+                    "score": 0.862
+                },
+                {
+                    "word": "they",
+                    "start": 93.202,
+                    "end": 93.323,
+                    "score": 0.944
+                },
+                {
+                    "word": "ain't",
+                    "start": 93.403,
+                    "end": 93.543,
+                    "score": 0.696
+                },
+                {
+                    "word": "nothin'",
+                    "start": 93.603,
+                    "end": 93.883,
+                    "score": 0.796
+                },
+                {
+                    "word": "doing,",
+                    "start": 93.923,
+                    "end": 94.244,
+                    "score": 0.803
+                },
+                {
+                    "word": "live",
+                    "start": 94.264,
+                    "end": 94.464,
+                    "score": 0.97
+                },
+                {
+                    "word": "life,",
+                    "start": 94.544,
+                    "end": 94.764,
+                    "score": 0.85
+                },
+                {
+                    "word": "don't",
+                    "start": 94.824,
+                    "end": 95.045,
+                    "score": 0.799
+                },
+                {
+                    "word": "say",
+                    "start": 95.105,
+                    "end": 95.345,
+                    "score": 0.935
+                },
+                {
+                    "word": "nothin'",
+                    "start": 95.405,
+                    "end": 95.685,
+                    "score": 0.863
+                },
+                {
+                    "word": "to",
+                    "start": 95.725,
+                    "end": 95.906,
+                    "score": 0.741
+                },
+                {
+                    "word": "them.",
+                    "start": 95.926,
+                    "end": 96.486,
+                    "score": 0.381
+                }
+            ]
+        },
+        {
+            "start": 96.506,
+            "end": 102.133,
+            "text": "Spectators, sideline us, spend the days comin' up with slack comments that's psychotic.",
+            "words": [
+                {
+                    "word": "Spectators,",
+                    "start": 96.506,
+                    "end": 97.347,
+                    "score": 0.902
+                },
+                {
+                    "word": "sideline",
+                    "start": 97.788,
+                    "end": 98.409,
+                    "score": 0.743
+                },
+                {
+                    "word": "us,",
+                    "start": 98.429,
+                    "end": 98.489,
+                    "score": 0.849
+                },
+                {
+                    "word": "spend",
+                    "start": 98.949,
+                    "end": 99.17,
+                    "score": 0.623
+                },
+                {
+                    "word": "the",
+                    "start": 99.19,
+                    "end": 99.27,
+                    "score": 0.392
+                },
+                {
+                    "word": "days",
+                    "start": 99.31,
+                    "end": 99.49,
+                    "score": 0.842
+                },
+                {
+                    "word": "comin'",
+                    "start": 99.53,
+                    "end": 99.771,
+                    "score": 0.841
+                },
+                {
+                    "word": "up",
+                    "start": 99.891,
+                    "end": 99.991,
+                    "score": 0.92
+                },
+                {
+                    "word": "with",
+                    "start": 100.051,
+                    "end": 100.191,
+                    "score": 0.698
+                },
+                {
+                    "word": "slack",
+                    "start": 100.211,
+                    "end": 100.511,
+                    "score": 0.544
+                },
+                {
+                    "word": "comments",
+                    "start": 100.531,
+                    "end": 100.952,
+                    "score": 0.558
+                },
+                {
+                    "word": "that's",
+                    "start": 101.012,
+                    "end": 101.232,
+                    "score": 0.733
+                },
+                {
+                    "word": "psychotic.",
+                    "start": 101.473,
+                    "end": 102.133,
+                    "score": 0.833
+                }
+            ]
+        },
+        {
+            "start": 102.234,
+            "end": 103.876,
+            "text": "Why tonnish a fly product?",
+            "words": [
+                {
+                    "word": "Why",
+                    "start": 102.234,
+                    "end": 102.494,
+                    "score": 0.735
+                },
+                {
+                    "word": "tonnish",
+                    "start": 102.574,
+                    "end": 102.814,
+                    "score": 0.683
+                },
+                {
+                    "word": "a",
+                    "start": 102.854,
+                    "end": 102.914,
+                    "score": 0.783
+                },
+                {
+                    "word": "fly",
+                    "start": 102.954,
+                    "end": 103.215,
+                    "score": 0.941
+                },
+                {
+                    "word": "product?",
+                    "start": 103.255,
+                    "end": 103.876,
+                    "score": 0.675
+                }
+            ]
+        },
+        {
+            "start": 103.896,
+            "end": 105.337,
+            "text": "Why be mad just cause I got it?",
+            "words": [
+                {
+                    "word": "Why",
+                    "start": 103.896,
+                    "end": 104.056,
+                    "score": 0.778
+                },
+                {
+                    "word": "be",
+                    "start": 104.076,
+                    "end": 104.176,
+                    "score": 0.938
+                },
+                {
+                    "word": "mad",
+                    "start": 104.216,
+                    "end": 104.396,
+                    "score": 0.916
+                },
+                {
+                    "word": "just",
+                    "start": 104.436,
+                    "end": 104.596,
+                    "score": 0.764
+                },
+                {
+                    "word": "cause",
+                    "start": 104.617,
+                    "end": 104.757,
+                    "score": 0.78
+                },
+                {
+                    "word": "I",
+                    "start": 104.837,
+                    "end": 104.977,
+                    "score": 0.707
+                },
+                {
+                    "word": "got",
+                    "start": 105.017,
+                    "end": 105.237,
+                    "score": 0.918
+                },
+                {
+                    "word": "it?",
+                    "start": 105.277,
+                    "end": 105.337,
+                    "score": 0.915
+                }
+            ]
+        },
+        {
+            "start": 105.638,
+            "end": 107.16,
+            "text": "Hey, I mean, I never know.",
+            "words": [
+                {
+                    "word": "Hey,",
+                    "start": 105.638,
+                    "end": 106.299,
+                    "score": 0.955
+                },
+                {
+                    "word": "I",
+                    "start": 106.319,
+                    "end": 106.379,
+                    "score": 0.772
+                },
+                {
+                    "word": "mean,",
+                    "start": 106.399,
+                    "end": 106.519,
+                    "score": 0.209
+                },
+                {
+                    "word": "I",
+                    "start": 106.539,
+                    "end": 106.559,
+                    "score": 0.427
+                },
+                {
+                    "word": "never",
+                    "start": 106.579,
+                    "end": 106.799,
+                    "score": 0.683
+                },
+                {
+                    "word": "know.",
+                    "start": 106.839,
+                    "end": 107.16,
+                    "score": 0.886
+                }
+            ]
+        },
+        {
+            "start": 107.18,
+            "end": 109.362,
+            "text": "Wave to the haters that put me on the pedestal.",
+            "words": [
+                {
+                    "word": "Wave",
+                    "start": 107.18,
+                    "end": 107.42,
+                    "score": 0.931
+                },
+                {
+                    "word": "to",
+                    "start": 107.46,
+                    "end": 107.58,
+                    "score": 0.944
+                },
+                {
+                    "word": "the",
+                    "start": 107.6,
+                    "end": 107.7,
+                    "score": 0.772
+                },
+                {
+                    "word": "haters",
+                    "start": 107.76,
+                    "end": 108.161,
+                    "score": 0.789
+                },
+                {
+                    "word": "that",
+                    "start": 108.201,
+                    "end": 108.301,
+                    "score": 0.856
+                },
+                {
+                    "word": "put",
+                    "start": 108.341,
+                    "end": 108.461,
+                    "score": 0.815
+                },
+                {
+                    "word": "me",
+                    "start": 108.521,
+                    "end": 108.601,
+                    "score": 0.835
+                },
+                {
+                    "word": "on",
+                    "start": 108.682,
+                    "end": 108.762,
+                    "score": 0.968
+                },
+                {
+                    "word": "the",
+                    "start": 108.802,
+                    "end": 108.862,
+                    "score": 0.587
+                },
+                {
+                    "word": "pedestal.",
+                    "start": 108.922,
+                    "end": 109.362,
+                    "score": 0.981
+                }
+            ]
+        },
+        {
+            "start": 109.563,
+            "end": 111.825,
+            "text": "Talk smack, but they really know I'm incredible.",
+            "words": [
+                {
+                    "word": "Talk",
+                    "start": 109.563,
+                    "end": 109.823,
+                    "score": 0.903
+                },
+                {
+                    "word": "smack,",
+                    "start": 109.883,
+                    "end": 110.123,
+                    "score": 0.826
+                },
+                {
+                    "word": "but",
+                    "start": 110.143,
+                    "end": 110.264,
+                    "score": 0.953
+                },
+                {
+                    "word": "they",
+                    "start": 110.284,
+                    "end": 110.424,
+                    "score": 0.968
+                },
+                {
+                    "word": "really",
+                    "start": 110.464,
+                    "end": 110.704,
+                    "score": 0.845
+                },
+                {
+                    "word": "know",
+                    "start": 110.784,
+                    "end": 110.984,
+                    "score": 0.946
+                },
+                {
+                    "word": "I'm",
+                    "start": 111.085,
+                    "end": 111.185,
+                    "score": 0.864
+                },
+                {
+                    "word": "incredible.",
+                    "start": 111.225,
+                    "end": 111.825,
+                    "score": 0.906
+                }
+            ]
+        },
+        {
+            "start": 112.286,
+            "end": 115.51,
+            "text": "Unforgettable, young blue-eyed, the new guy gets on schedule.",
+            "words": [
+                {
+                    "word": "Unforgettable,",
+                    "start": 112.286,
+                    "end": 112.967,
+                    "score": 0.869
+                },
+                {
+                    "word": "young",
+                    "start": 113.187,
+                    "end": 113.367,
+                    "score": 0.81
+                },
+                {
+                    "word": "blue-eyed,",
+                    "start": 113.427,
+                    "end": 113.888,
+                    "score": 0.666
+                },
+                {
+                    "word": "the",
+                    "start": 113.908,
+                    "end": 114.008,
+                    "score": 0.358
+                },
+                {
+                    "word": "new",
+                    "start": 114.048,
+                    "end": 114.168,
+                    "score": 0.84
+                },
+                {
+                    "word": "guy",
+                    "start": 114.228,
+                    "end": 114.449,
+                    "score": 0.782
+                },
+                {
+                    "word": "gets",
+                    "start": 114.509,
+                    "end": 114.609,
+                    "score": 0.404
+                },
+                {
+                    "word": "on",
+                    "start": 114.709,
+                    "end": 114.809,
+                    "score": 0.599
+                },
+                {
+                    "word": "schedule.",
+                    "start": 114.869,
+                    "end": 115.51,
+                    "score": 0.702
+                }
+            ]
+        },
+        {
+            "start": 115.49,
+            "end": 120.217,
+            "text": " Man behind bars and that's minus the federal stone giant What the hell cuz some pebbles do?",
+            "words": [
+                {
+                    "word": "Man",
+                    "start": 115.49,
+                    "end": 115.67,
+                    "score": 0.222
+                },
+                {
+                    "word": "behind",
+                    "start": 115.69,
+                    "end": 116.091,
+                    "score": 0.735
+                },
+                {
+                    "word": "bars",
+                    "start": 116.131,
+                    "end": 116.411,
+                    "score": 0.778
+                },
+                {
+                    "word": "and",
+                    "start": 116.491,
+                    "end": 116.552,
+                    "score": 0.762
+                },
+                {
+                    "word": "that's",
+                    "start": 116.612,
+                    "end": 116.832,
+                    "score": 0.669
+                },
+                {
+                    "word": "minus",
+                    "start": 116.872,
+                    "end": 117.132,
+                    "score": 0.613
+                },
+                {
+                    "word": "the",
+                    "start": 117.152,
+                    "end": 117.253,
+                    "score": 0.794
+                },
+                {
+                    "word": "federal",
+                    "start": 117.293,
+                    "end": 117.713,
+                    "score": 0.81
+                },
+                {
+                    "word": "stone",
+                    "start": 117.894,
+                    "end": 118.154,
+                    "score": 0.815
+                },
+                {
+                    "word": "giant",
+                    "start": 118.334,
+                    "end": 118.474,
+                    "score": 0.439
+                },
+                {
+                    "word": "What",
+                    "start": 118.815,
+                    "end": 118.935,
+                    "score": 0.728
+                },
+                {
+                    "word": "the",
+                    "start": 118.975,
+                    "end": 119.075,
+                    "score": 0.967
+                },
+                {
+                    "word": "hell",
+                    "start": 119.135,
+                    "end": 119.336,
+                    "score": 0.773
+                },
+                {
+                    "word": "cuz",
+                    "start": 119.356,
+                    "end": 119.536,
+                    "score": 0.575
+                },
+                {
+                    "word": "some",
+                    "start": 119.556,
+                    "end": 119.656,
+                    "score": 0.452
+                },
+                {
+                    "word": "pebbles",
+                    "start": 119.696,
+                    "end": 119.997,
+                    "score": 0.862
+                },
+                {
+                    "word": "do?",
+                    "start": 120.037,
+                    "end": 120.217,
+                    "score": 0.989
+                }
+            ]
+        },
+        {
+            "start": 120.577,
+            "end": 134.578,
+            "text": "Why you grabbing and trying my unbuilding revenue Tell them you get them tomorrow day, no stressing you Life goes on, life goes on You the shit even for photos, life's sweating all They gon' trash you Even if they like your song People always gon' judge, hold me right over on",
+            "words": [
+                {
+                    "word": "Why",
+                    "start": 120.577,
+                    "end": 120.738,
+                    "score": 0.924
+                },
+                {
+                    "word": "you",
+                    "start": 120.758,
+                    "end": 120.898,
+                    "score": 0.787
+                },
+                {
+                    "word": "grabbing",
+                    "start": 120.918,
+                    "end": 121.178,
+                    "score": 0.482
+                },
+                {
+                    "word": "and",
+                    "start": 121.238,
+                    "end": 121.319,
+                    "score": 0.653
+                },
+                {
+                    "word": "trying",
+                    "start": 121.339,
+                    "end": 121.559,
+                    "score": 0.353
+                },
+                {
+                    "word": "my",
+                    "start": 121.579,
+                    "end": 121.619,
+                    "score": 0.462
+                },
+                {
+                    "word": "unbuilding",
+                    "start": 121.679,
+                    "end": 122.1,
+                    "score": 0.451
+                },
+                {
+                    "word": "revenue",
+                    "start": 122.12,
+                    "end": 122.6,
+                    "score": 0.782
+                },
+                {
+                    "word": "Tell",
+                    "start": 122.861,
+                    "end": 123.021,
+                    "score": 0.967
+                },
+                {
+                    "word": "them",
+                    "start": 123.061,
+                    "end": 123.141,
+                    "score": 0.746
+                },
+                {
+                    "word": "you",
+                    "start": 123.181,
+                    "end": 123.301,
+                    "score": 0.898
+                },
+                {
+                    "word": "get",
+                    "start": 123.321,
+                    "end": 123.462,
+                    "score": 0.769
+                },
+                {
+                    "word": "them",
+                    "start": 123.482,
+                    "end": 123.582,
+                    "score": 0.601
+                },
+                {
+                    "word": "tomorrow",
+                    "start": 123.622,
+                    "end": 124.063,
+                    "score": 0.891
+                },
+                {
+                    "word": "day,",
+                    "start": 124.103,
+                    "end": 124.303,
+                    "score": 0.861
+                },
+                {
+                    "word": "no",
+                    "start": 124.363,
+                    "end": 124.483,
+                    "score": 0.802
+                },
+                {
+                    "word": "stressing",
+                    "start": 124.523,
+                    "end": 124.824,
+                    "score": 0.61
+                },
+                {
+                    "word": "you",
+                    "start": 124.864,
+                    "end": 125.044,
+                    "score": 0.922
+                },
+                {
+                    "word": "Life",
+                    "start": 125.425,
+                    "end": 125.625,
+                    "score": 0.933
+                },
+                {
+                    "word": "goes",
+                    "start": 125.665,
+                    "end": 125.865,
+                    "score": 0.815
+                },
+                {
+                    "word": "on,",
+                    "start": 126.025,
+                    "end": 126.286,
+                    "score": 0.93
+                },
+                {
+                    "word": "life",
+                    "start": 126.306,
+                    "end": 126.506,
+                    "score": 0.837
+                },
+                {
+                    "word": "goes",
+                    "start": 126.546,
+                    "end": 126.767,
+                    "score": 0.776
+                },
+                {
+                    "word": "on",
+                    "start": 126.927,
+                    "end": 127.047,
+                    "score": 0.773
+                },
+                {
+                    "word": "You",
+                    "start": 127.247,
+                    "end": 127.387,
+                    "score": 0.973
+                },
+                {
+                    "word": "the",
+                    "start": 127.428,
+                    "end": 127.528,
+                    "score": 0.44
+                },
+                {
+                    "word": "shit",
+                    "start": 127.568,
+                    "end": 127.788,
+                    "score": 0.9
+                },
+                {
+                    "word": "even",
+                    "start": 127.908,
+                    "end": 128.088,
+                    "score": 0.921
+                },
+                {
+                    "word": "for",
+                    "start": 128.149,
+                    "end": 128.289,
+                    "score": 0.485
+                },
+                {
+                    "word": "photos,",
+                    "start": 128.309,
+                    "end": 128.709,
+                    "score": 0.76
+                },
+                {
+                    "word": "life's",
+                    "start": 128.769,
+                    "end": 128.95,
+                    "score": 0.688
+                },
+                {
+                    "word": "sweating",
+                    "start": 128.99,
+                    "end": 129.29,
+                    "score": 0.276
+                },
+                {
+                    "word": "all",
+                    "start": 129.31,
+                    "end": 129.43,
+                    "score": 0.731
+                },
+                {
+                    "word": "They",
+                    "start": 129.611,
+                    "end": 129.751,
+                    "score": 0.798
+                },
+                {
+                    "word": "gon'",
+                    "start": 129.791,
+                    "end": 129.911,
+                    "score": 0.602
+                },
+                {
+                    "word": "trash",
+                    "start": 129.951,
+                    "end": 130.252,
+                    "score": 0.9
+                },
+                {
+                    "word": "you",
+                    "start": 130.292,
+                    "end": 130.412,
+                    "score": 0.965
+                },
+                {
+                    "word": "Even",
+                    "start": 130.672,
+                    "end": 130.833,
+                    "score": 0.849
+                },
+                {
+                    "word": "if",
+                    "start": 130.913,
+                    "end": 130.973,
+                    "score": 0.959
+                },
+                {
+                    "word": "they",
+                    "start": 131.013,
+                    "end": 131.153,
+                    "score": 0.917
+                },
+                {
+                    "word": "like",
+                    "start": 131.193,
+                    "end": 131.353,
+                    "score": 0.947
+                },
+                {
+                    "word": "your",
+                    "start": 131.393,
+                    "end": 131.574,
+                    "score": 0.766
+                },
+                {
+                    "word": "song",
+                    "start": 131.614,
+                    "end": 131.854,
+                    "score": 0.808
+                },
+                {
+                    "word": "People",
+                    "start": 132.054,
+                    "end": 132.315,
+                    "score": 0.867
+                },
+                {
+                    "word": "always",
+                    "start": 132.415,
+                    "end": 132.635,
+                    "score": 0.885
+                },
+                {
+                    "word": "gon'",
+                    "start": 132.675,
+                    "end": 132.876,
+                    "score": 0.755
+                },
+                {
+                    "word": "judge,",
+                    "start": 132.916,
+                    "end": 133.236,
+                    "score": 0.765
+                },
+                {
+                    "word": "hold",
+                    "start": 133.256,
+                    "end": 133.416,
+                    "score": 0.525
+                },
+                {
+                    "word": "me",
+                    "start": 133.456,
+                    "end": 133.536,
+                    "score": 0.93
+                },
+                {
+                    "word": "right",
+                    "start": 133.597,
+                    "end": 133.817,
+                    "score": 0.9
+                },
+                {
+                    "word": "over",
+                    "start": 133.917,
+                    "end": 134.097,
+                    "score": 0.961
+                },
+                {
+                    "word": "on",
+                    "start": 134.238,
+                    "end": 134.578,
+                    "score": 0.858
+                }
+            ]
+        },
+        {
+            "start": 135.25,
+            "end": 136.853,
+            "text": " People gon' hate, let them do it.",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 135.25,
+                    "end": 135.571,
+                    "score": 0.798
+                },
+                {
+                    "word": "gon'",
+                    "start": 135.631,
+                    "end": 135.851,
+                    "score": 0.578
+                },
+                {
+                    "word": "hate,",
+                    "start": 135.931,
+                    "end": 136.172,
+                    "score": 0.904
+                },
+                {
+                    "word": "let",
+                    "start": 136.212,
+                    "end": 136.352,
+                    "score": 0.918
+                },
+                {
+                    "word": "them",
+                    "start": 136.372,
+                    "end": 136.452,
+                    "score": 0.692
+                },
+                {
+                    "word": "do",
+                    "start": 136.512,
+                    "end": 136.733,
+                    "score": 0.982
+                },
+                {
+                    "word": "it.",
+                    "start": 136.793,
+                    "end": 136.853,
+                    "score": 0.961
+                }
+            ]
+        },
+        {
+            "start": 137.113,
+            "end": 138.716,
+            "text": "Shine like it ain't nothin' to it.",
+            "words": [
+                {
+                    "word": "Shine",
+                    "start": 137.113,
+                    "end": 137.454,
+                    "score": 0.834
+                },
+                {
+                    "word": "like",
+                    "start": 137.494,
+                    "end": 137.634,
+                    "score": 0.817
+                },
+                {
+                    "word": "it",
+                    "start": 137.734,
+                    "end": 137.794,
+                    "score": 0.974
+                },
+                {
+                    "word": "ain't",
+                    "start": 137.855,
+                    "end": 137.995,
+                    "score": 0.783
+                },
+                {
+                    "word": "nothin'",
+                    "start": 138.075,
+                    "end": 138.335,
+                    "score": 0.874
+                },
+                {
+                    "word": "to",
+                    "start": 138.375,
+                    "end": 138.596,
+                    "score": 0.968
+                },
+                {
+                    "word": "it.",
+                    "start": 138.656,
+                    "end": 138.716,
+                    "score": 0.888
+                }
+            ]
+        },
+        {
+            "start": 138.956,
+            "end": 140.74,
+            "text": "Damn you, remade your influence.",
+            "words": [
+                {
+                    "word": "Damn",
+                    "start": 138.956,
+                    "end": 139.277,
+                    "score": 0.884
+                },
+                {
+                    "word": "you,",
+                    "start": 139.297,
+                    "end": 139.558,
+                    "score": 0.698
+                },
+                {
+                    "word": "remade",
+                    "start": 139.578,
+                    "end": 139.898,
+                    "score": 0.648
+                },
+                {
+                    "word": "your",
+                    "start": 139.918,
+                    "end": 139.998,
+                    "score": 0.044
+                },
+                {
+                    "word": "influence.",
+                    "start": 140.018,
+                    "end": 140.74,
+                    "score": 0.864
+                }
+            ]
+        },
+        {
+            "start": 140.76,
+            "end": 142.823,
+            "text": "Skate like they ain't nothin' doin' live life.",
+            "words": [
+                {
+                    "word": "Skate",
+                    "start": 140.76,
+                    "end": 141.08,
+                    "score": 0.815
+                },
+                {
+                    "word": "like",
+                    "start": 141.1,
+                    "end": 141.261,
+                    "score": 0.851
+                },
+                {
+                    "word": "they",
+                    "start": 141.301,
+                    "end": 141.401,
+                    "score": 0.746
+                },
+                {
+                    "word": "ain't",
+                    "start": 141.481,
+                    "end": 141.621,
+                    "score": 0.79
+                },
+                {
+                    "word": "nothin'",
+                    "start": 141.701,
+                    "end": 141.982,
+                    "score": 0.814
+                },
+                {
+                    "word": "doin'",
+                    "start": 142.002,
+                    "end": 142.282,
+                    "score": 0.813
+                },
+                {
+                    "word": "live",
+                    "start": 142.342,
+                    "end": 142.523,
+                    "score": 0.962
+                },
+                {
+                    "word": "life.",
+                    "start": 142.603,
+                    "end": 142.823,
+                    "score": 0.933
+                }
+            ]
+        },
+        {
+            "start": 142.883,
+            "end": 144.146,
+            "text": "Don't say nothin' to them.",
+            "words": [
+                {
+                    "word": "Don't",
+                    "start": 142.883,
+                    "end": 143.084,
+                    "score": 0.855
+                },
+                {
+                    "word": "say",
+                    "start": 143.164,
+                    "end": 143.384,
+                    "score": 0.959
+                },
+                {
+                    "word": "nothin'",
+                    "start": 143.444,
+                    "end": 143.725,
+                    "score": 0.913
+                },
+                {
+                    "word": "to",
+                    "start": 143.765,
+                    "end": 144.025,
+                    "score": 0.69
+                },
+                {
+                    "word": "them.",
+                    "start": 144.045,
+                    "end": 144.146,
+                    "score": 0.4
+                }
+            ]
+        },
+        {
+            "start": 144.927,
+            "end": 146.67,
+            "text": "People gon' hate, let them do it.",
+            "words": [
+                {
+                    "word": "People",
+                    "start": 144.927,
+                    "end": 145.167,
+                    "score": 0.908
+                },
+                {
+                    "word": "gon'",
+                    "start": 145.227,
+                    "end": 145.468,
+                    "score": 0.669
+                },
+                {
+                    "word": "hate,",
+                    "start": 145.528,
+                    "end": 145.788,
+                    "score": 0.69
+                },
+                {
+                    "word": "let",
+                    "start": 145.809,
+                    "end": 145.969,
+                    "score": 0.831
+                },
+                {
+                    "word": "them",
+                    "start": 145.989,
+                    "end": 146.069,
+                    "score": 0.743
+                },
+                {
+                    "word": "do",
+                    "start": 146.109,
+                    "end": 146.309,
+                    "score": 0.977
+                },
+                {
+                    "word": "it.",
+                    "start": 146.39,
+                    "end": 146.67,
+                    "score": 0.824
+                }
+            ]
+        },
+        {
+            "start": 146.69,
+            "end": 148.273,
+            "text": "Shine like it ain't nothin' to it.",
+            "words": [
+                {
+                    "word": "Shine",
+                    "start": 146.69,
+                    "end": 147.011,
+                    "score": 0.784
+                },
+                {
+                    "word": "like",
+                    "start": 147.051,
+                    "end": 147.191,
+                    "score": 0.89
+                },
+                {
+                    "word": "it",
+                    "start": 147.271,
+                    "end": 147.331,
+                    "score": 0.76
+                },
+                {
+                    "word": "ain't",
+                    "start": 147.411,
+                    "end": 147.552,
+                    "score": 0.792
+                },
+                {
+                    "word": "nothin'",
+                    "start": 147.612,
+                    "end": 147.872,
+                    "score": 0.874
+                },
+                {
+                    "word": "to",
+                    "start": 147.912,
+                    "end": 148.133,
+                    "score": 0.872
+                },
+                {
+                    "word": "it.",
+                    "start": 148.213,
+                    "end": 148.273,
+                    "score": 0.932
+                }
+            ]
+        },
+        {
+            "start": 148.533,
+            "end": 150.076,
+            "text": "Damn you, remade your influence.",
+            "words": [
+                {
+                    "word": "Damn",
+                    "start": 148.533,
+                    "end": 148.794,
+                    "score": 0.816
+                },
+                {
+                    "word": "you,",
+                    "start": 148.834,
+                    "end": 149.034,
+                    "score": 0.66
+                },
+                {
+                    "word": "remade",
+                    "start": 149.054,
+                    "end": 149.415,
+                    "score": 0.712
+                },
+                {
+                    "word": "your",
+                    "start": 149.435,
+                    "end": 149.515,
+                    "score": 0.055
+                },
+                {
+                    "word": "influence.",
+                    "start": 149.535,
+                    "end": 150.076,
+                    "score": 0.949
+                }
+            ]
+        },
+        {
+            "start": 150.477,
+            "end": 152.36,
+            "text": "Ain't like they ain't nothin' doin' live life.",
+            "words": [
+                {
+                    "word": "Ain't",
+                    "start": 150.477,
+                    "end": 150.617,
+                    "score": 0.327
+                },
+                {
+                    "word": "like",
+                    "start": 150.637,
+                    "end": 150.797,
+                    "score": 0.824
+                },
+                {
+                    "word": "they",
+                    "start": 150.837,
+                    "end": 150.958,
+                    "score": 0.893
+                },
+                {
+                    "word": "ain't",
+                    "start": 151.038,
+                    "end": 151.178,
+                    "score": 0.622
+                },
+                {
+                    "word": "nothin'",
+                    "start": 151.258,
+                    "end": 151.519,
+                    "score": 0.911
+                },
+                {
+                    "word": "doin'",
+                    "start": 151.559,
+                    "end": 151.819,
+                    "score": 0.663
+                },
+                {
+                    "word": "live",
+                    "start": 151.879,
+                    "end": 152.079,
+                    "score": 0.96
+                },
+                {
+                    "word": "life.",
+                    "start": 152.16,
+                    "end": 152.36,
+                    "score": 0.942
+                }
+            ]
+        },
+        {
+            "start": 152.42,
+            "end": 154.103,
+            "text": "Don't say nothin' to them.",
+            "words": [
+                {
+                    "word": "Don't",
+                    "start": 152.42,
+                    "end": 152.661,
+                    "score": 0.897
+                },
+                {
+                    "word": "say",
+                    "start": 152.721,
+                    "end": 152.941,
+                    "score": 0.923
+                },
+                {
+                    "word": "nothin'",
+                    "start": 153.021,
+                    "end": 153.302,
+                    "score": 0.924
+                },
+                {
+                    "word": "to",
+                    "start": 153.342,
+                    "end": 153.642,
+                    "score": 0.871
+                },
+                {
+                    "word": "them.",
+                    "start": 154.003,
+                    "end": 154.103,
+                    "score": 0.2
+                }
+            ]
+        },
+        {
+            "start": 154.403,
+            "end": 174.066,
+            "text": " We don't give a damn what you did We don't give a damn who you are Home, you ain't down with the team We don't give a damn what you think We don't give a damn what you thought We don't give a damn what you did We don't give a damn who you are Home, you ain't down with the team We don't give a damn what you think We don't give a damn what you thought",
+            "words": [
+                {
+                    "word": "We",
+                    "start": 154.403,
+                    "end": 154.623,
+                    "score": 0.807
+                },
+                {
+                    "word": "don't",
+                    "start": 154.664,
+                    "end": 154.784,
+                    "score": 0.878
+                },
+                {
+                    "word": "give",
+                    "start": 154.804,
+                    "end": 154.944,
+                    "score": 0.779
+                },
+                {
+                    "word": "a",
+                    "start": 154.984,
+                    "end": 155.004,
+                    "score": 0.93
+                },
+                {
+                    "word": "damn",
+                    "start": 155.084,
+                    "end": 155.385,
+                    "score": 0.633
+                },
+                {
+                    "word": "what",
+                    "start": 155.405,
+                    "end": 155.525,
+                    "score": 0.963
+                },
+                {
+                    "word": "you",
+                    "start": 155.546,
+                    "end": 155.666,
+                    "score": 0.816
+                },
+                {
+                    "word": "did",
+                    "start": 155.706,
+                    "end": 155.986,
+                    "score": 0.989
+                },
+                {
+                    "word": "We",
+                    "start": 156.307,
+                    "end": 156.427,
+                    "score": 0.954
+                },
+                {
+                    "word": "don't",
+                    "start": 156.447,
+                    "end": 156.588,
+                    "score": 0.885
+                },
+                {
+                    "word": "give",
+                    "start": 156.608,
+                    "end": 156.748,
+                    "score": 0.942
+                },
+                {
+                    "word": "a",
+                    "start": 156.788,
+                    "end": 156.808,
+                    "score": 0.009
+                },
+                {
+                    "word": "damn",
+                    "start": 156.888,
+                    "end": 157.169,
+                    "score": 0.662
+                },
+                {
+                    "word": "who",
+                    "start": 157.189,
+                    "end": 157.309,
+                    "score": 0.7
+                },
+                {
+                    "word": "you",
+                    "start": 157.349,
+                    "end": 157.45,
+                    "score": 0.994
+                },
+                {
+                    "word": "are",
+                    "start": 157.63,
+                    "end": 157.73,
+                    "score": 0.828
+                },
+                {
+                    "word": "Home,",
+                    "start": 158.071,
+                    "end": 158.372,
+                    "score": 0.842
+                },
+                {
+                    "word": "you",
+                    "start": 158.392,
+                    "end": 158.492,
+                    "score": 0.886
+                },
+                {
+                    "word": "ain't",
+                    "start": 158.552,
+                    "end": 158.672,
+                    "score": 0.761
+                },
+                {
+                    "word": "down",
+                    "start": 158.712,
+                    "end": 158.993,
+                    "score": 0.631
+                },
+                {
+                    "word": "with",
+                    "start": 159.013,
+                    "end": 159.133,
+                    "score": 0.757
+                },
+                {
+                    "word": "the",
+                    "start": 159.153,
+                    "end": 159.234,
+                    "score": 0.738
+                },
+                {
+                    "word": "team",
+                    "start": 159.294,
+                    "end": 159.594,
+                    "score": 0.51
+                },
+                {
+                    "word": "We",
+                    "start": 159.895,
+                    "end": 159.995,
+                    "score": 0.994
+                },
+                {
+                    "word": "don't",
+                    "start": 160.035,
+                    "end": 160.176,
+                    "score": 0.748
+                },
+                {
+                    "word": "give",
+                    "start": 160.196,
+                    "end": 160.356,
+                    "score": 0.947
+                },
+                {
+                    "word": "a",
+                    "start": 160.396,
+                    "end": 160.416,
+                    "score": 0.981
+                },
+                {
+                    "word": "damn",
+                    "start": 160.496,
+                    "end": 160.777,
+                    "score": 0.759
+                },
+                {
+                    "word": "what",
+                    "start": 160.797,
+                    "end": 160.917,
+                    "score": 0.986
+                },
+                {
+                    "word": "you",
+                    "start": 160.937,
+                    "end": 161.058,
+                    "score": 0.866
+                },
+                {
+                    "word": "think",
+                    "start": 161.118,
+                    "end": 161.358,
+                    "score": 0.735
+                },
+                {
+                    "word": "We",
+                    "start": 161.699,
+                    "end": 161.819,
+                    "score": 0.989
+                },
+                {
+                    "word": "don't",
+                    "start": 161.839,
+                    "end": 161.98,
+                    "score": 0.735
+                },
+                {
+                    "word": "give",
+                    "start": 162.0,
+                    "end": 162.16,
+                    "score": 0.926
+                },
+                {
+                    "word": "a",
+                    "start": 162.2,
+                    "end": 162.22,
+                    "score": 0.955
+                },
+                {
+                    "word": "damn",
+                    "start": 162.3,
+                    "end": 162.581,
+                    "score": 0.754
+                },
+                {
+                    "word": "what",
+                    "start": 162.601,
+                    "end": 162.701,
+                    "score": 0.919
+                },
+                {
+                    "word": "you",
+                    "start": 162.741,
+                    "end": 162.841,
+                    "score": 0.986
+                },
+                {
+                    "word": "thought",
+                    "start": 162.882,
+                    "end": 163.162,
+                    "score": 0.3
+                },
+                {
+                    "word": "We",
+                    "start": 164.104,
+                    "end": 164.245,
+                    "score": 0.706
+                },
+                {
+                    "word": "don't",
+                    "start": 164.285,
+                    "end": 164.405,
+                    "score": 0.889
+                },
+                {
+                    "word": "give",
+                    "start": 164.425,
+                    "end": 164.565,
+                    "score": 0.768
+                },
+                {
+                    "word": "a",
+                    "start": 164.605,
+                    "end": 164.625,
+                    "score": 0.971
+                },
+                {
+                    "word": "damn",
+                    "start": 164.706,
+                    "end": 165.006,
+                    "score": 0.66
+                },
+                {
+                    "word": "what",
+                    "start": 165.026,
+                    "end": 165.147,
+                    "score": 0.986
+                },
+                {
+                    "word": "you",
+                    "start": 165.167,
+                    "end": 165.287,
+                    "score": 0.784
+                },
+                {
+                    "word": "did",
+                    "start": 165.327,
+                    "end": 165.608,
+                    "score": 0.969
+                },
+                {
+                    "word": "We",
+                    "start": 165.928,
+                    "end": 166.048,
+                    "score": 0.772
+                },
+                {
+                    "word": "don't",
+                    "start": 166.069,
+                    "end": 166.209,
+                    "score": 0.889
+                },
+                {
+                    "word": "give",
+                    "start": 166.229,
+                    "end": 166.369,
+                    "score": 0.946
+                },
+                {
+                    "word": "a",
+                    "start": 166.409,
+                    "end": 166.429,
+                    "score": 0.01
+                },
+                {
+                    "word": "damn",
+                    "start": 166.51,
+                    "end": 166.79,
+                    "score": 0.664
+                },
+                {
+                    "word": "who",
+                    "start": 166.81,
+                    "end": 166.93,
+                    "score": 0.802
+                },
+                {
+                    "word": "you",
+                    "start": 166.971,
+                    "end": 167.071,
+                    "score": 0.994
+                },
+                {
+                    "word": "are",
+                    "start": 167.251,
+                    "end": 167.351,
+                    "score": 0.854
+                },
+                {
+                    "word": "Home,",
+                    "start": 167.692,
+                    "end": 167.993,
+                    "score": 0.832
+                },
+                {
+                    "word": "you",
+                    "start": 168.013,
+                    "end": 168.113,
+                    "score": 0.83
+                },
+                {
+                    "word": "ain't",
+                    "start": 168.173,
+                    "end": 168.293,
+                    "score": 0.766
+                },
+                {
+                    "word": "down",
+                    "start": 168.333,
+                    "end": 168.614,
+                    "score": 0.627
+                },
+                {
+                    "word": "with",
+                    "start": 168.634,
+                    "end": 168.754,
+                    "score": 0.752
+                },
+                {
+                    "word": "the",
+                    "start": 168.774,
+                    "end": 168.855,
+                    "score": 0.746
+                },
+                {
+                    "word": "team",
+                    "start": 168.915,
+                    "end": 169.235,
+                    "score": 0.545
+                },
+                {
+                    "word": "We",
+                    "start": 169.516,
+                    "end": 169.616,
+                    "score": 0.986
+                },
+                {
+                    "word": "don't",
+                    "start": 169.656,
+                    "end": 169.777,
+                    "score": 0.615
+                },
+                {
+                    "word": "give",
+                    "start": 169.817,
+                    "end": 169.977,
+                    "score": 0.918
+                },
+                {
+                    "word": "a",
+                    "start": 170.017,
+                    "end": 170.037,
+                    "score": 0.977
+                },
+                {
+                    "word": "damn",
+                    "start": 170.117,
+                    "end": 170.398,
+                    "score": 0.756
+                },
+                {
+                    "word": "what",
+                    "start": 170.418,
+                    "end": 170.538,
+                    "score": 0.984
+                },
+                {
+                    "word": "you",
+                    "start": 170.558,
+                    "end": 170.679,
+                    "score": 0.878
+                },
+                {
+                    "word": "think",
+                    "start": 170.739,
+                    "end": 170.979,
+                    "score": 0.753
+                },
+                {
+                    "word": "We",
+                    "start": 171.32,
+                    "end": 171.44,
+                    "score": 0.988
+                },
+                {
+                    "word": "don't",
+                    "start": 171.46,
+                    "end": 171.601,
+                    "score": 0.901
+                },
+                {
+                    "word": "give",
+                    "start": 171.621,
+                    "end": 171.781,
+                    "score": 0.944
+                },
+                {
+                    "word": "a",
+                    "start": 171.821,
+                    "end": 171.841,
+                    "score": 0.987
+                },
+                {
+                    "word": "damn",
+                    "start": 171.921,
+                    "end": 172.202,
+                    "score": 0.766
+                },
+                {
+                    "word": "what",
+                    "start": 172.222,
+                    "end": 172.322,
+                    "score": 0.97
+                },
+                {
+                    "word": "you",
+                    "start": 172.362,
+                    "end": 172.463,
+                    "score": 0.989
+                },
+                {
+                    "word": "thought",
+                    "start": 172.503,
+                    "end": 174.066,
+                    "score": 0.547
+                }
+            ]
+        }
+    ],
+    "word_segments": [
+        {
+            "word": "People",
+            "start": 20.062,
+            "end": 20.403,
+            "score": 0.895
+        },
+        {
+            "word": "gonna",
+            "start": 20.443,
+            "end": 20.663,
+            "score": 0.506
+        },
+        {
+            "word": "hate",
+            "start": 20.743,
+            "end": 20.964,
+            "score": 0.956
+        },
+        {
+            "word": "let",
+            "start": 21.004,
+            "end": 21.164,
+            "score": 0.799
+        },
+        {
+            "word": "them",
+            "start": 21.184,
+            "end": 21.284,
+            "score": 0.678
+        },
+        {
+            "word": "do",
+            "start": 21.324,
+            "end": 21.585,
+            "score": 0.902
+        },
+        {
+            "word": "it.",
+            "start": 21.745,
+            "end": 21.865,
+            "score": 0.535
+        },
+        {
+            "word": "Shine",
+            "start": 21.885,
+            "end": 22.206,
+            "score": 0.742
+        },
+        {
+            "word": "like",
+            "start": 22.266,
+            "end": 22.406,
+            "score": 0.949
+        },
+        {
+            "word": "it",
+            "start": 22.487,
+            "end": 22.547,
+            "score": 0.471
+        },
+        {
+            "word": "ain't",
+            "start": 22.607,
+            "end": 22.767,
+            "score": 0.655
+        },
+        {
+            "word": "nothing",
+            "start": 22.827,
+            "end": 23.108,
+            "score": 0.823
+        },
+        {
+            "word": "to",
+            "start": 23.148,
+            "end": 23.328,
+            "score": 0.714
+        },
+        {
+            "word": "us.",
+            "start": 23.428,
+            "end": 23.729,
+            "score": 0.643
+        },
+        {
+            "word": "Damn",
+            "start": 23.869,
+            "end": 23.989,
+            "score": 0.628
+        },
+        {
+            "word": "you",
+            "start": 24.029,
+            "end": 24.15,
+            "score": 0.952
+        },
+        {
+            "word": "are",
+            "start": 24.23,
+            "end": 24.31,
+            "score": 0.355
+        },
+        {
+            "word": "major",
+            "start": 24.35,
+            "end": 24.831,
+            "score": 0.54
+        },
+        {
+            "word": "in",
+            "start": 25.151,
+            "end": 25.232,
+            "score": 0.596
+        },
+        {
+            "word": "fluids.",
+            "start": 25.372,
+            "end": 25.532,
+            "score": 0.354
+        },
+        {
+            "word": "Skate",
+            "start": 25.592,
+            "end": 25.793,
+            "score": 0.677
+        },
+        {
+            "word": "like",
+            "start": 25.833,
+            "end": 25.973,
+            "score": 0.928
+        },
+        {
+            "word": "they",
+            "start": 25.993,
+            "end": 26.113,
+            "score": 0.902
+        },
+        {
+            "word": "ain't",
+            "start": 26.153,
+            "end": 26.334,
+            "score": 0.517
+        },
+        {
+            "word": "nothing",
+            "start": 26.414,
+            "end": 26.674,
+            "score": 0.789
+        },
+        {
+            "word": "doing.",
+            "start": 26.714,
+            "end": 27.035,
+            "score": 0.827
+        },
+        {
+            "word": "Live",
+            "start": 27.075,
+            "end": 27.255,
+            "score": 0.942
+        },
+        {
+            "word": "life,",
+            "start": 27.356,
+            "end": 27.556,
+            "score": 0.926
+        },
+        {
+            "word": "don't",
+            "start": 27.576,
+            "end": 27.836,
+            "score": 0.756
+        },
+        {
+            "word": "say",
+            "start": 27.917,
+            "end": 28.117,
+            "score": 0.984
+        },
+        {
+            "word": "nothing",
+            "start": 28.157,
+            "end": 28.498,
+            "score": 0.869
+        },
+        {
+            "word": "to",
+            "start": 28.538,
+            "end": 28.738,
+            "score": 0.819
+        },
+        {
+            "word": "them.",
+            "start": 28.758,
+            "end": 29.7,
+            "score": 0.403
+        },
+        {
+            "word": "People",
+            "start": 29.72,
+            "end": 30.021,
+            "score": 0.922
+        },
+        {
+            "word": "gonna",
+            "start": 30.061,
+            "end": 30.281,
+            "score": 0.512
+        },
+        {
+            "word": "hate",
+            "start": 30.361,
+            "end": 30.582,
+            "score": 0.793
+        },
+        {
+            "word": "let",
+            "start": 30.622,
+            "end": 30.782,
+            "score": 0.802
+        },
+        {
+            "word": "them",
+            "start": 30.802,
+            "end": 30.902,
+            "score": 0.682
+        },
+        {
+            "word": "do",
+            "start": 30.942,
+            "end": 31.203,
+            "score": 0.912
+        },
+        {
+            "word": "it.",
+            "start": 31.363,
+            "end": 31.483,
+            "score": 0.532
+        },
+        {
+            "word": "Shine",
+            "start": 31.503,
+            "end": 31.824,
+            "score": 0.745
+        },
+        {
+            "word": "like",
+            "start": 31.884,
+            "end": 32.024,
+            "score": 0.947
+        },
+        {
+            "word": "it",
+            "start": 32.104,
+            "end": 32.165,
+            "score": 0.862
+        },
+        {
+            "word": "ain't",
+            "start": 32.225,
+            "end": 32.365,
+            "score": 0.742
+        },
+        {
+            "word": "nothing",
+            "start": 32.445,
+            "end": 32.726,
+            "score": 0.839
+        },
+        {
+            "word": "to",
+            "start": 32.766,
+            "end": 32.946,
+            "score": 0.738
+        },
+        {
+            "word": "us.",
+            "start": 33.046,
+            "end": 33.347,
+            "score": 0.639
+        },
+        {
+            "word": "Damn",
+            "start": 33.487,
+            "end": 33.607,
+            "score": 0.625
+        },
+        {
+            "word": "you",
+            "start": 33.647,
+            "end": 33.767,
+            "score": 0.954
+        },
+        {
+            "word": "are",
+            "start": 33.848,
+            "end": 33.928,
+            "score": 0.364
+        },
+        {
+            "word": "major",
+            "start": 33.968,
+            "end": 34.449,
+            "score": 0.664
+        },
+        {
+            "word": "in",
+            "start": 34.529,
+            "end": 34.569,
+            "score": 0.078
+        },
+        {
+            "word": "fluids.",
+            "start": 34.589,
+            "end": 35.13,
+            "score": 0.358
+        },
+        {
+            "word": "Skate",
+            "start": 35.21,
+            "end": 35.391,
+            "score": 0.641
+        },
+        {
+            "word": "like",
+            "start": 35.451,
+            "end": 35.571,
+            "score": 0.86
+        },
+        {
+            "word": "they",
+            "start": 35.611,
+            "end": 35.731,
+            "score": 0.917
+        },
+        {
+            "word": "ain't",
+            "start": 35.771,
+            "end": 35.952,
+            "score": 0.493
+        },
+        {
+            "word": "nothing",
+            "start": 36.032,
+            "end": 36.292,
+            "score": 0.817
+        },
+        {
+            "word": "doing.",
+            "start": 36.332,
+            "end": 36.653,
+            "score": 0.834
+        },
+        {
+            "word": "Live",
+            "start": 36.693,
+            "end": 36.893,
+            "score": 0.9
+        },
+        {
+            "word": "life,",
+            "start": 36.973,
+            "end": 37.174,
+            "score": 0.927
+        },
+        {
+            "word": "don't",
+            "start": 37.194,
+            "end": 37.454,
+            "score": 0.742
+        },
+        {
+            "word": "say",
+            "start": 37.535,
+            "end": 37.735,
+            "score": 0.983
+        },
+        {
+            "word": "nothing",
+            "start": 37.775,
+            "end": 38.116,
+            "score": 0.869
+        },
+        {
+            "word": "to",
+            "start": 38.156,
+            "end": 38.436,
+            "score": 0.93
+        },
+        {
+            "word": "them.",
+            "start": 38.797,
+            "end": 38.897,
+            "score": 0.2
+        },
+        {
+            "word": "People",
+            "start": 39.232,
+            "end": 39.552,
+            "score": 0.865
+        },
+        {
+            "word": "telling",
+            "start": 39.593,
+            "end": 39.893,
+            "score": 0.822
+        },
+        {
+            "word": "lies",
+            "start": 39.933,
+            "end": 40.214,
+            "score": 0.883
+        },
+        {
+            "word": "on",
+            "start": 40.374,
+            "end": 40.494,
+            "score": 0.982
+        },
+        {
+            "word": "me,",
+            "start": 40.574,
+            "end": 40.714,
+            "score": 0.984
+        },
+        {
+            "word": "feeling",
+            "start": 41.115,
+            "end": 41.415,
+            "score": 0.705
+        },
+        {
+            "word": "like",
+            "start": 41.455,
+            "end": 41.656,
+            "score": 0.848
+        },
+        {
+            "word": "pack",
+            "start": 41.736,
+            "end": 42.016,
+            "score": 0.558
+        },
+        {
+            "word": "or",
+            "start": 42.177,
+            "end": 42.297,
+            "score": 0.894
+        },
+        {
+            "word": "lies",
+            "start": 42.357,
+            "end": 42.637,
+            "score": 0.857
+        },
+        {
+            "word": "on",
+            "start": 42.797,
+            "end": 42.918,
+            "score": 0.96
+        },
+        {
+            "word": "me,",
+            "start": 42.978,
+            "end": 43.138,
+            "score": 0.969
+        },
+        {
+            "word": "what",
+            "start": 43.519,
+            "end": 43.679,
+            "score": 0.45
+        },
+        {
+            "word": "my",
+            "start": 43.699,
+            "end": 43.819,
+            "score": 0.965
+        },
+        {
+            "word": "next",
+            "start": 43.859,
+            "end": 44.059,
+            "score": 0.808
+        },
+        {
+            "word": "mom",
+            "start": 44.12,
+            "end": 44.4,
+            "score": 0.763
+        },
+        {
+            "word": "gonna",
+            "start": 44.44,
+            "end": 44.66,
+            "score": 0.508
+        },
+        {
+            "word": "be,",
+            "start": 44.7,
+            "end": 44.941,
+            "score": 0.96
+        },
+        {
+            "word": "don't",
+            "start": 45.321,
+            "end": 45.562,
+            "score": 0.807
+        },
+        {
+            "word": "motherfuckers",
+            "start": 45.602,
+            "end": 46.183,
+            "score": 0.801
+        },
+        {
+            "word": "never",
+            "start": 46.243,
+            "end": 46.463,
+            "score": 0.951
+        },
+        {
+            "word": "have",
+            "start": 46.583,
+            "end": 46.764,
+            "score": 0.52
+        },
+        {
+            "word": "a",
+            "start": 46.784,
+            "end": 46.804,
+            "score": 0.812
+        },
+        {
+            "word": "gun",
+            "start": 46.844,
+            "end": 47.064,
+            "score": 0.782
+        },
+        {
+            "word": "shine",
+            "start": 47.124,
+            "end": 47.445,
+            "score": 0.794
+        },
+        {
+            "word": "on",
+            "start": 47.565,
+            "end": 47.705,
+            "score": 0.798
+        },
+        {
+            "word": "me,",
+            "start": 47.825,
+            "end": 48.005,
+            "score": 0.989
+        },
+        {
+            "word": "wait",
+            "start": 48.667,
+            "end": 48.867,
+            "score": 0.94
+        },
+        {
+            "word": "for",
+            "start": 48.907,
+            "end": 49.107,
+            "score": 0.828
+        },
+        {
+            "word": "it,",
+            "start": 49.167,
+            "end": 49.227,
+            "score": 0.983
+        },
+        {
+            "word": "wait",
+            "start": 49.428,
+            "end": 49.608,
+            "score": 0.837
+        },
+        {
+            "word": "for",
+            "start": 49.668,
+            "end": 49.888,
+            "score": 0.837
+        },
+        {
+            "word": "it,",
+            "start": 49.928,
+            "end": 50.149,
+            "score": 0.936
+        },
+        {
+            "word": "wait",
+            "start": 50.169,
+            "end": 50.369,
+            "score": 0.949
+        },
+        {
+            "word": "for",
+            "start": 50.429,
+            "end": 50.65,
+            "score": 0.9
+        },
+        {
+            "word": "it,",
+            "start": 50.69,
+            "end": 50.75,
+            "score": 0.976
+        },
+        {
+            "word": "don't",
+            "start": 51.07,
+            "end": 51.291,
+            "score": 0.9
+        },
+        {
+            "word": "worry",
+            "start": 51.351,
+            "end": 51.611,
+            "score": 0.956
+        },
+        {
+            "word": "my",
+            "start": 51.651,
+            "end": 51.771,
+            "score": 0.844
+        },
+        {
+            "word": "haters",
+            "start": 51.831,
+            "end": 52.092,
+            "score": 0.81
+        },
+        {
+            "word": "is",
+            "start": 52.152,
+            "end": 52.232,
+            "score": 0.843
+        },
+        {
+            "word": "gonna",
+            "start": 52.252,
+            "end": 52.492,
+            "score": 0.522
+        },
+        {
+            "word": "pay",
+            "start": 52.512,
+            "end": 52.753,
+            "score": 0.811
+        },
+        {
+            "word": "for",
+            "start": 52.813,
+            "end": 53.033,
+            "score": 0.915
+        },
+        {
+            "word": "it,",
+            "start": 53.073,
+            "end": 53.133,
+            "score": 0.967
+        },
+        {
+            "word": "chase",
+            "start": 53.414,
+            "end": 53.694,
+            "score": 0.843
+        },
+        {
+            "word": "dreams",
+            "start": 53.714,
+            "end": 53.975,
+            "score": 0.508
+        },
+        {
+            "word": "or",
+            "start": 54.075,
+            "end": 54.155,
+            "score": 0.661
+        },
+        {
+            "word": "dumb",
+            "start": 54.195,
+            "end": 54.435,
+            "score": 0.764
+        },
+        {
+            "word": "niggas",
+            "start": 54.475,
+            "end": 54.736,
+            "score": 0.806
+        },
+        {
+            "word": "or",
+            "start": 54.816,
+            "end": 54.876,
+            "score": 0.588
+        },
+        {
+            "word": "chase",
+            "start": 54.916,
+            "end": 55.197,
+            "score": 0.914
+        },
+        {
+            "word": "hordes,",
+            "start": 55.237,
+            "end": 55.597,
+            "score": 0.728
+        },
+        {
+            "word": "overseas",
+            "start": 55.918,
+            "end": 56.459,
+            "score": 0.87
+        },
+        {
+            "word": "on",
+            "start": 56.539,
+            "end": 56.619,
+            "score": 0.97
+        },
+        {
+            "word": "a",
+            "start": 56.679,
+            "end": 56.699,
+            "score": 0.992
+        },
+        {
+            "word": "great",
+            "start": 56.759,
+            "end": 56.999,
+            "score": 0.853
+        },
+        {
+            "word": "tour,",
+            "start": 57.039,
+            "end": 57.36,
+            "score": 0.711
+        },
+        {
+            "word": "or",
+            "start": 57.801,
+            "end": 58.101,
+            "score": 0.764
+        },
+        {
+            "word": "Maybe",
+            "start": 58.081,
+            "end": 58.662,
+            "score": 0.857
+        },
+        {
+            "word": "I'm",
+            "start": 58.742,
+            "end": 58.802,
+            "score": 0.591
+        },
+        {
+            "word": "just",
+            "start": 58.842,
+            "end": 59.002,
+            "score": 0.757
+        },
+        {
+            "word": "dreaming",
+            "start": 59.122,
+            "end": 59.543,
+            "score": 0.759
+        },
+        {
+            "word": "It",
+            "start": 60.043,
+            "end": 60.123,
+            "score": 0.596
+        },
+        {
+            "word": "beats",
+            "start": 60.183,
+            "end": 60.424,
+            "score": 0.605
+        },
+        {
+            "word": "being",
+            "start": 60.464,
+            "end": 60.724,
+            "score": 0.777
+        },
+        {
+            "word": "with",
+            "start": 60.764,
+            "end": 60.884,
+            "score": 0.786
+        },
+        {
+            "word": "demons,",
+            "start": 60.924,
+            "end": 61.565,
+            "score": 0.729
+        },
+        {
+            "word": "all",
+            "start": 61.605,
+            "end": 61.665,
+            "score": 0.036
+        },
+        {
+            "word": "niggas",
+            "start": 61.685,
+            "end": 61.945,
+            "score": 0.716
+        },
+        {
+            "word": "and",
+            "start": 62.025,
+            "end": 62.085,
+            "score": 0.287
+        },
+        {
+            "word": "scheming",
+            "start": 62.105,
+            "end": 62.566,
+            "score": 0.836
+        },
+        {
+            "word": "At",
+            "start": 62.646,
+            "end": 62.726,
+            "score": 0.658
+        },
+        {
+            "word": "least",
+            "start": 62.766,
+            "end": 62.946,
+            "score": 0.726
+        },
+        {
+            "word": "I'm",
+            "start": 63.027,
+            "end": 63.107,
+            "score": 0.335
+        },
+        {
+            "word": "thinking",
+            "start": 63.127,
+            "end": 63.447,
+            "score": 0.865
+        },
+        {
+            "word": "of",
+            "start": 63.507,
+            "end": 63.627,
+            "score": 0.517
+        },
+        {
+            "word": "an",
+            "start": 63.647,
+            "end": 63.727,
+            "score": 0.942
+        },
+        {
+            "word": "achievement",
+            "start": 63.807,
+            "end": 64.308,
+            "score": 0.846
+        },
+        {
+            "word": "People",
+            "start": 64.508,
+            "end": 64.768,
+            "score": 0.844
+        },
+        {
+            "word": "talk",
+            "start": 64.808,
+            "end": 65.009,
+            "score": 0.961
+        },
+        {
+            "word": "shit",
+            "start": 65.049,
+            "end": 65.289,
+            "score": 0.752
+        },
+        {
+            "word": "for",
+            "start": 65.309,
+            "end": 65.429,
+            "score": 0.723
+        },
+        {
+            "word": "folk",
+            "start": 65.469,
+            "end": 65.73,
+            "score": 0.774
+        },
+        {
+            "word": "seasons",
+            "start": 65.77,
+            "end": 66.17,
+            "score": 0.879
+        },
+        {
+            "word": "for",
+            "start": 66.21,
+            "end": 66.33,
+            "score": 0.951
+        },
+        {
+            "word": "no",
+            "start": 66.39,
+            "end": 66.57,
+            "score": 0.99
+        },
+        {
+            "word": "reason",
+            "start": 66.651,
+            "end": 67.091,
+            "score": 0.971
+        },
+        {
+            "word": "People",
+            "start": 67.552,
+            "end": 67.792,
+            "score": 0.852
+        },
+        {
+            "word": "dog",
+            "start": 67.832,
+            "end": 68.032,
+            "score": 0.916
+        },
+        {
+            "word": "the",
+            "start": 68.052,
+            "end": 68.152,
+            "score": 0.714
+        },
+        {
+            "word": "barn",
+            "start": 68.172,
+            "end": 68.392,
+            "score": 0.648
+        },
+        {
+            "word": "till",
+            "start": 68.433,
+            "end": 68.593,
+            "score": 0.829
+        },
+        {
+            "word": "the",
+            "start": 68.613,
+            "end": 68.693,
+            "score": 0.799
+        },
+        {
+            "word": "branch",
+            "start": 68.733,
+            "end": 68.973,
+            "score": 0.641
+        },
+        {
+            "word": "show",
+            "start": 69.013,
+            "end": 69.233,
+            "score": 0.786
+        },
+        {
+            "word": "up",
+            "start": 69.354,
+            "end": 69.454,
+            "score": 0.926
+        },
+        {
+            "word": "When",
+            "start": 69.834,
+            "end": 69.934,
+            "score": 0.891
+        },
+        {
+            "word": "he",
+            "start": 69.974,
+            "end": 70.034,
+            "score": 0.956
+        },
+        {
+            "word": "steps",
+            "start": 70.054,
+            "end": 70.255,
+            "score": 0.823
+        },
+        {
+            "word": "on",
+            "start": 70.315,
+            "end": 70.375,
+            "score": 0.987
+        },
+        {
+            "word": "the",
+            "start": 70.415,
+            "end": 70.495,
+            "score": 0.92
+        },
+        {
+            "word": "pig,",
+            "start": 70.535,
+            "end": 70.775,
+            "score": 0.661
+        },
+        {
+            "word": "then",
+            "start": 70.795,
+            "end": 70.935,
+            "score": 0.653
+        },
+        {
+            "word": "they",
+            "start": 70.975,
+            "end": 71.075,
+            "score": 0.47
+        },
+        {
+            "word": "guards",
+            "start": 71.115,
+            "end": 71.376,
+            "score": 0.862
+        },
+        {
+            "word": "go",
+            "start": 71.416,
+            "end": 71.556,
+            "score": 0.99
+        },
+        {
+            "word": "up",
+            "start": 71.696,
+            "end": 71.796,
+            "score": 0.973
+        },
+        {
+            "word": "Scars",
+            "start": 72.016,
+            "end": 72.337,
+            "score": 0.807
+        },
+        {
+            "word": "go",
+            "start": 72.377,
+            "end": 72.517,
+            "score": 0.934
+        },
+        {
+            "word": "up,",
+            "start": 72.677,
+            "end": 72.757,
+            "score": 0.893
+        },
+        {
+            "word": "all",
+            "start": 73.078,
+            "end": 73.218,
+            "score": 0.557
+        },
+        {
+            "word": "the",
+            "start": 73.238,
+            "end": 73.318,
+            "score": 0.481
+        },
+        {
+            "word": "applause",
+            "start": 73.418,
+            "end": 73.778,
+            "score": 0.694
+        },
+        {
+            "word": "go",
+            "start": 73.839,
+            "end": 73.999,
+            "score": 0.897
+        },
+        {
+            "word": "up",
+            "start": 74.119,
+            "end": 74.199,
+            "score": 0.971
+        },
+        {
+            "word": "And",
+            "start": 74.359,
+            "end": 74.459,
+            "score": 0.749
+        },
+        {
+            "word": "everybody",
+            "start": 74.519,
+            "end": 75.0,
+            "score": 0.872
+        },
+        {
+            "word": "in",
+            "start": 75.08,
+            "end": 75.16,
+            "score": 0.978
+        },
+        {
+            "word": "the",
+            "start": 75.2,
+            "end": 75.28,
+            "score": 0.794
+        },
+        {
+            "word": "whole",
+            "start": 75.32,
+            "end": 75.6,
+            "score": 0.836
+        },
+        {
+            "word": "damn",
+            "start": 75.621,
+            "end": 75.861,
+            "score": 0.726
+        },
+        {
+            "word": "car",
+            "start": 75.921,
+            "end": 76.181,
+            "score": 0.811
+        },
+        {
+            "word": "goes",
+            "start": 76.221,
+            "end": 76.501,
+            "score": 0.82
+        },
+        {
+            "word": "nuts",
+            "start": 76.542,
+            "end": 77.142,
+            "score": 0.744
+        },
+        {
+            "word": "People",
+            "start": 77.743,
+            "end": 78.023,
+            "score": 0.918
+        },
+        {
+            "word": "gon'",
+            "start": 78.083,
+            "end": 78.283,
+            "score": 0.668
+        },
+        {
+            "word": "hate",
+            "start": 78.364,
+            "end": 78.584,
+            "score": 0.923
+        },
+        {
+            "word": "let",
+            "start": 78.644,
+            "end": 78.784,
+            "score": 0.781
+        },
+        {
+            "word": "them",
+            "start": 78.804,
+            "end": 78.904,
+            "score": 0.631
+        },
+        {
+            "word": "do",
+            "start": 78.944,
+            "end": 79.164,
+            "score": 0.885
+        },
+        {
+            "word": "it",
+            "start": 79.365,
+            "end": 79.485,
+            "score": 0.606
+        },
+        {
+            "word": "Shine",
+            "start": 79.525,
+            "end": 79.825,
+            "score": 0.81
+        },
+        {
+            "word": "like",
+            "start": 79.885,
+            "end": 80.025,
+            "score": 0.901
+        },
+        {
+            "word": "it",
+            "start": 80.105,
+            "end": 80.166,
+            "score": 0.785
+        },
+        {
+            "word": "ain't",
+            "start": 80.246,
+            "end": 80.386,
+            "score": 0.822
+        },
+        {
+            "word": "nothin'",
+            "start": 80.466,
+            "end": 80.726,
+            "score": 0.893
+        },
+        {
+            "word": "too",
+            "start": 80.766,
+            "end": 80.986,
+            "score": 0.506
+        },
+        {
+            "word": "That's",
+            "start": 81.006,
+            "end": 81.147,
+            "score": 0.271
+        },
+        {
+            "word": "right",
+            "start": 81.267,
+            "end": 81.487,
+            "score": 0.153
+        },
+        {
+            "word": "Damn",
+            "start": 81.507,
+            "end": 81.627,
+            "score": 0.405
+        },
+        {
+            "word": "you",
+            "start": 81.647,
+            "end": 81.767,
+            "score": 0.755
+        },
+        {
+            "word": "are",
+            "start": 81.847,
+            "end": 81.928,
+            "score": 0.385
+        },
+        {
+            "word": "mage",
+            "start": 81.968,
+            "end": 82.448,
+            "score": 0.851
+        },
+        {
+            "word": "and",
+            "start": 82.608,
+            "end": 82.849,
+            "score": 0.443
+        },
+        {
+            "word": "fluids,",
+            "start": 82.989,
+            "end": 83.149,
+            "score": 0.295
+        },
+        {
+            "word": "hate",
+            "start": 83.169,
+            "end": 83.409,
+            "score": 0.852
+        },
+        {
+            "word": "like",
+            "start": 83.449,
+            "end": 83.589,
+            "score": 0.932
+        },
+        {
+            "word": "they",
+            "start": 83.609,
+            "end": 83.73,
+            "score": 0.78
+        },
+        {
+            "word": "ain't",
+            "start": 83.81,
+            "end": 83.97,
+            "score": 0.776
+        },
+        {
+            "word": "nothin'",
+            "start": 84.03,
+            "end": 84.31,
+            "score": 0.879
+        },
+        {
+            "word": "doin'",
+            "start": 84.33,
+            "end": 84.631,
+            "score": 0.8
+        },
+        {
+            "word": "live",
+            "start": 84.671,
+            "end": 84.871,
+            "score": 0.895
+        },
+        {
+            "word": "life,",
+            "start": 84.951,
+            "end": 85.171,
+            "score": 0.904
+        },
+        {
+            "word": "don't",
+            "start": 85.231,
+            "end": 85.451,
+            "score": 0.831
+        },
+        {
+            "word": "say",
+            "start": 85.532,
+            "end": 85.752,
+            "score": 0.872
+        },
+        {
+            "word": "nothin'",
+            "start": 85.832,
+            "end": 86.112,
+            "score": 0.869
+        },
+        {
+            "word": "too",
+            "start": 86.152,
+            "end": 86.873,
+            "score": 0.928
+        },
+        {
+            "word": "People",
+            "start": 87.275,
+            "end": 87.595,
+            "score": 0.852
+        },
+        {
+            "word": "gon'",
+            "start": 87.655,
+            "end": 87.876,
+            "score": 0.822
+        },
+        {
+            "word": "hate,",
+            "start": 87.956,
+            "end": 88.176,
+            "score": 0.88
+        },
+        {
+            "word": "let",
+            "start": 88.216,
+            "end": 88.356,
+            "score": 0.758
+        },
+        {
+            "word": "them",
+            "start": 88.376,
+            "end": 88.476,
+            "score": 0.666
+        },
+        {
+            "word": "do",
+            "start": 88.517,
+            "end": 88.757,
+            "score": 0.963
+        },
+        {
+            "word": "it.",
+            "start": 88.957,
+            "end": 89.077,
+            "score": 0.455
+        },
+        {
+            "word": "Shine",
+            "start": 89.097,
+            "end": 89.418,
+            "score": 0.895
+        },
+        {
+            "word": "like",
+            "start": 89.458,
+            "end": 89.598,
+            "score": 0.84
+        },
+        {
+            "word": "it",
+            "start": 89.698,
+            "end": 89.758,
+            "score": 0.892
+        },
+        {
+            "word": "ain't",
+            "start": 89.818,
+            "end": 89.958,
+            "score": 0.746
+        },
+        {
+            "word": "nothin'",
+            "start": 90.038,
+            "end": 90.299,
+            "score": 0.818
+        },
+        {
+            "word": "too",
+            "start": 90.319,
+            "end": 90.519,
+            "score": 0.914
+        },
+        {
+            "word": "much.",
+            "start": 90.559,
+            "end": 90.92,
+            "score": 0.551
+        },
+        {
+            "word": "Damn",
+            "start": 90.96,
+            "end": 91.2,
+            "score": 0.695
+        },
+        {
+            "word": "you",
+            "start": 91.24,
+            "end": 91.34,
+            "score": 0.942
+        },
+        {
+            "word": "are",
+            "start": 91.44,
+            "end": 91.52,
+            "score": 0.391
+        },
+        {
+            "word": "major",
+            "start": 91.56,
+            "end": 92.021,
+            "score": 0.646
+        },
+        {
+            "word": "in",
+            "start": 92.341,
+            "end": 92.421,
+            "score": 0.589
+        },
+        {
+            "word": "fluids.",
+            "start": 92.622,
+            "end": 92.782,
+            "score": 0.271
+        },
+        {
+            "word": "Skate",
+            "start": 92.802,
+            "end": 92.982,
+            "score": 0.588
+        },
+        {
+            "word": "like",
+            "start": 93.022,
+            "end": 93.162,
+            "score": 0.862
+        },
+        {
+            "word": "they",
+            "start": 93.202,
+            "end": 93.323,
+            "score": 0.944
+        },
+        {
+            "word": "ain't",
+            "start": 93.403,
+            "end": 93.543,
+            "score": 0.696
+        },
+        {
+            "word": "nothin'",
+            "start": 93.603,
+            "end": 93.883,
+            "score": 0.796
+        },
+        {
+            "word": "doing,",
+            "start": 93.923,
+            "end": 94.244,
+            "score": 0.803
+        },
+        {
+            "word": "live",
+            "start": 94.264,
+            "end": 94.464,
+            "score": 0.97
+        },
+        {
+            "word": "life,",
+            "start": 94.544,
+            "end": 94.764,
+            "score": 0.85
+        },
+        {
+            "word": "don't",
+            "start": 94.824,
+            "end": 95.045,
+            "score": 0.799
+        },
+        {
+            "word": "say",
+            "start": 95.105,
+            "end": 95.345,
+            "score": 0.935
+        },
+        {
+            "word": "nothin'",
+            "start": 95.405,
+            "end": 95.685,
+            "score": 0.863
+        },
+        {
+            "word": "to",
+            "start": 95.725,
+            "end": 95.906,
+            "score": 0.741
+        },
+        {
+            "word": "them.",
+            "start": 95.926,
+            "end": 96.486,
+            "score": 0.381
+        },
+        {
+            "word": "Spectators,",
+            "start": 96.506,
+            "end": 97.347,
+            "score": 0.902
+        },
+        {
+            "word": "sideline",
+            "start": 97.788,
+            "end": 98.409,
+            "score": 0.743
+        },
+        {
+            "word": "us,",
+            "start": 98.429,
+            "end": 98.489,
+            "score": 0.849
+        },
+        {
+            "word": "spend",
+            "start": 98.949,
+            "end": 99.17,
+            "score": 0.623
+        },
+        {
+            "word": "the",
+            "start": 99.19,
+            "end": 99.27,
+            "score": 0.392
+        },
+        {
+            "word": "days",
+            "start": 99.31,
+            "end": 99.49,
+            "score": 0.842
+        },
+        {
+            "word": "comin'",
+            "start": 99.53,
+            "end": 99.771,
+            "score": 0.841
+        },
+        {
+            "word": "up",
+            "start": 99.891,
+            "end": 99.991,
+            "score": 0.92
+        },
+        {
+            "word": "with",
+            "start": 100.051,
+            "end": 100.191,
+            "score": 0.698
+        },
+        {
+            "word": "slack",
+            "start": 100.211,
+            "end": 100.511,
+            "score": 0.544
+        },
+        {
+            "word": "comments",
+            "start": 100.531,
+            "end": 100.952,
+            "score": 0.558
+        },
+        {
+            "word": "that's",
+            "start": 101.012,
+            "end": 101.232,
+            "score": 0.733
+        },
+        {
+            "word": "psychotic.",
+            "start": 101.473,
+            "end": 102.133,
+            "score": 0.833
+        },
+        {
+            "word": "Why",
+            "start": 102.234,
+            "end": 102.494,
+            "score": 0.735
+        },
+        {
+            "word": "tonnish",
+            "start": 102.574,
+            "end": 102.814,
+            "score": 0.683
+        },
+        {
+            "word": "a",
+            "start": 102.854,
+            "end": 102.914,
+            "score": 0.783
+        },
+        {
+            "word": "fly",
+            "start": 102.954,
+            "end": 103.215,
+            "score": 0.941
+        },
+        {
+            "word": "product?",
+            "start": 103.255,
+            "end": 103.876,
+            "score": 0.675
+        },
+        {
+            "word": "Why",
+            "start": 103.896,
+            "end": 104.056,
+            "score": 0.778
+        },
+        {
+            "word": "be",
+            "start": 104.076,
+            "end": 104.176,
+            "score": 0.938
+        },
+        {
+            "word": "mad",
+            "start": 104.216,
+            "end": 104.396,
+            "score": 0.916
+        },
+        {
+            "word": "just",
+            "start": 104.436,
+            "end": 104.596,
+            "score": 0.764
+        },
+        {
+            "word": "cause",
+            "start": 104.617,
+            "end": 104.757,
+            "score": 0.78
+        },
+        {
+            "word": "I",
+            "start": 104.837,
+            "end": 104.977,
+            "score": 0.707
+        },
+        {
+            "word": "got",
+            "start": 105.017,
+            "end": 105.237,
+            "score": 0.918
+        },
+        {
+            "word": "it?",
+            "start": 105.277,
+            "end": 105.337,
+            "score": 0.915
+        },
+        {
+            "word": "Hey,",
+            "start": 105.638,
+            "end": 106.299,
+            "score": 0.955
+        },
+        {
+            "word": "I",
+            "start": 106.319,
+            "end": 106.379,
+            "score": 0.772
+        },
+        {
+            "word": "mean,",
+            "start": 106.399,
+            "end": 106.519,
+            "score": 0.209
+        },
+        {
+            "word": "I",
+            "start": 106.539,
+            "end": 106.559,
+            "score": 0.427
+        },
+        {
+            "word": "never",
+            "start": 106.579,
+            "end": 106.799,
+            "score": 0.683
+        },
+        {
+            "word": "know.",
+            "start": 106.839,
+            "end": 107.16,
+            "score": 0.886
+        },
+        {
+            "word": "Wave",
+            "start": 107.18,
+            "end": 107.42,
+            "score": 0.931
+        },
+        {
+            "word": "to",
+            "start": 107.46,
+            "end": 107.58,
+            "score": 0.944
+        },
+        {
+            "word": "the",
+            "start": 107.6,
+            "end": 107.7,
+            "score": 0.772
+        },
+        {
+            "word": "haters",
+            "start": 107.76,
+            "end": 108.161,
+            "score": 0.789
+        },
+        {
+            "word": "that",
+            "start": 108.201,
+            "end": 108.301,
+            "score": 0.856
+        },
+        {
+            "word": "put",
+            "start": 108.341,
+            "end": 108.461,
+            "score": 0.815
+        },
+        {
+            "word": "me",
+            "start": 108.521,
+            "end": 108.601,
+            "score": 0.835
+        },
+        {
+            "word": "on",
+            "start": 108.682,
+            "end": 108.762,
+            "score": 0.968
+        },
+        {
+            "word": "the",
+            "start": 108.802,
+            "end": 108.862,
+            "score": 0.587
+        },
+        {
+            "word": "pedestal.",
+            "start": 108.922,
+            "end": 109.362,
+            "score": 0.981
+        },
+        {
+            "word": "Talk",
+            "start": 109.563,
+            "end": 109.823,
+            "score": 0.903
+        },
+        {
+            "word": "smack,",
+            "start": 109.883,
+            "end": 110.123,
+            "score": 0.826
+        },
+        {
+            "word": "but",
+            "start": 110.143,
+            "end": 110.264,
+            "score": 0.953
+        },
+        {
+            "word": "they",
+            "start": 110.284,
+            "end": 110.424,
+            "score": 0.968
+        },
+        {
+            "word": "really",
+            "start": 110.464,
+            "end": 110.704,
+            "score": 0.845
+        },
+        {
+            "word": "know",
+            "start": 110.784,
+            "end": 110.984,
+            "score": 0.946
+        },
+        {
+            "word": "I'm",
+            "start": 111.085,
+            "end": 111.185,
+            "score": 0.864
+        },
+        {
+            "word": "incredible.",
+            "start": 111.225,
+            "end": 111.825,
+            "score": 0.906
+        },
+        {
+            "word": "Unforgettable,",
+            "start": 112.286,
+            "end": 112.967,
+            "score": 0.869
+        },
+        {
+            "word": "young",
+            "start": 113.187,
+            "end": 113.367,
+            "score": 0.81
+        },
+        {
+            "word": "blue-eyed,",
+            "start": 113.427,
+            "end": 113.888,
+            "score": 0.666
+        },
+        {
+            "word": "the",
+            "start": 113.908,
+            "end": 114.008,
+            "score": 0.358
+        },
+        {
+            "word": "new",
+            "start": 114.048,
+            "end": 114.168,
+            "score": 0.84
+        },
+        {
+            "word": "guy",
+            "start": 114.228,
+            "end": 114.449,
+            "score": 0.782
+        },
+        {
+            "word": "gets",
+            "start": 114.509,
+            "end": 114.609,
+            "score": 0.404
+        },
+        {
+            "word": "on",
+            "start": 114.709,
+            "end": 114.809,
+            "score": 0.599
+        },
+        {
+            "word": "schedule.",
+            "start": 114.869,
+            "end": 115.51,
+            "score": 0.702
+        },
+        {
+            "word": "Man",
+            "start": 115.49,
+            "end": 115.67,
+            "score": 0.222
+        },
+        {
+            "word": "behind",
+            "start": 115.69,
+            "end": 116.091,
+            "score": 0.735
+        },
+        {
+            "word": "bars",
+            "start": 116.131,
+            "end": 116.411,
+            "score": 0.778
+        },
+        {
+            "word": "and",
+            "start": 116.491,
+            "end": 116.552,
+            "score": 0.762
+        },
+        {
+            "word": "that's",
+            "start": 116.612,
+            "end": 116.832,
+            "score": 0.669
+        },
+        {
+            "word": "minus",
+            "start": 116.872,
+            "end": 117.132,
+            "score": 0.613
+        },
+        {
+            "word": "the",
+            "start": 117.152,
+            "end": 117.253,
+            "score": 0.794
+        },
+        {
+            "word": "federal",
+            "start": 117.293,
+            "end": 117.713,
+            "score": 0.81
+        },
+        {
+            "word": "stone",
+            "start": 117.894,
+            "end": 118.154,
+            "score": 0.815
+        },
+        {
+            "word": "giant",
+            "start": 118.334,
+            "end": 118.474,
+            "score": 0.439
+        },
+        {
+            "word": "What",
+            "start": 118.815,
+            "end": 118.935,
+            "score": 0.728
+        },
+        {
+            "word": "the",
+            "start": 118.975,
+            "end": 119.075,
+            "score": 0.967
+        },
+        {
+            "word": "hell",
+            "start": 119.135,
+            "end": 119.336,
+            "score": 0.773
+        },
+        {
+            "word": "cuz",
+            "start": 119.356,
+            "end": 119.536,
+            "score": 0.575
+        },
+        {
+            "word": "some",
+            "start": 119.556,
+            "end": 119.656,
+            "score": 0.452
+        },
+        {
+            "word": "pebbles",
+            "start": 119.696,
+            "end": 119.997,
+            "score": 0.862
+        },
+        {
+            "word": "do?",
+            "start": 120.037,
+            "end": 120.217,
+            "score": 0.989
+        },
+        {
+            "word": "Why",
+            "start": 120.577,
+            "end": 120.738,
+            "score": 0.924
+        },
+        {
+            "word": "you",
+            "start": 120.758,
+            "end": 120.898,
+            "score": 0.787
+        },
+        {
+            "word": "grabbing",
+            "start": 120.918,
+            "end": 121.178,
+            "score": 0.482
+        },
+        {
+            "word": "and",
+            "start": 121.238,
+            "end": 121.319,
+            "score": 0.653
+        },
+        {
+            "word": "trying",
+            "start": 121.339,
+            "end": 121.559,
+            "score": 0.353
+        },
+        {
+            "word": "my",
+            "start": 121.579,
+            "end": 121.619,
+            "score": 0.462
+        },
+        {
+            "word": "unbuilding",
+            "start": 121.679,
+            "end": 122.1,
+            "score": 0.451
+        },
+        {
+            "word": "revenue",
+            "start": 122.12,
+            "end": 122.6,
+            "score": 0.782
+        },
+        {
+            "word": "Tell",
+            "start": 122.861,
+            "end": 123.021,
+            "score": 0.967
+        },
+        {
+            "word": "them",
+            "start": 123.061,
+            "end": 123.141,
+            "score": 0.746
+        },
+        {
+            "word": "you",
+            "start": 123.181,
+            "end": 123.301,
+            "score": 0.898
+        },
+        {
+            "word": "get",
+            "start": 123.321,
+            "end": 123.462,
+            "score": 0.769
+        },
+        {
+            "word": "them",
+            "start": 123.482,
+            "end": 123.582,
+            "score": 0.601
+        },
+        {
+            "word": "tomorrow",
+            "start": 123.622,
+            "end": 124.063,
+            "score": 0.891
+        },
+        {
+            "word": "day,",
+            "start": 124.103,
+            "end": 124.303,
+            "score": 0.861
+        },
+        {
+            "word": "no",
+            "start": 124.363,
+            "end": 124.483,
+            "score": 0.802
+        },
+        {
+            "word": "stressing",
+            "start": 124.523,
+            "end": 124.824,
+            "score": 0.61
+        },
+        {
+            "word": "you",
+            "start": 124.864,
+            "end": 125.044,
+            "score": 0.922
+        },
+        {
+            "word": "Life",
+            "start": 125.425,
+            "end": 125.625,
+            "score": 0.933
+        },
+        {
+            "word": "goes",
+            "start": 125.665,
+            "end": 125.865,
+            "score": 0.815
+        },
+        {
+            "word": "on,",
+            "start": 126.025,
+            "end": 126.286,
+            "score": 0.93
+        },
+        {
+            "word": "life",
+            "start": 126.306,
+            "end": 126.506,
+            "score": 0.837
+        },
+        {
+            "word": "goes",
+            "start": 126.546,
+            "end": 126.767,
+            "score": 0.776
+        },
+        {
+            "word": "on",
+            "start": 126.927,
+            "end": 127.047,
+            "score": 0.773
+        },
+        {
+            "word": "You",
+            "start": 127.247,
+            "end": 127.387,
+            "score": 0.973
+        },
+        {
+            "word": "the",
+            "start": 127.428,
+            "end": 127.528,
+            "score": 0.44
+        },
+        {
+            "word": "shit",
+            "start": 127.568,
+            "end": 127.788,
+            "score": 0.9
+        },
+        {
+            "word": "even",
+            "start": 127.908,
+            "end": 128.088,
+            "score": 0.921
+        },
+        {
+            "word": "for",
+            "start": 128.149,
+            "end": 128.289,
+            "score": 0.485
+        },
+        {
+            "word": "photos,",
+            "start": 128.309,
+            "end": 128.709,
+            "score": 0.76
+        },
+        {
+            "word": "life's",
+            "start": 128.769,
+            "end": 128.95,
+            "score": 0.688
+        },
+        {
+            "word": "sweating",
+            "start": 128.99,
+            "end": 129.29,
+            "score": 0.276
+        },
+        {
+            "word": "all",
+            "start": 129.31,
+            "end": 129.43,
+            "score": 0.731
+        },
+        {
+            "word": "They",
+            "start": 129.611,
+            "end": 129.751,
+            "score": 0.798
+        },
+        {
+            "word": "gon'",
+            "start": 129.791,
+            "end": 129.911,
+            "score": 0.602
+        },
+        {
+            "word": "trash",
+            "start": 129.951,
+            "end": 130.252,
+            "score": 0.9
+        },
+        {
+            "word": "you",
+            "start": 130.292,
+            "end": 130.412,
+            "score": 0.965
+        },
+        {
+            "word": "Even",
+            "start": 130.672,
+            "end": 130.833,
+            "score": 0.849
+        },
+        {
+            "word": "if",
+            "start": 130.913,
+            "end": 130.973,
+            "score": 0.959
+        },
+        {
+            "word": "they",
+            "start": 131.013,
+            "end": 131.153,
+            "score": 0.917
+        },
+        {
+            "word": "like",
+            "start": 131.193,
+            "end": 131.353,
+            "score": 0.947
+        },
+        {
+            "word": "your",
+            "start": 131.393,
+            "end": 131.574,
+            "score": 0.766
+        },
+        {
+            "word": "song",
+            "start": 131.614,
+            "end": 131.854,
+            "score": 0.808
+        },
+        {
+            "word": "People",
+            "start": 132.054,
+            "end": 132.315,
+            "score": 0.867
+        },
+        {
+            "word": "always",
+            "start": 132.415,
+            "end": 132.635,
+            "score": 0.885
+        },
+        {
+            "word": "gon'",
+            "start": 132.675,
+            "end": 132.876,
+            "score": 0.755
+        },
+        {
+            "word": "judge,",
+            "start": 132.916,
+            "end": 133.236,
+            "score": 0.765
+        },
+        {
+            "word": "hold",
+            "start": 133.256,
+            "end": 133.416,
+            "score": 0.525
+        },
+        {
+            "word": "me",
+            "start": 133.456,
+            "end": 133.536,
+            "score": 0.93
+        },
+        {
+            "word": "right",
+            "start": 133.597,
+            "end": 133.817,
+            "score": 0.9
+        },
+        {
+            "word": "over",
+            "start": 133.917,
+            "end": 134.097,
+            "score": 0.961
+        },
+        {
+            "word": "on",
+            "start": 134.238,
+            "end": 134.578,
+            "score": 0.858
+        },
+        {
+            "word": "People",
+            "start": 135.25,
+            "end": 135.571,
+            "score": 0.798
+        },
+        {
+            "word": "gon'",
+            "start": 135.631,
+            "end": 135.851,
+            "score": 0.578
+        },
+        {
+            "word": "hate,",
+            "start": 135.931,
+            "end": 136.172,
+            "score": 0.904
+        },
+        {
+            "word": "let",
+            "start": 136.212,
+            "end": 136.352,
+            "score": 0.918
+        },
+        {
+            "word": "them",
+            "start": 136.372,
+            "end": 136.452,
+            "score": 0.692
+        },
+        {
+            "word": "do",
+            "start": 136.512,
+            "end": 136.733,
+            "score": 0.982
+        },
+        {
+            "word": "it.",
+            "start": 136.793,
+            "end": 136.853,
+            "score": 0.961
+        },
+        {
+            "word": "Shine",
+            "start": 137.113,
+            "end": 137.454,
+            "score": 0.834
+        },
+        {
+            "word": "like",
+            "start": 137.494,
+            "end": 137.634,
+            "score": 0.817
+        },
+        {
+            "word": "it",
+            "start": 137.734,
+            "end": 137.794,
+            "score": 0.974
+        },
+        {
+            "word": "ain't",
+            "start": 137.855,
+            "end": 137.995,
+            "score": 0.783
+        },
+        {
+            "word": "nothin'",
+            "start": 138.075,
+            "end": 138.335,
+            "score": 0.874
+        },
+        {
+            "word": "to",
+            "start": 138.375,
+            "end": 138.596,
+            "score": 0.968
+        },
+        {
+            "word": "it.",
+            "start": 138.656,
+            "end": 138.716,
+            "score": 0.888
+        },
+        {
+            "word": "Damn",
+            "start": 138.956,
+            "end": 139.277,
+            "score": 0.884
+        },
+        {
+            "word": "you,",
+            "start": 139.297,
+            "end": 139.558,
+            "score": 0.698
+        },
+        {
+            "word": "remade",
+            "start": 139.578,
+            "end": 139.898,
+            "score": 0.648
+        },
+        {
+            "word": "your",
+            "start": 139.918,
+            "end": 139.998,
+            "score": 0.044
+        },
+        {
+            "word": "influence.",
+            "start": 140.018,
+            "end": 140.74,
+            "score": 0.864
+        },
+        {
+            "word": "Skate",
+            "start": 140.76,
+            "end": 141.08,
+            "score": 0.815
+        },
+        {
+            "word": "like",
+            "start": 141.1,
+            "end": 141.261,
+            "score": 0.851
+        },
+        {
+            "word": "they",
+            "start": 141.301,
+            "end": 141.401,
+            "score": 0.746
+        },
+        {
+            "word": "ain't",
+            "start": 141.481,
+            "end": 141.621,
+            "score": 0.79
+        },
+        {
+            "word": "nothin'",
+            "start": 141.701,
+            "end": 141.982,
+            "score": 0.814
+        },
+        {
+            "word": "doin'",
+            "start": 142.002,
+            "end": 142.282,
+            "score": 0.813
+        },
+        {
+            "word": "live",
+            "start": 142.342,
+            "end": 142.523,
+            "score": 0.962
+        },
+        {
+            "word": "life.",
+            "start": 142.603,
+            "end": 142.823,
+            "score": 0.933
+        },
+        {
+            "word": "Don't",
+            "start": 142.883,
+            "end": 143.084,
+            "score": 0.855
+        },
+        {
+            "word": "say",
+            "start": 143.164,
+            "end": 143.384,
+            "score": 0.959
+        },
+        {
+            "word": "nothin'",
+            "start": 143.444,
+            "end": 143.725,
+            "score": 0.913
+        },
+        {
+            "word": "to",
+            "start": 143.765,
+            "end": 144.025,
+            "score": 0.69
+        },
+        {
+            "word": "them.",
+            "start": 144.045,
+            "end": 144.146,
+            "score": 0.4
+        },
+        {
+            "word": "People",
+            "start": 144.927,
+            "end": 145.167,
+            "score": 0.908
+        },
+        {
+            "word": "gon'",
+            "start": 145.227,
+            "end": 145.468,
+            "score": 0.669
+        },
+        {
+            "word": "hate,",
+            "start": 145.528,
+            "end": 145.788,
+            "score": 0.69
+        },
+        {
+            "word": "let",
+            "start": 145.809,
+            "end": 145.969,
+            "score": 0.831
+        },
+        {
+            "word": "them",
+            "start": 145.989,
+            "end": 146.069,
+            "score": 0.743
+        },
+        {
+            "word": "do",
+            "start": 146.109,
+            "end": 146.309,
+            "score": 0.977
+        },
+        {
+            "word": "it.",
+            "start": 146.39,
+            "end": 146.67,
+            "score": 0.824
+        },
+        {
+            "word": "Shine",
+            "start": 146.69,
+            "end": 147.011,
+            "score": 0.784
+        },
+        {
+            "word": "like",
+            "start": 147.051,
+            "end": 147.191,
+            "score": 0.89
+        },
+        {
+            "word": "it",
+            "start": 147.271,
+            "end": 147.331,
+            "score": 0.76
+        },
+        {
+            "word": "ain't",
+            "start": 147.411,
+            "end": 147.552,
+            "score": 0.792
+        },
+        {
+            "word": "nothin'",
+            "start": 147.612,
+            "end": 147.872,
+            "score": 0.874
+        },
+        {
+            "word": "to",
+            "start": 147.912,
+            "end": 148.133,
+            "score": 0.872
+        },
+        {
+            "word": "it.",
+            "start": 148.213,
+            "end": 148.273,
+            "score": 0.932
+        },
+        {
+            "word": "Damn",
+            "start": 148.533,
+            "end": 148.794,
+            "score": 0.816
+        },
+        {
+            "word": "you,",
+            "start": 148.834,
+            "end": 149.034,
+            "score": 0.66
+        },
+        {
+            "word": "remade",
+            "start": 149.054,
+            "end": 149.415,
+            "score": 0.712
+        },
+        {
+            "word": "your",
+            "start": 149.435,
+            "end": 149.515,
+            "score": 0.055
+        },
+        {
+            "word": "influence.",
+            "start": 149.535,
+            "end": 150.076,
+            "score": 0.949
+        },
+        {
+            "word": "Ain't",
+            "start": 150.477,
+            "end": 150.617,
+            "score": 0.327
+        },
+        {
+            "word": "like",
+            "start": 150.637,
+            "end": 150.797,
+            "score": 0.824
+        },
+        {
+            "word": "they",
+            "start": 150.837,
+            "end": 150.958,
+            "score": 0.893
+        },
+        {
+            "word": "ain't",
+            "start": 151.038,
+            "end": 151.178,
+            "score": 0.622
+        },
+        {
+            "word": "nothin'",
+            "start": 151.258,
+            "end": 151.519,
+            "score": 0.911
+        },
+        {
+            "word": "doin'",
+            "start": 151.559,
+            "end": 151.819,
+            "score": 0.663
+        },
+        {
+            "word": "live",
+            "start": 151.879,
+            "end": 152.079,
+            "score": 0.96
+        },
+        {
+            "word": "life.",
+            "start": 152.16,
+            "end": 152.36,
+            "score": 0.942
+        },
+        {
+            "word": "Don't",
+            "start": 152.42,
+            "end": 152.661,
+            "score": 0.897
+        },
+        {
+            "word": "say",
+            "start": 152.721,
+            "end": 152.941,
+            "score": 0.923
+        },
+        {
+            "word": "nothin'",
+            "start": 153.021,
+            "end": 153.302,
+            "score": 0.924
+        },
+        {
+            "word": "to",
+            "start": 153.342,
+            "end": 153.642,
+            "score": 0.871
+        },
+        {
+            "word": "them.",
+            "start": 154.003,
+            "end": 154.103,
+            "score": 0.2
+        },
+        {
+            "word": "We",
+            "start": 154.403,
+            "end": 154.623,
+            "score": 0.807
+        },
+        {
+            "word": "don't",
+            "start": 154.664,
+            "end": 154.784,
+            "score": 0.878
+        },
+        {
+            "word": "give",
+            "start": 154.804,
+            "end": 154.944,
+            "score": 0.779
+        },
+        {
+            "word": "a",
+            "start": 154.984,
+            "end": 155.004,
+            "score": 0.93
+        },
+        {
+            "word": "damn",
+            "start": 155.084,
+            "end": 155.385,
+            "score": 0.633
+        },
+        {
+            "word": "what",
+            "start": 155.405,
+            "end": 155.525,
+            "score": 0.963
+        },
+        {
+            "word": "you",
+            "start": 155.546,
+            "end": 155.666,
+            "score": 0.816
+        },
+        {
+            "word": "did",
+            "start": 155.706,
+            "end": 155.986,
+            "score": 0.989
+        },
+        {
+            "word": "We",
+            "start": 156.307,
+            "end": 156.427,
+            "score": 0.954
+        },
+        {
+            "word": "don't",
+            "start": 156.447,
+            "end": 156.588,
+            "score": 0.885
+        },
+        {
+            "word": "give",
+            "start": 156.608,
+            "end": 156.748,
+            "score": 0.942
+        },
+        {
+            "word": "a",
+            "start": 156.788,
+            "end": 156.808,
+            "score": 0.009
+        },
+        {
+            "word": "damn",
+            "start": 156.888,
+            "end": 157.169,
+            "score": 0.662
+        },
+        {
+            "word": "who",
+            "start": 157.189,
+            "end": 157.309,
+            "score": 0.7
+        },
+        {
+            "word": "you",
+            "start": 157.349,
+            "end": 157.45,
+            "score": 0.994
+        },
+        {
+            "word": "are",
+            "start": 157.63,
+            "end": 157.73,
+            "score": 0.828
+        },
+        {
+            "word": "Home,",
+            "start": 158.071,
+            "end": 158.372,
+            "score": 0.842
+        },
+        {
+            "word": "you",
+            "start": 158.392,
+            "end": 158.492,
+            "score": 0.886
+        },
+        {
+            "word": "ain't",
+            "start": 158.552,
+            "end": 158.672,
+            "score": 0.761
+        },
+        {
+            "word": "down",
+            "start": 158.712,
+            "end": 158.993,
+            "score": 0.631
+        },
+        {
+            "word": "with",
+            "start": 159.013,
+            "end": 159.133,
+            "score": 0.757
+        },
+        {
+            "word": "the",
+            "start": 159.153,
+            "end": 159.234,
+            "score": 0.738
+        },
+        {
+            "word": "team",
+            "start": 159.294,
+            "end": 159.594,
+            "score": 0.51
+        },
+        {
+            "word": "We",
+            "start": 159.895,
+            "end": 159.995,
+            "score": 0.994
+        },
+        {
+            "word": "don't",
+            "start": 160.035,
+            "end": 160.176,
+            "score": 0.748
+        },
+        {
+            "word": "give",
+            "start": 160.196,
+            "end": 160.356,
+            "score": 0.947
+        },
+        {
+            "word": "a",
+            "start": 160.396,
+            "end": 160.416,
+            "score": 0.981
+        },
+        {
+            "word": "damn",
+            "start": 160.496,
+            "end": 160.777,
+            "score": 0.759
+        },
+        {
+            "word": "what",
+            "start": 160.797,
+            "end": 160.917,
+            "score": 0.986
+        },
+        {
+            "word": "you",
+            "start": 160.937,
+            "end": 161.058,
+            "score": 0.866
+        },
+        {
+            "word": "think",
+            "start": 161.118,
+            "end": 161.358,
+            "score": 0.735
+        },
+        {
+            "word": "We",
+            "start": 161.699,
+            "end": 161.819,
+            "score": 0.989
+        },
+        {
+            "word": "don't",
+            "start": 161.839,
+            "end": 161.98,
+            "score": 0.735
+        },
+        {
+            "word": "give",
+            "start": 162.0,
+            "end": 162.16,
+            "score": 0.926
+        },
+        {
+            "word": "a",
+            "start": 162.2,
+            "end": 162.22,
+            "score": 0.955
+        },
+        {
+            "word": "damn",
+            "start": 162.3,
+            "end": 162.581,
+            "score": 0.754
+        },
+        {
+            "word": "what",
+            "start": 162.601,
+            "end": 162.701,
+            "score": 0.919
+        },
+        {
+            "word": "you",
+            "start": 162.741,
+            "end": 162.841,
+            "score": 0.986
+        },
+        {
+            "word": "thought",
+            "start": 162.882,
+            "end": 163.162,
+            "score": 0.3
+        },
+        {
+            "word": "We",
+            "start": 164.104,
+            "end": 164.245,
+            "score": 0.706
+        },
+        {
+            "word": "don't",
+            "start": 164.285,
+            "end": 164.405,
+            "score": 0.889
+        },
+        {
+            "word": "give",
+            "start": 164.425,
+            "end": 164.565,
+            "score": 0.768
+        },
+        {
+            "word": "a",
+            "start": 164.605,
+            "end": 164.625,
+            "score": 0.971
+        },
+        {
+            "word": "damn",
+            "start": 164.706,
+            "end": 165.006,
+            "score": 0.66
+        },
+        {
+            "word": "what",
+            "start": 165.026,
+            "end": 165.147,
+            "score": 0.986
+        },
+        {
+            "word": "you",
+            "start": 165.167,
+            "end": 165.287,
+            "score": 0.784
+        },
+        {
+            "word": "did",
+            "start": 165.327,
+            "end": 165.608,
+            "score": 0.969
+        },
+        {
+            "word": "We",
+            "start": 165.928,
+            "end": 166.048,
+            "score": 0.772
+        },
+        {
+            "word": "don't",
+            "start": 166.069,
+            "end": 166.209,
+            "score": 0.889
+        },
+        {
+            "word": "give",
+            "start": 166.229,
+            "end": 166.369,
+            "score": 0.946
+        },
+        {
+            "word": "a",
+            "start": 166.409,
+            "end": 166.429,
+            "score": 0.01
+        },
+        {
+            "word": "damn",
+            "start": 166.51,
+            "end": 166.79,
+            "score": 0.664
+        },
+        {
+            "word": "who",
+            "start": 166.81,
+            "end": 166.93,
+            "score": 0.802
+        },
+        {
+            "word": "you",
+            "start": 166.971,
+            "end": 167.071,
+            "score": 0.994
+        },
+        {
+            "word": "are",
+            "start": 167.251,
+            "end": 167.351,
+            "score": 0.854
+        },
+        {
+            "word": "Home,",
+            "start": 167.692,
+            "end": 167.993,
+            "score": 0.832
+        },
+        {
+            "word": "you",
+            "start": 168.013,
+            "end": 168.113,
+            "score": 0.83
+        },
+        {
+            "word": "ain't",
+            "start": 168.173,
+            "end": 168.293,
+            "score": 0.766
+        },
+        {
+            "word": "down",
+            "start": 168.333,
+            "end": 168.614,
+            "score": 0.627
+        },
+        {
+            "word": "with",
+            "start": 168.634,
+            "end": 168.754,
+            "score": 0.752
+        },
+        {
+            "word": "the",
+            "start": 168.774,
+            "end": 168.855,
+            "score": 0.746
+        },
+        {
+            "word": "team",
+            "start": 168.915,
+            "end": 169.235,
+            "score": 0.545
+        },
+        {
+            "word": "We",
+            "start": 169.516,
+            "end": 169.616,
+            "score": 0.986
+        },
+        {
+            "word": "don't",
+            "start": 169.656,
+            "end": 169.777,
+            "score": 0.615
+        },
+        {
+            "word": "give",
+            "start": 169.817,
+            "end": 169.977,
+            "score": 0.918
+        },
+        {
+            "word": "a",
+            "start": 170.017,
+            "end": 170.037,
+            "score": 0.977
+        },
+        {
+            "word": "damn",
+            "start": 170.117,
+            "end": 170.398,
+            "score": 0.756
+        },
+        {
+            "word": "what",
+            "start": 170.418,
+            "end": 170.538,
+            "score": 0.984
+        },
+        {
+            "word": "you",
+            "start": 170.558,
+            "end": 170.679,
+            "score": 0.878
+        },
+        {
+            "word": "think",
+            "start": 170.739,
+            "end": 170.979,
+            "score": 0.753
+        },
+        {
+            "word": "We",
+            "start": 171.32,
+            "end": 171.44,
+            "score": 0.988
+        },
+        {
+            "word": "don't",
+            "start": 171.46,
+            "end": 171.601,
+            "score": 0.901
+        },
+        {
+            "word": "give",
+            "start": 171.621,
+            "end": 171.781,
+            "score": 0.944
+        },
+        {
+            "word": "a",
+            "start": 171.821,
+            "end": 171.841,
+            "score": 0.987
+        },
+        {
+            "word": "damn",
+            "start": 171.921,
+            "end": 172.202,
+            "score": 0.766
+        },
+        {
+            "word": "what",
+            "start": 172.222,
+            "end": 172.322,
+            "score": 0.97
+        },
+        {
+            "word": "you",
+            "start": 172.362,
+            "end": 172.463,
+            "score": 0.989
+        },
+        {
+            "word": "thought",
+            "start": 172.503,
+            "end": 174.066,
+            "score": 0.547
+        }
+    ]
+}

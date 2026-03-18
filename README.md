@@ -66,8 +66,10 @@ Overall, the CoverBuddy pipeline successfully translates complex audio waveforms
 
 ## Visualizing Our Performance
 
-![WER for Large v2 model](src/lyrics/test_results/whisperx_large_v2_evaluation_graph.png)
-> **Figure 1:** This bar chart illustrates the Word Error Rate (WER) of our WhisperX lyric transcription module across the Jamendo testing dataset. A lower percentage indicates higher accuracy when compared to the human-transcribed ground truth lyrics. The dashed red line represents our pipeline's average WER across all evaluated songs. The score of $118.4\%$ over song_10's score may seem counterintuitive, but it just means that WhisperX generated more words than there were in the ground truth lyrics document for that song.
+![WER for Large v2 model](src/lyrics/test_results/whisperx_evaluation_graph.png)
+> **Figure 1:** This grouped bar chart illustrates the performance of the WhisperX lyric transcription module across the Jamendo testing dataset using four key metrics: Word Error Rate (WER), Match Error Rate (MER), Character Error Rate (CER), and Deletion Rate. For all metrics, a lower percentage indicates higher accuracy when compared to the human-transcribed ground truth. The dashed lines represent the pipeline's average score for each respective metric across all evaluated songs. 
+>
+> While WER is the industry standard, it mathematically exceeds 100% (as seen with song_10's score of 118.4%) if the model hallucinates more words than exist in the actual lyrics. To provide a more bounded and nuanced perspective, we included MER (which mathematically caps errors at 100%), CER (which evaluates accuracy letter-by-letter, which is a slightly better way of measuring words that may be phonically similar but semantically different, a source of error that EJ pointed out), and the Deletion Rate (which tracks the percentage of ground truth words completely missed by the pipeline).
 
 ---
 
