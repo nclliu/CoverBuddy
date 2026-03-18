@@ -29,14 +29,14 @@ CoverBuddy is a fully automated, end-to-end audio processing pipeline. A user si
 ```mermaid
 graph TD
     Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
-    Audio --> Librosa(Beat Tracking: librosa)
+    Audio --> BeatThis(Beat Tracking: Beat This!)
     Audio --> Autochord(Chord Recognition: autochord)
 
     Demucs -->|Extracts| Vocals[Isolated Vocals]
     Vocals --> WhisperX(Lyric Transcription: WhisperX)
     WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
 
-    Librosa -->|Detects| BeatGrid[Beat & Bar Grid]
+    BeatThis -->|Detects| BeatGrid[Beat & Bar Grid]
     Autochord -->|Predicts| Chords[Timestamped Chords]
 
     Lyrics --> Sync{Synchronization Engine}
@@ -52,7 +52,7 @@ graph TD
 
 **Building and Testing**
 
-Our system integrates several pre-existing machine learning libraries, including `demucs` for source separation, `whisperx` for lyric transcription, `librosa` for beat tracking, and `autochord` for chord recognition. Because music transcription is highly subjective, we relied on quantitative, programmatic testing against standardized datasets to measure our success. We evaluated our lyric transcription by calculating the Word Error Rate (WER) using the **Jamendo** dataset. Word Error Rate is calculated using the following formula:
+Our system integrates several pre-existing machine learning libraries, including `demucs` for source separation, `whisperx` for lyric transcription, `beat_this` for beat tracking, and `autochord` for chord recognition. Because music transcription is highly subjective, we relied on quantitative, programmatic testing against standardized datasets to measure our success. We evaluated our lyric transcription by calculating the Word Error Rate (WER) using the **Jamendo** dataset. Word Error Rate is calculated using the following formula:
 $$
 WER=\frac{Substitutions + Deletions + Insertions}{Total Words in Ground Truth}
 $$

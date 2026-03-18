@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import argparse
 import numpy as np
 
 from beats.beat_track import make_beat_grid, build_bar_grid
@@ -10,6 +11,9 @@ from chords.chord_recognition import recognize_chords, simplify_chord
 from lyrics.pipeline import extract_vocals, get_timestamped_lyrics
 
 from export.export_sheet import convert_json_to_musicxml, convert_xml_to_pdf_musescore
+
+
+DEFAULT_BEAT_BACKEND = "beat_this"
 
 
 def get_chord_at_time(t, chords):
@@ -40,10 +44,10 @@ def extract_word_timestamps(lyrics_data):
     return words
 
 
-def generate_chord_chart(audio_path):
+def generate_chord_chart(audio_path, beat_backend=DEFAULT_BEAT_BACKEND):
     """
     Step 1: Source separation (Demucs) → vocals for lyrics
-    Step 2: Beat tracking (librosa) → beat grid
+    Step 2: Beat tracking (Beat This! by default) → beat grid
     Step 3: Chord recognition (autochord) → timestamped chords
     Step 4: Lyrics transcription (WhisperX) → timestamped words
     Step 5: Snap everything to beat grid → chord chart
@@ -54,8 +58,8 @@ def generate_chord_chart(audio_path):
     print("Separating vocals with Demucs...")
     vocal_path = extract_vocals(audio_path)
 
-    print("Detecting beats...")
-    beat_grid = make_beat_grid(audio_path, sr=22050)
+    print(f"Detecting beats with {beat_backend}...")
+    beat_grid = make_beat_grid(audio_path, sr=22050, backend=beat_backend)
     beat_times = beat_grid.beat_times
     downbeat_times = beat_grid.downbeat_times
 
@@ -96,6 +100,7 @@ def generate_chord_chart(audio_path):
         )
 
     output = {
+        "beat_tracking_backend": beat_backend,
         "tempo_bpm": beat_grid.tempo_bpm,
         "beats_per_bar": beats_per_bar,
         "bars": [],
@@ -130,5 +135,20 @@ def generate_chord_chart(audio_path):
     return output
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Run the full CoverBuddy audio-to-lead-sheet pipeline."
+    )
+    parser.add_argument("audio_path", help="Path to the input audio file.")
+    parser.add_argument(
+        "--beat-backend",
+        choices=("beat_this", "librosa"),
+        default=DEFAULT_BEAT_BACKEND,
+        help="Beat tracking backend to use for the pipeline.",
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    generate_chord_chart(sys.argv[1])
+    args = parse_args()
+    generate_chord_chart(args.audio_path, beat_backend=args.beat_backend)
