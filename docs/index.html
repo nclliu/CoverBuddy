@@ -213,12 +213,32 @@ graph TD
             <p class="section-label">Output</p>
             <h2>Generated PDF Outputs</h2>
           </div>
+          <p class="section-intro">
+            Here is a look at CoverBuddy in action. Below is the original audio
+            of a test track, followed by the exported PDF outputs from the
+            baseline pipeline, the Beat This! version, and a real-world
+            <em>I'm Yours</em> example.
+          </p>
+          <p class="section-intro output-note">
+            These demo outputs use the base <code>whisperx</code> model, so the
+            lyric transcription is not yet very robust across harder vocals,
+            noisier mixes, or more challenging recordings.
+          </p>
+          <p class="section-intro">
+            Reference tab:
+            <a
+              href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-373896"
+              target="_blank"
+              rel="noreferrer"
+              >Jason Mraz - "I'm Yours" chords on Ultimate Guitar</a
+            >.
+          </p>
 
           <div class="audio-panel">
             <h3>Original Audio Input</h3>
             <p class="section-intro">
-              Here is the sample track used to generate the outputs shown
-              below.
+              Here is the original audio of the test track used to generate the
+              outputs shown below.
             </p>
             <audio controls>
               <source src="./media/song_2.wav" type="audio/wav" />
@@ -252,6 +272,26 @@ graph TD
               <p class="download-note">
                 If the PDF preview does not load in your browser,
                 <a href="./output/song_2_beat_this.pdf">open the Beat This PDF directly</a>.
+              </p>
+            </div>
+
+            <div class="pdf-card">
+              <h3>Real-world Example: <em>I'm Yours</em></h3>
+              <div class="pdf-frame">
+                <iframe
+                  src="./output/im_yours_beat_this.pdf"
+                  title="I'm Yours lead sheet PDF"
+                ></iframe>
+              </div>
+              <p class="download-note">
+                Compare this generated chart with the
+                <a
+                  href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-373896"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Ultimate Guitar reference tab</a
+                >
+                or <a href="./output/im_yours_beat_this.pdf">open the PDF directly</a>.
               </p>
             </div>
           </div>
