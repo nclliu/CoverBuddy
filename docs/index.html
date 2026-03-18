@@ -10,6 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script type="module">
+      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: "neutral",
+        flowchart: {
+          curve: "basis",
+        },
+      });
+    </script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -18,9 +29,7 @@
         <p class="eyebrow">Research Project Website</p>
         <h1>CoverBuddy</h1>
         <p class="hero-copy">
-          An automated audio-to-lead-sheet transcription pipeline that turns a
-          raw song file into a synchronized chord chart musicians can actually
-          use.
+          An Automated Audio-to-Lead-Sheet Transcription Pipeline
         </p>
 
         <div class="hero-grid">
@@ -60,86 +69,116 @@
           </div>
 
           <div class="synopsis">
-            <p>
-              CoverBuddy is motivated by a simple gap in music learning. Many
-              songs, especially indie tracks, new releases, and niche material,
-              do not have reliable chord charts or lead sheets available online.
-              That leaves musicians to transcribe entirely by ear, which is
-              time-consuming and often discouraging. CoverBuddy aims to make
-              that process more accessible by automatically generating a usable
-              chart directly from audio.
-            </p>
+            <section class="synopsis-block">
+              <h3>The Problem</h3>
+              <p>
+                For musicians learning how to play a new song, relying strictly
+                on ear training can be a steep and frustrating learning curve.
+                While chart-topping pop songs usually have abundant sheet music,
+                piano covers, and guitar tabs available online, indie tracks,
+                new releases, and lesser-known songs often lack these learning
+                resources entirely. CoverBuddy bridges this gap by providing an
+                accessible tool that automatically generates a readable,
+                synchronized chord chart from raw audio, empowering musicians to
+                learn and cover any song they choose.
+              </p>
+            </section>
 
-            <p>
-              At a high level, the pipeline takes a raw audio file, separates
-              the vocal and instrumental content, transcribes lyrics with
-              timestamps, estimates tempo and downbeats, recognizes chords, and
-              then aligns everything onto a shared beat grid. The result is a
-              synchronized lead-sheet style representation that can be exported
-              as structured JSON, MusicXML, and PDF.
-            </p>
+            <section class="synopsis-block">
+              <h3>Our Approach</h3>
+              <p>
+                CoverBuddy is a fully automated, end-to-end audio processing
+                pipeline. A user simply provides an audio file, and our system
+                deconstructs it into its core musical components. First, we use
+                Demucs to isolate the vocal track from the instrumental backing.
+                From there, the vocals are fed into WhisperX to generate
+                word-level timestamped lyrics, while the instrumental audio is
+                analyzed to detect the tempo, downbeats, and underlying
+                harmonic chord progression. Finally, all of these separate data
+                streams are synchronized and "snapped" to a unified beat grid,
+                outputting a complete lead sheet charting the lyrics and chords
+                measure by measure.
+              </p>
+            </section>
 
-            <p>
-              The system combines existing music and speech tools, including
-              Demucs for source separation, WhisperX for lyric transcription,
-              beat tracking for tempo and bar alignment, autochord for harmonic
-              analysis, and music21 plus MuseScore for export. We evaluated the
-              lyric transcription module on 20 songs from the Jamendo dataset
-              using Word Error Rate, and we evaluated beat tracking on 93
-              annotated excerpts with event-based precision, recall, F-measure,
-              and tempo accuracy metrics.
-            </p>
+            <section class="synopsis-block">
+              <h3>Building and Testing</h3>
+              <p>
+                Our system integrates several pre-existing machine learning
+                libraries, including <code>demucs</code> for source separation,
+                <code>whisperx</code> for lyric transcription,
+                <code>beat_this</code> for beat tracking, and
+                <code>autochord</code> for chord recognition. Because music
+                transcription is highly subjective, we relied on quantitative,
+                programmatic testing against standardized datasets to measure
+                our success. We evaluated our lyric transcription by
+                calculating the Word Error Rate (WER) using the
+                <strong>Jamendo</strong> dataset.
+              </p>
+              <div class="equation-block">
+                <code>WER=(Substitutions + Deletions + Insertions) / (Total Words in Ground Truth)</code>
+              </div>
+              <p>
+                For chord recognition, we calculated frame-level accuracy by
+                comparing our system's predicted chords against the
+                human-annotated ground truth <code>.lab</code> files in the
+                <strong>McGill Billboard</strong> dataset.
+              </p>
+            </section>
 
-            <p>
-              The current pipeline produces strong structural timing and
-              promising lyric alignment. On Jamendo, the WhisperX large-v2
-              configuration achieved an average Word Error Rate of 26.89%, with
-              several songs landing in the low-teens or single digits. For beat
-              tracking, the system reached a mean F-measure of 95.1%, a tempo
-              accuracy of 92.5% within 8%, and a mean absolute timing error of
-              10.6 ms. Together, those outputs are strong enough to generate
-              readable lead sheets that serve as a practical starting point for
-              musicians learning a song.
-            </p>
+            <section class="synopsis-block">
+              <h3>Results</h3>
+              <p>
+                Overall, the CoverBuddy pipeline successfully translates complex
+                audio waveforms into structurally accurate chord charts. Our
+                lyric transcription achieved an average Word Error Rate of
+                <strong>26.9%</strong> on the Jamendo test subset,
+                effectively handling various vocal styles and mixing
+                techniques. For beat tracking on 93 evaluated excerpts,
+                <code>beat_this</code> outperformed <code>librosa</code> across
+                every reported metric: mean F-measure improved from
+                <strong>81.2%</strong> to <strong>95.1%</strong>, tempo accuracy
+                within 8% improved from <strong>84.9%</strong> to
+                <strong>92.5%</strong>, and mean absolute timing error dropped
+                from <strong>30.0 ms</strong> to <strong>10.6 ms</strong>. By
+                combining these outputs, the system reliably generates
+                synchronized charts that serve as an excellent baseline for any
+                musician looking to learn a new song.
+              </p>
+            </section>
           </div>
         </section>
 
         <section class="content-section visual-section">
           <div class="section-heading">
             <p class="section-label">Pipeline</p>
-            <h2>How CoverBuddy works</h2>
+            <h2>Flow Chart</h2>
           </div>
 
-          <div class="pipeline-grid">
-            <article class="pipeline-card">
-              <h3>1. Raw Audio In</h3>
-              <p>
-                A user provides a song file that becomes the shared input to the
-                full transcription pipeline.
-              </p>
-            </article>
-            <article class="pipeline-card">
-              <h3>2. Split + Analyze</h3>
-              <p>
-                Demucs isolates vocals, WhisperX transcribes lyrics, beat
-                tracking finds tempo and bars, and autochord predicts harmonic
-                changes.
-              </p>
-            </article>
-            <article class="pipeline-card">
-              <h3>3. Sync to Grid</h3>
-              <p>
-                Lyrics, beat locations, and chord changes are snapped onto a
-                common metrical structure to make the output readable.
-              </p>
-            </article>
-            <article class="pipeline-card">
-              <h3>4. Export Sheet</h3>
-              <p>
-                The synchronized chart is written to JSON, MusicXML, and a PDF
-                lead sheet for downstream use by musicians.
-              </p>
-            </article>
+          <div class="mermaid-shell">
+            <pre class="mermaid">
+graph TD
+    Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
+    Audio --> BeatThis(Beat Tracking: Beat This!)
+    Audio --> Autochord(Chord Recognition: autochord)
+
+    Demucs -->|Extracts| Vocals[Isolated Vocals]
+    Vocals --> WhisperX(Lyric Transcription: WhisperX)
+    WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
+
+    BeatThis -->|Detects| BeatGrid[Beat &amp; Bar Grid]
+    Autochord -->|Predicts| Chords[Timestamped Chords]
+
+    Lyrics --> Sync{Synchronization Engine}
+    BeatGrid --> Sync
+    Chords --> Sync
+
+    Sync -->|Snaps to Grid| JSON[(JSON Chord Chart)]
+    JSON --> Music21(Sheet Music Export: music21)
+    Music21 --> XML[MusicXML File]
+    XML --> MuseScore(PDF Conversion: MuseScore)
+    MuseScore --> PDF[(Final PDF Lead Sheet)]
+            </pre>
           </div>
         </section>
 
@@ -154,81 +193,68 @@
               src="./assets/whisperx-large-v2-wer.png"
               alt="Bar chart showing Word Error Rate on 20 Jamendo songs for the WhisperX large-v2 lyric transcription model."
             />
-            <figcaption>
-              Figure 1. Word Error Rate across the 20-song Jamendo evaluation
-              subset for the WhisperX large-v2 lyric transcription module. Lower
-              values are better, and the chart highlights how performance varies
-              by song while averaging 26.89% overall.
+            <figcaption class="quote-caption">
+              <strong>Figure 1:</strong> This bar chart illustrates the Word
+              Error Rate (WER) of our WhisperX lyric transcription module
+              across the Jamendo testing dataset. A lower percentage indicates
+              higher accuracy when compared to the human-transcribed ground
+              truth lyrics. The dashed red line represents our pipeline's
+              average WER across all evaluated songs. The score of
+              <code>118.4%</code> over song_10's score may seem
+              counterintuitive, but it just means that WhisperX generated more
+              words than there were in the ground truth lyrics document for that
+              song.
             </figcaption>
           </figure>
         </section>
 
         <section class="content-section">
           <div class="section-heading">
-            <p class="section-label">Audio</p>
-            <h2>Audio and sample output</h2>
-          </div>
-
-          <p class="section-intro">
-            Below is one of the Jamendo test tracks used as an input example,
-            along with a preview of the synchronized chart structure and the PDF
-            lead sheet CoverBuddy exports.
-          </p>
-
-          <div class="audio-grid">
-            <article class="audio-card">
-              <h3>Original Audio Input</h3>
-              <p>
-                Sample input audio used to demonstrate the full CoverBuddy
-                pipeline.
-              </p>
-              <audio controls>
-                <source src="./media/song_2.wav" type="audio/wav" />
-                Your browser does not support the audio element.
-              </audio>
-            </article>
-
-            <article class="audio-card">
-              <h3>Generated Chart Snapshot</h3>
-              <p>
-                A short excerpt from the synchronized JSON output showing how
-                lyrics and chords are aligned bar by bar.
-              </p>
-              <pre class="code-block"><code>{
-  "tempo_bpm": 103.36,
-  "beats_per_bar": 6,
-  "bars": [
-    { "bar": 6, "chord": "F#m", "lyrics": "Yeah," },
-    { "bar": 8, "chord": "A", "lyrics": "the don't stand" },
-    { "bar": 9, "chord": "Bm", "lyrics": "over care So" }
-  ]
-}</code></pre>
-            </article>
-          </div>
-        </section>
-
-        <section class="content-section">
-          <div class="section-heading">
             <p class="section-label">Output</p>
-            <h2>Exported lead sheet</h2>
+            <h2>Generated PDF Outputs</h2>
           </div>
 
-          <p class="section-intro">
-            CoverBuddy converts its synchronized representation into MusicXML
-            and then renders a PDF lead sheet using MuseScore.
-          </p>
-
-          <div class="pdf-frame">
-            <iframe
-              src="./output/song_2.pdf"
-              title="Sample CoverBuddy lead sheet PDF"
-            ></iframe>
+          <div class="audio-panel">
+            <h3>Original Audio Input</h3>
+            <p class="section-intro">
+              Here is the sample track used to generate the outputs shown
+              below.
+            </p>
+            <audio controls>
+              <source src="./media/song_2.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
           </div>
 
-          <p class="download-note">
-            If the PDF preview does not load in your browser,
-            <a href="./output/song_2.pdf">open the sample PDF directly</a>.
-          </p>
+          <div class="pdf-grid">
+            <div class="pdf-card">
+              <h3>Original `song_2` Output</h3>
+              <div class="pdf-frame">
+                <iframe
+                  src="./output/song_2.pdf"
+                  title="Original song_2 lead sheet PDF"
+                ></iframe>
+              </div>
+              <p class="download-note">
+                If the PDF preview does not load in your browser,
+                <a href="./output/song_2.pdf">open the original PDF directly</a>.
+              </p>
+            </div>
+
+            <div class="pdf-card">
+              <h3>`song_2_beat_this` Output</h3>
+              <div class="pdf-frame">
+                <iframe
+                  src="./output/song_2_beat_this.pdf"
+                  title="Beat This song_2 lead sheet PDF"
+                ></iframe>
+              </div>
+              <p class="download-note">
+                If the PDF preview does not load in your browser,
+                <a href="./output/song_2_beat_this.pdf">open the Beat This PDF directly</a>.
+              </p>
+            </div>
+          </div>
         </section>
       </main>
     </div>

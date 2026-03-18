@@ -34,6 +34,8 @@ def extract_vocals(input_audio_path: str, output_dir: str = "src/lyrics") -> str
 
     subprocess.run(command, check=True)
 
+    vocal_path = os.path.join(output_dir, "htdemucs", song_name, "vocals.wav")
+
     if not os.path.exists(vocal_path):
         raise FileNotFoundError(f"Demucs failed to create vocal file at {vocal_path}")
 
