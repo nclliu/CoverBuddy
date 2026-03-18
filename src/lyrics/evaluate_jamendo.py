@@ -3,6 +3,7 @@ import soundfile as sf
 import jiwer
 import string
 import json
+import numpy as np
 from datasets import load_dataset
 import matplotlib.pyplot as plt
 
@@ -27,6 +28,9 @@ def load_cache():
     return {
         "song_labels": [],
         "wer_percentages": [],
+        "mer_percentages": [],
+        "cer_percentages": [],
+        "del_percentages": [],
         "total_wer": 0,
         "songs_processed": 0,
     }
@@ -54,14 +58,14 @@ def test_whisperx_with_jamendo():
     for i, song in enumerate(test_subset):
         song_id = song.get("track_id", f"song_{i}")
 
-        # --- THE CHECKPOINT CHECK ---
+        # THE CHECKPOINT CHECK
         if song_id in cache_data["song_labels"]:
             print(f"\nSkipping {song_id} - Already evaluated in cache.")
             continue
 
         print(f"\nProcessing: {song_id}")
 
-        # --- Step 1: Save Audio to Disk ---
+        # Step 1: Save Audio to Disk
         wav_path = os.path.join("src/lyrics/jamendo_audio", f"{song_id}.wav")
 
         if not os.path.exists(wav_path):
@@ -73,7 +77,7 @@ def test_whisperx_with_jamendo():
         else:
             print(f"   Audio file {wav_path} already exists. Skipping write.")
 
-        # --- Step 2: Extract Ground Truth Lyrics ---
+        # Step 2: Extract Ground Truth Lyrics
         truth_path = os.path.join("src/lyrics/jamendo_truth", f"{song_id}.txt")
 
         if not os.path.exists(truth_path):
@@ -93,10 +97,10 @@ def test_whisperx_with_jamendo():
 
         clean_truth = clean_text(truth_text)
 
-        # --- Step 3: Run the Pipeline ---
+        # Step 3: Run the Pipeline
         try:
             print("   Isolating vocals...")
-            vocal_path = extract_vocals(wav_path)
+            vocal_path = extract_vocals(wav_path, output_dir="src/lyrics")
 
             print("   Running WhisperX...")
             whisper_output = get_timestamped_lyrics(
@@ -108,72 +112,146 @@ def test_whisperx_with_jamendo():
             )
             clean_pred = clean_text(predicted_text)
 
-            # --- Step 4: Evaluate ---
-            wer_score = jiwer.wer(clean_truth, clean_pred)
+            # Step 4: Evaluate
+            # process_words gives us the raw math behind the errors
+            evaluation = jiwer.process_words(clean_truth, clean_pred)
+
+            wer_score = evaluation.wer
+            mer_score = jiwer.mer(clean_truth, clean_pred)
+            cer_score = jiwer.cer(clean_truth, clean_pred)
+
+            # Catching omissions (deletions)
+            deletions = evaluation.deletions
+            total_words = len(clean_truth.split())
+
+            # Prevent division by zero if a track has no lyrics
+            deletion_rate = (deletions / total_words) if total_words > 0 else 0
 
             # Update our cache variables
             cache_data["song_labels"].append(song_id)
             cache_data["wer_percentages"].append(wer_score * 100)
+            cache_data["mer_percentages"].append(mer_score * 100)
+            cache_data["cer_percentages"].append(cer_score * 100)
+            cache_data["del_percentages"].append(deletion_rate * 100)
             cache_data["total_wer"] += wer_score
             cache_data["songs_processed"] += 1
 
             # Save progress to the hard drive immediately!
             save_cache(cache_data)
 
-            print(f"WER: {wer_score:.2%}")
+            print(f"WER: {wer_score:.2%} | MER: {mer_score:.2%} | CER: {cer_score:.2%}")
+            print(
+                f"   Omissions (Deletions): {deletions} out of {total_words} words missed ({deletion_rate:.2%})"
+            )
             print(f"   Truth: '{clean_truth[:60]}...'")
             print(f"   Pred:  '{clean_pred[:60]}...'")
 
         except Exception as e:
             print(f"Error processing {song_id}: {e}")
 
-    # --- Step 5: Generate the Graph ---
+    # Step 5: Generate the Graph
     if cache_data["songs_processed"] > 0:
-        avg_wer = (cache_data["total_wer"] / cache_data["songs_processed"]) * 100
-        print(f"\nAverage WER for Jamendo Test: {avg_wer:.2f}%")
+        avg_wer = np.mean(cache_data["wer_percentages"])
+        avg_mer = np.mean(cache_data["mer_percentages"])
+        avg_cer = np.mean(cache_data["cer_percentages"])
+        avg_del = np.mean(cache_data["del_percentages"])
+
+        print(f"\nAverage WER: {avg_wer:.2f}%")
+        print(f"Average MER: {avg_mer:.2f}%")
+        print(f"Average CER: {avg_cer:.2f}%")
+        print(f"Average Deletions: {avg_del:.2f}%")
 
         print("\nGenerating Performance Graph...")
-        plt.figure(figsize=(14, 6))
 
-        bars = plt.bar(
-            cache_data["song_labels"],
+        x = np.arange(len(cache_data["song_labels"]))
+        width = 0.2  # Slightly thinner bars to fit 4 per song
+
+        fig, ax = plt.subplots(figsize=(16, 6))
+
+        # Create the four sets of bars
+        rects1 = ax.bar(
+            x - 1.5 * width,
             cache_data["wer_percentages"],
+            width,
+            label="WER (Word Error)",
+            color="#C44E52",
+            edgecolor="black",
+        )
+        rects2 = ax.bar(
+            x - 0.5 * width,
+            cache_data["mer_percentages"],
+            width,
+            label="MER (Match Error - Capped at 100%)",
             color="#4C72B0",
             edgecolor="black",
         )
+        rects3 = ax.bar(
+            x + 0.5 * width,
+            cache_data["cer_percentages"],
+            width,
+            label="CER (Character Error)",
+            color="#55A868",
+            edgecolor="black",
+        )
+        rects4 = ax.bar(
+            x + 1.5 * width,
+            cache_data["del_percentages"],
+            width,
+            label="DEL (Deletion Rate)",
+            color="#EE854A",
+            edgecolor="black",
+        )
 
-        plt.axhline(
+        ax.bar_label(rects1, fmt="%.1f%%", padding=3, fontsize=7, rotation=90)
+        ax.bar_label(rects2, fmt="%.1f%%", padding=3, fontsize=7, rotation=90)
+        ax.bar_label(rects3, fmt="%.1f%%", padding=3, fontsize=7, rotation=90)
+        ax.bar_label(rects4, fmt="%.1f%%", padding=3, fontsize=7, rotation=90)
+
+        # Add horizontal dashed lines representing the averages
+        ax.axhline(
             y=avg_wer,
             color="#C44E52",
             linestyle="--",
             linewidth=2,
             label=f"Average WER: {avg_wer:.1f}%",
         )
+        ax.axhline(
+            y=avg_mer,
+            color="#4C72B0",
+            linestyle="--",
+            linewidth=2,
+            label=f"Avg MER: {avg_mer:.1f}%",
+        )
+        ax.axhline(
+            y=avg_cer,
+            color="#55A868",
+            linestyle="--",
+            linewidth=2,
+            label=f"Avg CER: {avg_cer:.1f}%",
+        )
+        ax.axhline(
+            y=avg_del,
+            color="#EE854A",
+            linestyle="--",
+            linewidth=2,
+            label=f"Avg DEL: {avg_del:.1f}%",
+        )
 
-        for bar in bars:
-            yval = bar.get_height()
-            plt.text(
-                bar.get_x() + bar.get_width() / 2,
-                yval + 1,
-                f"{yval:.1f}%",
-                ha="center",
-                va="bottom",
-                fontweight="bold",
-                fontsize=8,
-            )
-
-        plt.ylabel("Word Error Rate (%)", fontsize=12)
-        plt.xlabel("Song ID", fontsize=12)
-        plt.title(
-            "WhisperX Transcription Accuracy on Jamendo Dataset (Lower is Better)",
+        # Format the graph
+        ax.set_ylabel("Error Rate (%)", fontsize=12)
+        ax.set_xlabel("Song ID", fontsize=12)
+        ax.set_title(
+            "WhisperX Transcription Error Rate on Jamendo Dataset (Lower is Better)",
             fontsize=14,
             pad=15,
         )
-        plt.xticks(rotation=45, ha="right")
-        plt.ylim(0, max(max(cache_data["wer_percentages"]) + 15, 100))
-        plt.grid(axis="y", linestyle="--", alpha=0.7)
-        plt.legend()
+        ax.set_xticks(x)
+        ax.set_xticklabels(cache_data["song_labels"], rotation=45, ha="right")
+        ax.set_ylim(0, max(max(cache_data["wer_percentages"]) + 15, 100))
+        ax.grid(axis="y", linestyle="--", alpha=0.7)
+        ax.legend()
 
+        # Save the graph
         graph_filename = "whisperx_evaluation_graph.png"
         plt.savefig(graph_filename, dpi=300, bbox_inches="tight")
         print(f"Graph successfully saved to your project folder as: {graph_filename}")
