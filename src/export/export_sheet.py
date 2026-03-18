@@ -1,12 +1,18 @@
 import os
 import subprocess
-from music21 import stream, meter, tempo, harmony, note
+from music21 import stream, meter, tempo, harmony, note, metadata
+from fractions import Fraction
 
 
 def convert_json_to_musicxml(chart_data, audio_path):
     """Converts the CoverBuddy JSON output into a MusicXML lead sheet."""
+    song_name = os.path.splitext(os.path.basename(audio_path))[0]
 
     score = stream.Score()
+
+    score.metadata = metadata.Metadata()
+    score.metadata.title = song_name
+
     part = stream.Part()
 
     # 1. Set Tempo and Time Signature
@@ -31,13 +37,27 @@ def convert_json_to_musicxml(chart_data, audio_path):
                 pass  # Skip unparseable chords
 
         # Add the lyrics
-        # Since we are generating a lead sheet without a vocal pitch melody,
-        # we attach the transcribed lyrics to a whole-measure rest.
-        r = note.Rest(quarterLength=beats_per_bar)
-        if bar_data["lyrics"]:
-            r.lyric = bar_data["lyrics"]
+        lyrics_text = bar_data.get("lyrics", "")
 
-        m.append(r)
+        if lyrics_text and lyrics_text.strip():
+            # 1. Split the sentence into a list of individual words
+            words = lyrics_text.split()
+
+            # 2. Divide the measure's time evenly among the words
+            # (e.g., 4 beats / 5 words = 0.8 beats per rest)
+            duration_per_word = Fraction(beats_per_bar / len(words))
+
+            for word in words:
+                r = note.Rest(quarterLength=duration_per_word)
+                r.lyric = word
+                r.style.hideObjectOnPrint = True
+
+                m.append(r)
+        else:
+            # If measure is an instrumental break (no lyrics)
+            r = note.Rest(quarterLength=beats_per_bar)
+            m.append(r)
+
         part.append(m)
 
     score.append(part)

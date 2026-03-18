@@ -4,6 +4,9 @@ import json
 import argparse
 import numpy as np
 
+# have to use legacy keras for it to not crash, no idea why
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 from beats.beat_track import make_beat_grid, build_bar_grid
 
 from chords.chord_recognition import recognize_chords, simplify_chord
