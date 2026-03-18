@@ -56,7 +56,7 @@ Our system integrates several pre-existing machine learning libraries, including
 $$
 WER=\frac{Substitutions + Deletions + Insertions}{Total Words in Ground Truth}
 $$
-For chord recognition, we calculated frame-level accuracy by comparing our system's predicted chords against the human-annotated ground truth `.lab` files in the **McGill Billboard** dataset.
+For chord recognition, we calculated frame-level accuracy by comparing our system's predicted chords against the human-annotated ground truth `.lab` files in the **McGill Billboard** dataset. For beat tracking, we evaluated 93 labeled audio excerpts with aligned beat annotations, measuring F-measure, tempo accuracy within 8%, and mean absolute timing error to compare `beat_this` against a `librosa` baseline.
 
 **Results**
 Overall, the CoverBuddy pipeline successfully translates complex audio waveforms into structurally accurate chord charts. Our lyric transcription achieved an average Word Error Rate of 26.9% on the Jamendo test subset, effectively handling various vocal styles and mixing techniques. For beat tracking on 93 evaluated excerpts, beat_this outperformed librosa across every reported metric: mean F-measure improved from 81.2% to 95.1%, tempo accuracy within 8% improved from 84.9% to 92.5%, and mean absolute timing error dropped from 30.0 ms to 10.6 ms. By combining these outputs, the system reliably generates synchronized charts that serve as an excellent baseline for any musician looking to learn a new song.

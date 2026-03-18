@@ -4,7 +4,7 @@ import json
 import argparse
 import numpy as np
 
-# have to use legacy keras for it to not crash, no idea why
+# Required for the current autochord/TensorFlow compatibility path.
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
 from beats.beat_track import make_beat_grid, build_bar_grid
@@ -32,7 +32,6 @@ def get_chord_at_time(t, chords):
     return "N"
 
 
-## idk what the tolerance should actually be but i figure we could play around with it
 def get_words_near_time(t, words, tolerance=0.15):
     """Find any words whose start time is closest to this beat"""
     nearby = []
@@ -115,7 +114,6 @@ def generate_chord_chart(audio_path, beat_backend=DEFAULT_BEAT_BACKEND):
     }
     for bar_num in sorted(bars.keys()):
         bar_beats = bars[bar_num]
-        # this doesnt show all chord changes during a beat but we could change that
         bar_chord = bar_beats[0]["chord"] if bar_beats else "N"
         bar_words = " ".join(b["words"] for b in bar_beats if b["words"]).strip()
         output["bars"].append(

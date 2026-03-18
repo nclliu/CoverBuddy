@@ -122,7 +122,12 @@
                 For chord recognition, we calculated frame-level accuracy by
                 comparing our system's predicted chords against the
                 human-annotated ground truth <code>.lab</code> files in the
-                <strong>McGill Billboard</strong> dataset.
+                <strong>McGill Billboard</strong> dataset. For beat tracking,
+                we evaluated 93 labeled audio excerpts with aligned beat
+                annotations, measuring F-measure, tempo accuracy within 8%,
+                and mean absolute timing error to compare
+                <code>beat_this</code> against a <code>librosa</code>
+                baseline.
               </p>
             </section>
 
