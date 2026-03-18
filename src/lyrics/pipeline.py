@@ -97,7 +97,6 @@ def get_timestamped_lyrics(
 
 
 if __name__ == "__main__":
-    # Replace with a test audio file you have locally
     sample_song = "jamendo_audio/song_0.wav"
 
     try:

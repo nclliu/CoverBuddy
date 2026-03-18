@@ -169,6 +169,39 @@ main {
   font-size: 1.15rem;
 }
 
+.synopsis-group {
+  display: grid;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96) 0%, rgba(249, 244, 235, 0.92) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.group-header {
+  display: grid;
+  gap: 6px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.group-header h3,
+.synopsis-block h4 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 1.1;
+}
+
+.group-header h3 {
+  font-size: 1.6rem;
+}
+
+.synopsis-block h4 {
+  font-size: 1.05rem;
+}
+
 .readme-note,
 .section-intro {
   color: var(--muted);
@@ -272,6 +305,11 @@ main {
 .download-note {
   margin-top: 14px;
   color: var(--muted);
+}
+
+.output-note {
+  max-width: 780px;
+  margin-bottom: 18px;
 }
 
 @media (max-width: 900px) {

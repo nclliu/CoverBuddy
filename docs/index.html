@@ -45,10 +45,13 @@
           <section class="info-card">
             <h2>Contact</h2>
             <p>
-              <a href="mailto:ianfslater4@gmail.com">ianfslater4@gmail.com</a>
+              <a href="mailto:nicoleliu2026@u.northwestern.edu">nicoleliu2026@u.northwestern.edu</a>
             </p>
             <p>
-              <a href="mailto:nliu.mky@gmail.com">nliu.mky@gmail.com</a>
+              <a href="mailto:leenashafi2026@u.northwestern.edu">leenashafi2026@u.northwestern.edu</a>
+            </p>
+            <p>
+              <a href="mailto:ianslater2026@u.northwestern.edu">ianslater2026@u.northwestern.edu</a>
             </p>
           </section>
 
@@ -83,7 +86,16 @@
                 learn and cover any song they choose.
               </p>
             </section>
+          </div>
+        </section>
 
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-label">Method</p>
+            <h2>Approach + Flow Chart</h2>
+          </div>
+
+          <div class="synopsis-group">
             <section class="synopsis-block">
               <h3>Our Approach</h3>
               <p>
@@ -101,6 +113,44 @@
               </p>
             </section>
 
+            <section class="synopsis-block">
+              <h3>Flow Chart</h3>
+              <div class="mermaid-shell">
+                <pre class="mermaid">
+graph TD
+    Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
+    Audio --> BeatThis(Beat Tracking: Beat This!)
+    Audio --> Autochord(Chord Recognition: autochord)
+
+    Demucs -->|Extracts| Vocals[Isolated Vocals]
+    Vocals --> WhisperX(Lyric Transcription: WhisperX)
+    WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
+
+    BeatThis -->|Detects| BeatGrid[Beat &amp; Bar Grid]
+    Autochord -->|Predicts| Chords[Timestamped Chords]
+
+    Lyrics --> Sync{Synchronization Engine}
+    BeatGrid --> Sync
+    Chords --> Sync
+
+    Sync -->|Snaps to Grid| JSON[(JSON Chord Chart)]
+    JSON --> Music21(Sheet Music Export: music21)
+    Music21 --> XML[MusicXML File]
+    XML --> MuseScore(PDF Conversion: MuseScore)
+    MuseScore --> PDF[(Final PDF Lead Sheet)]
+                </pre>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-label">Evaluation</p>
+            <h2>Building, Results + Figure</h2>
+          </div>
+
+          <div class="synopsis-group">
             <section class="synopsis-block">
               <h3>Building and Testing</h3>
               <p>
@@ -122,7 +172,12 @@
                 For chord recognition, we calculated frame-level accuracy by
                 comparing our system's predicted chords against the
                 human-annotated ground truth <code>.lab</code> files in the
-                <strong>McGill Billboard</strong> dataset.
+                <strong>McGill Billboard</strong> dataset. For beat tracking,
+                we evaluated 93 labeled audio excerpts with aligned beat
+                annotations, measuring F-measure, tempo accuracy within 8%,
+                and mean absolute timing error to compare
+                <code>beat_this</code> against a <code>librosa</code>
+                baseline.
               </p>
             </section>
 
@@ -146,66 +201,40 @@
                 musician looking to learn a new song.
               </p>
             </section>
+
+            <section class="synopsis-block">
+              <h3>Lyric Transcription Performance</h3>
+              <figure class="feature-figure">
+                <img
+                  src="./assets/whisperx_evaluation_graph.png"
+                  alt="Grouped bar chart showing WhisperX lyric transcription performance on the Jamendo testing dataset using WER, MER, CER, and deletion rate."
+                />
+                <figcaption class="quote-caption">
+                  <strong>Figure 1:</strong> This grouped bar chart illustrates
+                  the performance of the WhisperX lyric transcription module
+                  across the Jamendo testing dataset using four key metrics:
+                  Word Error Rate (WER), Match Error Rate (MER), Character Error
+                  Rate (CER), and Deletion Rate. For all metrics, a lower
+                  percentage indicates higher accuracy when compared to the
+                  human-transcribed ground truth. The dashed lines represent the
+                  pipeline's average score for each respective metric across all
+                  evaluated songs.
+                </figcaption>
+                <figcaption class="quote-caption">
+                  While WER is the industry standard, it mathematically exceeds
+                  100% (as seen with song_10's score of <code>118.4%</code>) if
+                  the model hallucinates more words than exist in the actual
+                  lyrics. To provide a more bounded and nuanced perspective, we
+                  included MER (which mathematically caps errors at 100%), CER
+                  (which evaluates accuracy letter-by-letter, which is a slightly
+                  better way of measuring words that may be phonically similar
+                  but semantically different, a source of error that EJ pointed
+                  out), and the Deletion Rate (which tracks the percentage of
+                  ground truth words completely missed by the pipeline).
+                </figcaption>
+              </figure>
+            </section>
           </div>
-        </section>
-
-        <section class="content-section visual-section">
-          <div class="section-heading">
-            <p class="section-label">Pipeline</p>
-            <h2>Flow Chart</h2>
-          </div>
-
-          <div class="mermaid-shell">
-            <pre class="mermaid">
-graph TD
-    Audio([Raw Audio File]) --> Demucs(Source Separation: Demucs)
-    Audio --> BeatThis(Beat Tracking: Beat This!)
-    Audio --> Autochord(Chord Recognition: autochord)
-
-    Demucs -->|Extracts| Vocals[Isolated Vocals]
-    Vocals --> WhisperX(Lyric Transcription: WhisperX)
-    WhisperX -->|Timestamps| Lyrics[Word-Level Lyrics]
-
-    BeatThis -->|Detects| BeatGrid[Beat &amp; Bar Grid]
-    Autochord -->|Predicts| Chords[Timestamped Chords]
-
-    Lyrics --> Sync{Synchronization Engine}
-    BeatGrid --> Sync
-    Chords --> Sync
-
-    Sync -->|Snaps to Grid| JSON[(JSON Chord Chart)]
-    JSON --> Music21(Sheet Music Export: music21)
-    Music21 --> XML[MusicXML File]
-    XML --> MuseScore(PDF Conversion: MuseScore)
-    MuseScore --> PDF[(Final PDF Lead Sheet)]
-            </pre>
-          </div>
-        </section>
-
-        <section class="content-section visual-section">
-          <div class="section-heading">
-            <p class="section-label">Figure</p>
-            <h2>Lyric transcription performance</h2>
-          </div>
-
-          <figure class="feature-figure">
-            <img
-              src="./assets/whisperx-large-v2-wer.png"
-              alt="Bar chart showing Word Error Rate on 20 Jamendo songs for the WhisperX large-v2 lyric transcription model."
-            />
-            <figcaption class="quote-caption">
-              <strong>Figure 1:</strong> This bar chart illustrates the Word
-              Error Rate (WER) of our WhisperX lyric transcription module
-              across the Jamendo testing dataset. A lower percentage indicates
-              higher accuracy when compared to the human-transcribed ground
-              truth lyrics. The dashed red line represents our pipeline's
-              average WER across all evaluated songs. The score of
-              <code>118.4%</code> over song_10's score may seem
-              counterintuitive, but it just means that WhisperX generated more
-              words than there were in the ground truth lyrics document for that
-              song.
-            </figcaption>
-          </figure>
         </section>
 
         <section class="content-section">
@@ -216,18 +245,13 @@ graph TD
           <p class="section-intro">
             Here is a look at CoverBuddy in action. Below is the original audio
             of a test track, followed by the exported PDF outputs from the
-            baseline pipeline, the Beat This! version, and a real-world
-            <em>I'm Yours</em> example.
-          </p>
-          <p class="section-intro output-note">
-            These demo outputs use the base <code>whisperx</code> model, so the
-            lyric transcription is not yet very robust across harder vocals,
-            noisier mixes, or more challenging recordings.
+            baseline pipeline and the Beat This! version.
           </p>
           <p class="section-intro">
-            Reference tab:
+            For a real-world comparison, we also include our generated
+            <em>I'm Yours</em> chart alongside the reference tab:
             <a
-              href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-373896"
+              href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-1064737"
               target="_blank"
               rel="noreferrer"
               >Jason Mraz - "I'm Yours" chords on Ultimate Guitar</a
@@ -236,10 +260,6 @@ graph TD
 
           <div class="audio-panel">
             <h3>Original Audio Input</h3>
-            <p class="section-intro">
-              Here is the original audio of the test track used to generate the
-              outputs shown below.
-            </p>
             <audio controls>
               <source src="./media/song_2.wav" type="audio/wav" />
               Your browser does not support the audio element.
@@ -286,7 +306,7 @@ graph TD
               <p class="download-note">
                 Compare this generated chart with the
                 <a
-                  href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-373896"
+                  href="https://tabs.ultimate-guitar.com/tab/jason-mraz/im-yours-chords-1064737"
                   target="_blank"
                   rel="noreferrer"
                   >Ultimate Guitar reference tab</a
@@ -294,6 +314,40 @@ graph TD
                 or <a href="./output/im_yours_beat_this.pdf">open the PDF directly</a>.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="section-heading">
+            <p class="section-label">Future Work</p>
+            <h2>Potential Improvements</h2>
+          </div>
+
+          <div class="synopsis-group">
+            <section class="synopsis-block">
+              <h3>What We Would Improve Next</h3>
+              <p>
+                One of the biggest next steps for CoverBuddy is adding reliable
+                key detection. Knowing the song's global key would help the
+                system resolve ambiguous chord predictions, prefer harmonically
+                consistent progressions, and produce cleaner lead sheets for real
+                musicians. It would also open the door to transposition support,
+                so users could automatically generate charts in easier singable
+                or playable keys.
+              </p>
+              <p>
+                Beyond key detection, there are several practical fixes that
+                would likely improve output quality. A stronger chord model could
+                reduce confusion between closely related chords and extensions.
+                Better lyric alignment and post-processing could help reduce
+                hallucinated or repeated words from WhisperX. The beat grid could
+                also be made more robust for songs with rubato, pickup measures,
+                or less consistent percussion. Finally, adding lightweight human
+                editing tools would make the system much more useful in practice,
+                since musicians often want to quickly correct a few chords or
+                lyric placements rather than regenerate the whole chart.
+              </p>
+            </section>
           </div>
         </section>
       </main>
