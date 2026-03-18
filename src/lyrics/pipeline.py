@@ -23,6 +23,8 @@ def extract_vocals(input_audio_path: str, output_dir: str = "src/lyrics") -> str
     print(f"Extracting vocals from {input_audio_path} using Demucs...")
 
     command = [
+        "python3",
+        "-m",
         "demucs",
         "-n",
         "htdemucs",
