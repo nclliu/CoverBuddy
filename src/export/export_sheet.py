@@ -1,10 +1,10 @@
 import os
 import subprocess
+import shutil
 from music21 import stream, meter, tempo, harmony, note, metadata
-from fractions import Fraction
 
 
-def convert_json_to_musicxml(chart_data, audio_path):
+def convert_json_to_musicxml(chart_data, audio_path, output_stem=None):
     """Converts the CoverBuddy JSON output into a MusicXML lead sheet."""
     song_name = os.path.splitext(os.path.basename(audio_path))[0]
 
@@ -36,26 +36,23 @@ def convert_json_to_musicxml(chart_data, audio_path):
             except Exception:
                 pass  # Skip unparseable chords
 
-        # Add the lyrics
-        lyrics_text = bar_data.get("lyrics", "")
-
-        if lyrics_text and lyrics_text.strip():
-            # 1. Split the sentence into a list of individual words
-            words = lyrics_text.split()
-
-            # 2. Divide the measure's time evenly among the words
-            # (e.g., 4 beats / 5 words = 0.8 beats per rest)
-            duration_per_word = Fraction(beats_per_bar / len(words))
-
-            for word in words:
-                r = note.Rest(quarterLength=duration_per_word)
-                r.lyric = word
+        # Attach lyrics at the beat level so multiple words that were already
+        # snapped onto the same beat stay grouped together in one lyric event.
+        beat_entries = bar_data.get("beats", [])
+        if beat_entries:
+            for beat_data in beat_entries:
+                r = note.Rest(quarterLength=1)
+                beat_words = beat_data.get("words", "").strip()
+                if beat_words:
+                    r.lyric = beat_words
                 r.style.hideObjectOnPrint = True
-
                 m.append(r)
         else:
-            # If measure is an instrumental break (no lyrics)
             r = note.Rest(quarterLength=beats_per_bar)
+            lyrics_text = bar_data.get("lyrics", "").strip()
+            if lyrics_text:
+                r.lyric = lyrics_text
+            r.style.hideObjectOnPrint = True
             m.append(r)
 
         part.append(m)
@@ -63,10 +60,10 @@ def convert_json_to_musicxml(chart_data, audio_path):
     score.append(part)
 
     # 3. Save the MusicXML file
-    song_name = os.path.splitext(os.path.basename(audio_path))[0]
     output_dir = "output"
     os.makedirs(output_dir, exist_ok=True)
-    output_xml_path = os.path.join(output_dir, f"{song_name}.musicxml")
+    output_name = output_stem or song_name
+    output_xml_path = os.path.join(output_dir, f"{output_name}.musicxml")
     score.write("musicxml", fp=output_xml_path)
     print(f"MusicXML successfully saved to: {output_xml_path}")
 
@@ -79,11 +76,17 @@ def convert_xml_to_pdf_musescore(xml_path):
     """
     output_pdf = os.path.splitext(xml_path)[0] + ".pdf"
 
-    # musescore_exec = "mscore"
-    # for testing (Ian) -- using WSL on Windows
-    musescore_exec = "/mnt/c/Program Files/MuseScore 4/bin/MuseScore4.exe"
+    candidates = [
+        "/Applications/MuseScore 4.app/Contents/MacOS/mscore",
+        "/Applications/MuseScore Studio.app/Contents/MacOS/mscore",
+        shutil.which("mscore"),
+        shutil.which("MuseScore"),
+    ]
+    musescore_exec = next((path for path in candidates if path and os.path.exists(path)), None)
 
     try:
+        if musescore_exec is None:
+            raise FileNotFoundError
         print(f"Converting {xml_path} to PDF...")
         subprocess.run([musescore_exec, xml_path, "-o", output_pdf], check=True)
         print(f"PDF generated: {output_pdf}")
